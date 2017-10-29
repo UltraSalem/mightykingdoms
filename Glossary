@@ -1,0 +1,10 @@
+Glossary
+
+Unexplored tile: Tiles that no players' armies have visited yet.
+Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it be taken by another player.
+Kingdom: All the tiles owned by a player. These need not be contiguous.
+Control marker: A small token representing a player's kingdom, used to mark explored tiles.
+Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlement.
+Summer month: A turn in which a player moves their armies to explore and engage in battles.
+Enemy: Any army, settlement or tile controlled by another player.
+Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.
