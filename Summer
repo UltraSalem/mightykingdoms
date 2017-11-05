@@ -1,26 +1,27 @@
-Summer season
+##3. Summer season
 
 Summer has six turns, known as months.
 
 Each month is split into 4 phases:
-1. Orders
-2. Resolution
-3. Battle
-4. Reform
 
-Orders
+A) Orders  
+B) Resolution  
+C) Battle  
+D) Reform  
+
+###A) Orders
 In player order, each player chooses one army and gives it an order. This is one order cycle. Repeat the order cycle until at least one player has given an order to all of their armies, then finish that order cycle and stop giving orders. That is, the maximum number of orders that can be given per player is the number of armies controlled by the player with the least armies.
 
 Players may choose from the following orders:
-Move 
-Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved.
-Defend 
-The army wishes to set up a defensive position and does not intend to move. Place a defensive marker on the army.
-Raze 
-Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.
+Move  
+Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved.  
+Defend   
+The army wishes to set up a defensive position and does not intend to move. Place a defensive marker on the army.  
+Raze   
+Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.  
 
-Resolution
-Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.
+###B) Resolution
+Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.  
 Order
 Chosen tile
 Effect
@@ -52,7 +53,7 @@ City
 11-12
 Fortress
 
-Battle
+###C) Battle
 After resolution, in player order each player chooses a tile in which they and an enemy have armies. They then choose an enemy in that tile and have a battle. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results. You must choose an opponent with upright armies if possible. If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them.
 
 During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month. If multiple units caused damage that turn to an enemy that is routed, choose only 1 unit to receive the medal. 
@@ -64,7 +65,7 @@ All armies remain in the tile if their kingdom controls it. Otherwise they must 
 Win
 Control of the tile is given to the winning kingdom. In addition 1 army may be moved to an adjacent tile they control.
 
-Reform
+###D) Reform
 Stand up any armies that are on their side, and turn any settlements back the right way up that were upside down. Any tiles with only one kingdom's army on them become owned by that kingdom.
 
 Every scar on a unit is cancelled out by a medal on that unit.

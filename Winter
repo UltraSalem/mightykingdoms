@@ -1,16 +1,17 @@
-Winter season
+  
+##4. Winter season
 
 Winter has 3 phases
 
-1. Gather resources
-2. Spend resources
-3. Deploy armies
+A) Gather resources  
+B) Spend resources  
+C) Deploy armies  
 
-1. Gather resources
+###A) Gather resources
 There are two resources - food and gold. Each player gathers resources simultaneously based on the settlements in their kingdom.
 For every village you control, gain 1 food. For every city you control, gain 1 gold. Your capital city produces an additional gold for you if you control it (but not for you or the enemy if an enemy has taken it over). If your capital city has been Razed but you rebuild it from a village into a city again, it will again count as a capital city.
 
-2. Spend resources
+###B) Spend resources
 In player order, each player may make one purchase. A purchase may be a settlement, an army, or a tithe. Repeat the purchase cycle until no more players wish to spend resources.
 Settlements
 You may build settlements in tiles you control. Each tile may only contain one settlement. Consult the following table for the cost of building settlements in various target tiles you control. If you build a settlement in a tile that already contains a settlement, the old settlement is replaced with the new one. An greyed out entry means that type of settlement may not be built on that type of tile.
@@ -105,7 +106,7 @@ Magical artefacts are unique across the entire game, not per army. There should 
 
 Magical Artefacts are bonus items and do not count towards the points value of the unit or army for any purpose.
 
-3. Deploy armies
+###C) Deploy armies
 Place each of your armies in any settlement you control. Settlements may only have a limited number of armies deployed to each of them as seen in the following table.
 Deployment limits
 Settlement

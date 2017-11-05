@@ -4,12 +4,19 @@
 
 FILE="mightykingdoms_full"
 FILEM=$FILE.md
-date > $FILEM
-README.md >> $FILEM
-Setup\ and\ Overview >> $FILEM
-Summer >> $FILEM
-Winter >> $FILEM
-Glossary >> $FILEM
-Advanced\ rules >> $FILEM
+echo "File created on" > $FILEM
+date >> $FILEM
+echo "" >> $FILEM
+cat licence >> $FILEM
+cat README.md >> $FILEM
+cat Setup\ and\ Overview >> $FILEM
+cat Summer >> $FILEM
+cat Winter >> $FILEM
+cat Glossary >> $FILEM
+cat Advanced\ rules >> $FILEM
 
-pandoc -r markdown -w html -o $FILE.pdf $FILEM
+pandoc -r markdown -w html -o $FILE.html $FILEM
+echo "<header> <meta charset="utf-8">  </header>" > header
+cat $FILE.html >> header
+mv header $FILE.html
+wkhtmltopdf --encoding UTF-8 $FILE.html $FILE.pdf 
