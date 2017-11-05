@@ -1,5 +1,5 @@
 File created on
-Sun  5 Nov 17:09:02 AEDT 2017
+Sun  5 Nov 17:58:58 AEDT 2017
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -21,8 +21,8 @@ Campaign rules for Kings of War for use with the the Mighty Empires tiles by GW,
 
 1. Setup
 2. The Year
-3. Summer
-4. Winter
+3. Summer season
+4. Winter season
 5. Glossary
 6. Advanced rules  
 
@@ -66,36 +66,26 @@ Only choosable if the army is on a settlement. The army intends to burn down the
 
 ###B) Resolution
 Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.  
-Order
-Chosen tile
-Effect
-Move
-Unexplored
-Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player.
-Move
-Controlled
-Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).
-Raze
-Settlement
-If there is no enemy army in the tile remove the settlement. If there is an enemy army, the Raze fails with no effect.
-Defend
-Controlled
-The army stays where it is.
+
+|Order|Chosen tile|Effect|
+|:--------|:------------|:----------------------------------------------------------|
+|Move|Unexplored|Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player.|
+||||
+|Move|Controlled|Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).|
+||||
+|Raze|Settlement|If there is no enemy army in the tile remove the settlement. If there is an enemy army, the Raze fails with no effect.|
+||||
+|Defend|Controlled|The army stays where it is.|
 
 The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution. 
-Exploration table
-2D6
-Tile contents
-2
-Wizard’s tower (max 2 on the board – treat as Empty if there are already 2). This tile cannot be controlled or entered by any army, move the exploring army back and cancel all further orders on armies ordered to enter this tile.
-3-6
-Empty
-7-9
-Village
-10
-City
-11-12
-Fortress
+  
+####Exploration table
+|2D6|Tile contents|
+|:--------|:--------------|
+|2-7   |Empty|
+|8-9   |Village|
+|10    |City|
+|11-12 |Fortress|
 
 ###C) Battle
 After resolution, in player order each player chooses a tile in which they and an enemy have armies. They then choose an enemy in that tile and have a battle. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results. You must choose an opponent with upright armies if possible. If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them.
@@ -114,41 +104,28 @@ Stand up any armies that are on their side, and turn any settlements back the ri
 
 Every scar on a unit is cancelled out by a medal on that unit.
 
-For any leftover medals or scars, consult the following tables.
-Medals
-D6 + # of medals
-Result
-2
-Choose whether the unit gains Brutal or Headstrong.
-3
-Improve the unit's nerve by +1/+1 (or -/+1 if fearless).
-4
-Choose whether the unit gains Elite or Vicious.
-5
-Choose whether the unit gains or improves crushing strength or piercing by 1, to a maximum of (3) each.
-6
-Choose whether the unit increases its Me or Ra by 1, to no better than 2+.
-7+
-Improve the unit's Def by 1, up to a maximum of 6.
+For any leftover medals or scars, consult the following tables.  
 
+####Medals  
+D6 + # of medals	Result  
+2			Choose whether the unit gains Brutal or Headstrong.  
+3			Improve the unit's nerve by +1/+1 (or -/+1 if fearless).  
+4			Choose whether the unit gains Elite or Vicious.  
+5			Choose whether the unit gains or improves crushing strength or piercing by 1, to a maximum of (3) each.  
+6			Choose whether the unit increases its Me or Ra by 1, to no better than 2+.  
+7+			Improve the unit's Def by 1, up to a maximum of 6.  
 
 If the unit cannot benefit from the roll it gets, then they get a nice ceremony but no further lasting effect.
 
 After rolling remove all medals from the unit.
 
-Scars:
-D6 - # of scars
-Result
--1 or less
-Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.
-0
-Choose whether the unit lowers its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.
-1
-Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.
-2
-The unit gains Yellow Bellied.
-3+
-If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.
+####Scars  
+D6 - # of scars	Result  
+-1 or less	Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.  
+0		Choose whether the unit lowers its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.  
+1		Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.  
+2		The unit gains Yellow Bellied.  
+3+		If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.  
 
 List building army composition rules only apply during the initial creation of an army. If a scar roll destroys a unit that would leave the number of other unit choices invalid (such as destorying a regiment meaning you have too many heroes), this is ok.
 
@@ -156,8 +133,10 @@ After rolling remove all scars from the unit.
 
 If a destroyed unit was the last unit in an army, remove the army.
 
-Player order is redetermined at the end of the Reform phase. Player order is now set by number of armies, descending. Randomly determine player order if there are ties in any slots.
+**Player order is redetermined at the end of each _Reform_ phase. Player order is now set by number of armies, descending. _That is, the player with the greatest number of armies is now the first player._ Randomly determine player order if there are ties in any slots.**  
   
+
+----------  
 ##4. Winter season
 
 Winter has 3 phases
@@ -285,4 +264,7 @@ Control marker: A small token representing a player's kingdom, used to mark expl
 Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlement.
 Summer month: A turn in which a player moves their armies to explore and engage in battles.
 Enemy: Any army, settlement or tile controlled by another player.
-Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.Add in advanced rules here
+Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.  
+##6. Advanced rules
+
+Add in advanced rules here, eg: Wizard tower, Mines, bridges, magic artefacts unique globally, etc

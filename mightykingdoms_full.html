@@ -1,5 +1,5 @@
 <header> <meta charset=utf-8>  </header>
-<p>File created on Sun 5 Nov 17:09:02 AEDT 2017</p>
+<p>File created on Sun 5 Nov 17:58:58 AEDT 2017</p>
 <p>Licenced under Creative commons non commercial share alike v4.0<br />
 https://creativecommons.org/licenses/by-nc-sa/4.0/</p>
 <p>publish.sh script requires linux with pandoc and wkhtmltopdf installed. This script will take the chapter files, combine them into a single html file, and convert into PDF.</p>
@@ -11,8 +11,8 @@ $ sudo apt install pandoc wkhtmltopdf</code></pre>
 <ol style="list-style-type: decimal">
 <li>Setup</li>
 <li>The Year</li>
-<li>Summer</li>
-<li>Winter</li>
+<li>Summer season</li>
+<li>Winter season</li>
 <li>Glossary</li>
 <li>Advanced rules</li>
 </ol>
@@ -49,23 +49,115 @@ The army wishes to set up a defensive position and does not intend to move. Plac
 Raze<br />
 Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.</p>
 <h3 id="b-resolution">B) Resolution</h3>
-<p>Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.<br />
-Order Chosen tile Effect Move Unexplored Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player. Move Controlled Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same). Raze Settlement If there is no enemy army in the tile remove the settlement. If there is an enemy army, the Raze fails with no effect. Defend Controlled The army stays where it is.</p>
-<p>The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution. Exploration table 2D6 Tile contents 2 Wizard’s tower (max 2 on the board – treat as Empty if there are already 2). This tile cannot be controlled or entered by any army, move the exploring army back and cancel all further orders on armies ordered to enter this tile. 3-6 Empty 7-9 Village 10 City 11-12 Fortress</p>
+<p>Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.</p>
+<table>
+<colgroup>
+<col width="11%" />
+<col width="16%" />
+<col width="71%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Order</th>
+<th align="left">Chosen tile</th>
+<th align="left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Move</td>
+<td align="left">Unexplored</td>
+<td align="left">Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player.</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Move</td>
+<td align="left">Controlled</td>
+<td align="left">Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Raze</td>
+<td align="left">Settlement</td>
+<td align="left">If there is no enemy army in the tile remove the settlement. If there is an enemy army, the Raze fails with no effect.</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Defend</td>
+<td align="left">Controlled</td>
+<td align="left">The army stays where it is.</td>
+</tr>
+</tbody>
+</table>
+<p>The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution.</p>
+<h4 id="exploration-table">Exploration table</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">2D6</th>
+<th align="left">Tile contents</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2-7</td>
+<td align="left">Empty</td>
+</tr>
+<tr class="even">
+<td align="left">8-9</td>
+<td align="left">Village</td>
+</tr>
+<tr class="odd">
+<td align="left">10</td>
+<td align="left">City</td>
+</tr>
+<tr class="even">
+<td align="left">11-12</td>
+<td align="left">Fortress</td>
+</tr>
+</tbody>
+</table>
 <h3 id="c-battle">C) Battle</h3>
 <p>After resolution, in player order each player chooses a tile in which they and an enemy have armies. They then choose an enemy in that tile and have a battle. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results. You must choose an opponent with upright armies if possible. If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them.</p>
 <p>During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month. If multiple units caused damage that turn to an enemy that is routed, choose only 1 unit to receive the medal. Kingdom's battle results Loss Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed. Draw All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed. Win Control of the tile is given to the winning kingdom. In addition 1 army may be moved to an adjacent tile they control.</p>
 <h3 id="d-reform">D) Reform</h3>
 <p>Stand up any armies that are on their side, and turn any settlements back the right way up that were upside down. Any tiles with only one kingdom's army on them become owned by that kingdom.</p>
 <p>Every scar on a unit is cancelled out by a medal on that unit.</p>
-<p>For any leftover medals or scars, consult the following tables. Medals D6 + # of medals Result 2 Choose whether the unit gains Brutal or Headstrong. 3 Improve the unit's nerve by +1/+1 (or -/+1 if fearless). 4 Choose whether the unit gains Elite or Vicious. 5 Choose whether the unit gains or improves crushing strength or piercing by 1, to a maximum of (3) each. 6 Choose whether the unit increases its Me or Ra by 1, to no better than 2+. 7+ Improve the unit's Def by 1, up to a maximum of 6.</p>
+<p>For any leftover medals or scars, consult the following tables.</p>
+<h4 id="medals">Medals</h4>
+<p>D6 + # of medals Result<br />
+2 Choose whether the unit gains Brutal or Headstrong.<br />
+3 Improve the unit's nerve by +1/+1 (or -/+1 if fearless).<br />
+4 Choose whether the unit gains Elite or Vicious.<br />
+5 Choose whether the unit gains or improves crushing strength or piercing by 1, to a maximum of (3) each.<br />
+6 Choose whether the unit increases its Me or Ra by 1, to no better than 2+.<br />
+7+ Improve the unit's Def by 1, up to a maximum of 6.</p>
 <p>If the unit cannot benefit from the roll it gets, then they get a nice ceremony but no further lasting effect.</p>
 <p>After rolling remove all medals from the unit.</p>
-<p>Scars: D6 - # of scars Result -1 or less Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed. 0 Choose whether the unit lowers its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed. 1 Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed. 2 The unit gains Yellow Bellied. 3+ If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.</p>
+<h4 id="scars">Scars</h4>
+<p>D6 - # of scars Result<br />
+-1 or less Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.<br />
+0 Choose whether the unit lowers its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.<br />
+1 Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.<br />
+2 The unit gains Yellow Bellied.<br />
+3+ If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.</p>
 <p>List building army composition rules only apply during the initial creation of an army. If a scar roll destroys a unit that would leave the number of other unit choices invalid (such as destorying a regiment meaning you have too many heroes), this is ok.</p>
 <p>After rolling remove all scars from the unit.</p>
 <p>If a destroyed unit was the last unit in an army, remove the army.</p>
-<p>Player order is redetermined at the end of the Reform phase. Player order is now set by number of armies, descending. Randomly determine player order if there are ties in any slots.</p>
+<p><strong>Player order is redetermined at the end of each <em>Reform</em> phase. Player order is now set by number of armies, descending. <em>That is, the player with the greatest number of armies is now the first player.</em> Randomly determine player order if there are ties in any slots.</strong></p>
+<hr />
 <h2 id="winter-season">4. Winter season</h2>
 <p>Winter has 3 phases</p>
 <ol style="list-style-type: upper-alpha">
@@ -92,4 +184,6 @@ Order Chosen tile Effect Move Unexplored Put the army in the indicated tile. Rol
 <p>Magical Artefacts are bonus items and do not count towards the points value of the unit or army for any purpose.</p>
 <h3 id="c-deploy-armies">C) Deploy armies</h3>
 <p>Place each of your armies in any settlement you control. Settlements may only have a limited number of armies deployed to each of them as seen in the following table. Deployment limits Settlement Maximum number of armies Village 1 City 2 Fortress 3 Glossary</p>
-<p>Unexplored tile: Tiles that no players' armies have visited yet. Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it be taken by another player. Kingdom: All the tiles owned by a player. These need not be contiguous. Control marker: A small token representing a player's kingdom, used to mark explored tiles. Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlement. Summer month: A turn in which a player moves their armies to explore and engage in battles. Enemy: Any army, settlement or tile controlled by another player. Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.Add in advanced rules here</p>
+<p>Unexplored tile: Tiles that no players' armies have visited yet. Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it be taken by another player. Kingdom: All the tiles owned by a player. These need not be contiguous. Control marker: A small token representing a player's kingdom, used to mark explored tiles. Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlement. Summer month: A turn in which a player moves their armies to explore and engage in battles. Enemy: Any army, settlement or tile controlled by another player. Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.<br />
+##6. Advanced rules</p>
+<p>Add in advanced rules here, eg: Wizard tower, Mines, bridges, magic artefacts unique globally, etc</p>
