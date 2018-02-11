@@ -1,9 +1,12 @@
 File created on
-Sun 11 Feb 17:38:52 AEDT 2018
+Sun 11 Feb 17:41:41 AEDT 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
   
+Project hosted at:
+https://github.com/UltraSalem/mightykingdoms
+
 publish.sh script requires linux with pandoc and wkhtmltopdf installed.
 This script will take the chapter files, combine them into a single html file, and convert into PDF.
 
@@ -219,6 +222,44 @@ Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlem
 Summer month: A turn in which a player moves their armies to explore and engage in battles.
 Enemy: Any army, settlement or tile controlled by another player.
 Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.  
-##6. Advanced rules
+##6. Advanced rules 
 
-Add in advanced rules here, eg: Wizard tower, Mines, bridges, magic artefacts unique globally, etc
+To do:  
+Mines  
+Bridges 
+Ships 
+
+###Winter 
+####B) Spend Resources 
+**Armies** 
+*Additional restrictions* 
+No monsters, war machines, or magic items may be chosen. Some of these restrictions are removed if the following terrain conditions of the kingdom are met: 
+* If the fortress is in or adjacent to a tile you control with mountains or a swamp you may include monsters in that army. 
+* If the Fortress is in or adjacent to a tile you control with forest on it you may include war machines in that army. 
+
+####Wizard’s towers and quests
+Add the following rule to the Exploration Table: 
+If a double value was rolled on exploration (both dice showed the same value), roll the dice again. If any double is rolled the second time, replace the result of the exploration with a Wizard's tower.
+A unit that moved into a Wizard's Tower hex is pushed back into the hex it came from immediately. No army may enter the Wizard's Tower hex, and no kingdom is ever considered to own the Wizard's Tower. 
+Add an additional option in the Winter B) Spend resources step: Wizard's quest. 
+
+#####Wizard's Quest 
+If you control one or more tiles adjacent to a Wizard’s Tower, you may send one Hero on one quest per tower. The same Hero may not go on two or more quests in a Winter, for each tower it must be different Heroes. Heroes from different kingdoms may go on quests for the same Wizard's Tower, however. The wizard is equitable, if fickle. Choose a Hero unit from any of your armies, and roll on the below table. Add 1 to the roll for every full 100 points the hero costs. 
+
+**Quest table**
+|D6   |Quest result                                                    |
+|:----|:---------------------------------------------------------------|
+|1    |The hero fails to return. Cross it off your army list. A day of mourning is held in their honour.|
+|2    |The hero returns, badly hurt and empty handed. Give the hero 1 scar and resolve it as per Summer D) Reform rules.|
+|3    |The hero returns, but failed to locate any items of worth. No effect.|
+|4    |The quest was a success! The hero returns unharmed, bearing one random artefact worth 5-15 points.|
+|5    |The quest was very successful! The hero returns in glory, bearing one random artefact worth 20-30 points.|
+|6+   |The hero excels, and brings back a rare artefact with immense power! Gain one random artefact worth 35-50 points.|
+
+The hero, if they return, will be back in time to rejoin their army for C) Deploy armies.
+
+#####Magical Artefacts
+Magical artefacts are unique across the entire game, not per army. There should only be one deck of magical artefacts card (or one list), and anytime someone gains one, no other player or army may have that same item. During the deploy armies phase, secretly allocate your items to specific units in your armies. You may not change this allocation until next Winter (losing and recapturing an item is an exception to this). Items on units are revealed at the start of a battle along with the rest of the list. Magical Artefacts are bonus items and do not count towards the points value of the unit or army for any purpose. 
+ 
+If a unit with an item is routed in a battle in which their army loses, give the item to the winning player to allocate to an appropriate unit in that winning army. They may not change this allocation until next winter. If there are no appropriate units in that army (eg: Scarletmaw’s Fenulian Amulet and the army has no Lightning Bolt), the item is considered held by the player’s Capital City instead, to be allocated next Winter. If the player does not hold their Capital city, the item is lost on the field, and returned to the available pool of items for Wizard’s Quests. An item held by a Capital City that is taken over by an enemy is given to a unit in an enemy army that was part of the takeover.
+
