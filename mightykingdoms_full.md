@@ -1,5 +1,5 @@
 File created on
-Sun 11 Feb 17:41:41 AEDT 2018
+Sun 11 Feb 18:08:28 AEDT 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -41,12 +41,12 @@ represents one year, and cycles through summer and winter seasons.
 ##1. Setup
 
 ###Initial kingdom
-A) Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge.
-B) Players are assigned a random player order. This will change at the end of each month in the Reform phase.
-C) In player order each player takes turns choosing a starting tile (denoted with a white circle) by placing a city on it.
+A) Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.
+B) Players are assigned a random player order. This will change at the end of each summer month in the Reform phase.
+C) In player order each player takes turns choosing a starting tile (denoted with a white circle) by placing a city on it. This is the player's Capital City.
 D) In player order each player places all of 1 additional city, 1 fortress, and 2 villages on any of the 6 tiles surrounding the capital. They also place control 
 markers on the other 2 tiles not occupied by settlements.
-E) Each player places 1 army token in 1 tile they control that contains a settlement.
+E) Each player gets 1 army token to start. In player order, each player places it in any tile they control that contains a settlement.
 F) Each player writes up a 500 pt army list to represent the starting army. The list must be legal as per the standard Kings of War rules, and may not include any allies. Once written, the list for that army is static and may not change except as per the medal and scar rules, below. Mark the army token with a unique symbol or number, and mark the list with the same symbol or number so you can keep track of it. Digital only lists may be difficult to use to track the status of the units of an army, so printed lists are encouraged. Lists can be kept secret until a battle occurs with that army, at which point all players (not just those involved) may look at all of the lists involved in the battle. Tales of the battle will spread far and wide in the aftermath of the carnage!
 
 ##2. The Year
@@ -69,15 +69,20 @@ D) Reform
 ###A) Orders
 In player order, each player chooses one army and gives it an order. This is one order cycle. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to.
 
-Players may choose from any of the following orders for each of their armies. An army on its side may only choose Regroup. 
-* Move  
+Players may choose from any of the following orders for each of their armies. An army on its side may only choose Regroup.  
+
+**Move**  
 Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved.  
-* Defend   
-The army wishes to set up a defensive position and does not intend to move. The players will gain some terrain advantages if a battle is fought here. See C) Battles below. 
-* Raze   
+
+**Defend**  
+The army wishes to set up a defensive position and does not intend to move. The players will gain some terrain advantages if a battle is fought here. See C) Battles below.  
+
+**Raze**  
 Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.  
-* Regroup 
-Only choosable by an army laying on its side. Stand an army upright that is on its side.
+
+**Regroup**  
+Only choosable by an army laying on its side. Stand an army upright that is on its side.  
+
 
 ###B) Resolution
 Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.  
@@ -108,23 +113,24 @@ The status of the tile may change during the resolution phase. Use the table ent
 After resolution, in player order each player chooses a tile in which they have at least one upright army and an enemy has armies. They then choose an enemy in that tile and have a battle. You must choose an opponent with upright armies if possible. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results.  If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them. This may mean you choose your armies more than once.
 
 ####Board Size 
-Choose a board size based on the largest combined army on one side (not the combination of both sides). 
-|Battle scale|Board size|
-|:-----------|:---------|
-|1-2 armies  |4x4       |
-|3 armies    |5x4       |
-|4-5 armies  |6x4       |
-|6 armies    |8x4       |
+Choose a board size based on the largest combined army on one side (not the combination of both sides).  
+
+|Battle scale     |Board size|
+|:----------------|:--------:|
+|1-2 armies       |4x4       |
+|3 armies         |5x4       |
+|4-5 armies       |6x4       |
+|6 armies         |8x4       |
 
 ####Defend 
 A player that chose Defend as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may add, remove, or move 1 piece of terrain on the table to represent their defensive choices.
 
-During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage that turn to an enemy that is routed, choose only 1 unit to receive the medal. 
+During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage that turn to an enemy that is routed, choose only 1 unit to receive the medal.  
 
-|Kingdom's battle results|Effect                                     | 
-|:-------------|:----------------------------------------------------| 
-|Loss          |Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed.| 
-|Draw          |All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed.| 
+|Kingdom's battle result|Effect                                     |
+|:-------------|:----------------------------------------------------|
+|Loss          |Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed.|
+|Draw          |All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed.|
 |Win           |Control of the tile is given to the winning kingdom. In addition 1 army may be moved to an adjacent tile they control.|
 
 As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory.
@@ -140,8 +146,8 @@ For any leftover medals or scars, consult one of the following tables as appropr
 
 ####Medals  
 |D6 + # of medals|Result                               | 
-|:--------|:-------------------------------------------|
-|2-4      |No effect| 
+|:------------|:-------------------------------------------|
+|2-4      |No effect.| 
 |5        |Gain elite or vicious, player's choice. If the unit already has both, no effect.|
 |6        |Gain or improve piercing or crushing strength by 1, up to a maximum of (4). If the unit already has (4) or does not have an attack appropriate to the special rule, it gains as per 5 above.|
 |7+       |Improve Me or Ra by 1, to no better than 2+. May not improve a stat the unit does not have. If the unit already has 2+ of all relevant stats, it gains as per 6 above.|
@@ -150,12 +156,12 @@ After rolling remove all medals from the unit.
 
 ####Scars  
 |D6 - # of scars|Result  |
-|:----------|:-------------------------------------------------------|
-|-1 or less |Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.|  
-|0          |Choose whether the unit worsens its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.|  
-|1          |Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.|  
-|2          |The unit gains Yellow Bellied.| 
-|3+         |If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.|
+|:------------|:-------------------------------------------------------|
+|-1 or less   |Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.|  
+|0            |Choose whether the unit worsens its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.|  
+|1            |Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.|  
+|2            |The unit gains Yellow Bellied.| 
+|3+           |If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.|
   
 List building army composition rules only apply during the initial creation of an army. If a scar roll destroys a unit that would leave the number of other unit choices invalid (such as destorying a regiment meaning you have too many heroes), this is ok.
 
@@ -212,17 +218,21 @@ City
 2
 Fortress
 3
-Glossary
+  
+###Glossary
 
-Unexplored tile: Tiles that no players' armies have visited yet.
-Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it be taken by another player.
-Kingdom: All the tiles owned by a player. These need not be contiguous.
-Control marker: A small token representing a player's kingdom, used to mark explored tiles.
-Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlement.
-Summer month: A turn in which a player moves their armies to explore and engage in battles.
-Enemy: Any army, settlement or tile controlled by another player.
+Unexplored tile: Tiles that no players' armies have visited yet.  
+Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it be taken by another player.  
+Kingdom: All the tiles owned by a player. These need not be contiguous.  
+Control marker: A small token representing a player's kingdom, used to mark explored tiles.  
+Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlement.  
+Summer month: A turn in which a player moves their armies to explore and engage in battles.  
+Enemy: Any army, settlement or tile controlled by another player.  
 Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.  
-##6. Advanced rules 
+  
+  
+  
+##6. Advanced rules  
 
 To do:  
 Mines  
@@ -230,12 +240,12 @@ Bridges
 Ships 
 
 ###Winter 
-####B) Spend Resources 
-**Armies** 
-*Additional restrictions* 
-No monsters, war machines, or magic items may be chosen. Some of these restrictions are removed if the following terrain conditions of the kingdom are met: 
-* If the fortress is in or adjacent to a tile you control with mountains or a swamp you may include monsters in that army. 
-* If the Fortress is in or adjacent to a tile you control with forest on it you may include war machines in that army. 
+####B) Spend Resources  
+**Armies**  
+*Additional restrictions*  
+No monsters, war machines, or magic items may be chosen. Some of these restrictions are removed if the following terrain conditions of the kingdom are met:  
+* If the fortress is in or adjacent to a tile you control with mountains or a swamp you may include monsters in that army.  
+* If the Fortress is in or adjacent to a tile you control with forest on it you may include war machines in that army.  
 
 ####Wizard’s towers and quests
 Add the following rule to the Exploration Table: 
@@ -246,7 +256,8 @@ Add an additional option in the Winter B) Spend resources step: Wizard's quest.
 #####Wizard's Quest 
 If you control one or more tiles adjacent to a Wizard’s Tower, you may send one Hero on one quest per tower. The same Hero may not go on two or more quests in a Winter, for each tower it must be different Heroes. Heroes from different kingdoms may go on quests for the same Wizard's Tower, however. The wizard is equitable, if fickle. Choose a Hero unit from any of your armies, and roll on the below table. Add 1 to the roll for every full 100 points the hero costs. 
 
-**Quest table**
+**Quest table**  
+
 |D6   |Quest result                                                    |
 |:----|:---------------------------------------------------------------|
 |1    |The hero fails to return. Cross it off your army list. A day of mourning is held in their honour.|
@@ -254,7 +265,7 @@ If you control one or more tiles adjacent to a Wizard’s Tower, you may send on
 |3    |The hero returns, but failed to locate any items of worth. No effect.|
 |4    |The quest was a success! The hero returns unharmed, bearing one random artefact worth 5-15 points.|
 |5    |The quest was very successful! The hero returns in glory, bearing one random artefact worth 20-30 points.|
-|6+   |The hero excels, and brings back a rare artefact with immense power! Gain one random artefact worth 35-50 points.|
+|6+   |The hero excels, and brings back a rare artefact with immense power! Gain one random artefact worth 35-50 points.|  
 
 The hero, if they return, will be back in time to rejoin their army for C) Deploy armies.
 

@@ -1,5 +1,5 @@
 <header> <meta charset=utf-8>  </header>
-<p>File created on Sun 11 Feb 17:41:41 AEDT 2018</p>
+<p>File created on Sun 11 Feb 18:08:28 AEDT 2018</p>
 <p>Licenced under Creative commons non commercial share alike v4.0<br />
 https://creativecommons.org/licenses/by-nc-sa/4.0/</p>
 <p>Project hosted at: https://github.com/UltraSalem/mightykingdoms</p>
@@ -23,11 +23,11 @@ $ sudo apt install pandoc wkhtmltopdf</code></pre>
 <h2 id="setup">1. Setup</h2>
 <h3 id="initial-kingdom">Initial kingdom</h3>
 <ol style="list-style-type: upper-alpha">
-<li>Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge.</li>
-<li>Players are assigned a random player order. This will change at the end of each month in the Reform phase.</li>
-<li>In player order each player takes turns choosing a starting tile (denoted with a white circle) by placing a city on it.</li>
+<li>Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.</li>
+<li>Players are assigned a random player order. This will change at the end of each summer month in the Reform phase.</li>
+<li>In player order each player takes turns choosing a starting tile (denoted with a white circle) by placing a city on it. This is the player's Capital City.</li>
 <li>In player order each player places all of 1 additional city, 1 fortress, and 2 villages on any of the 6 tiles surrounding the capital. They also place control markers on the other 2 tiles not occupied by settlements.</li>
-<li>Each player places 1 army token in 1 tile they control that contains a settlement.</li>
+<li>Each player gets 1 army token to start. In player order, each player places it in any tile they control that contains a settlement.</li>
 <li>Each player writes up a 500 pt army list to represent the starting army. The list must be legal as per the standard Kings of War rules, and may not include any allies. Once written, the list for that army is static and may not change except as per the medal and scar rules, below. Mark the army token with a unique symbol or number, and mark the list with the same symbol or number so you can keep track of it. Digital only lists may be difficult to use to track the status of the units of an army, so printed lists are encouraged. Lists can be kept secret until a battle occurs with that army, at which point all players (not just those involved) may look at all of the lists involved in the battle. Tales of the battle will spread far and wide in the aftermath of the carnage!</li>
 </ol>
 <h2 id="the-year">2. The Year</h2>
@@ -46,12 +46,15 @@ $ sudo apt install pandoc wkhtmltopdf</code></pre>
 </ol>
 <h3 id="a-orders">A) Orders</h3>
 <p>In player order, each player chooses one army and gives it an order. This is one order cycle. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to.</p>
-<p>Players may choose from any of the following orders for each of their armies. An army on its side may only choose Regroup. * Move<br />
-Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved.<br />
-* Defend<br />
-The army wishes to set up a defensive position and does not intend to move. The players will gain some terrain advantages if a battle is fought here. See C) Battles below. * Raze<br />
-Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.<br />
-* Regroup Only choosable by an army laying on its side. Stand an army upright that is on its side.</p>
+<p>Players may choose from any of the following orders for each of their armies. An army on its side may only choose Regroup.</p>
+<p><strong>Move</strong><br />
+Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved.</p>
+<p><strong>Defend</strong><br />
+The army wishes to set up a defensive position and does not intend to move. The players will gain some terrain advantages if a battle is fought here. See C) Battles below.</p>
+<p><strong>Raze</strong><br />
+Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.</p>
+<p><strong>Regroup</strong><br />
+Only choosable by an army laying on its side. Stand an army upright that is on its side.</p>
 <h3 id="b-resolution">B) Resolution</h3>
 <p>Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.</p>
 <table>
@@ -146,7 +149,33 @@ Only choosable if the army is on a settlement. The army intends to burn down the
 <h3 id="c-battle">C) Battle</h3>
 <p>After resolution, in player order each player chooses a tile in which they have at least one upright army and an enemy has armies. They then choose an enemy in that tile and have a battle. You must choose an opponent with upright armies if possible. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results. If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them. This may mean you choose your armies more than once.</p>
 <h4 id="board-size">Board Size</h4>
-<p>Choose a board size based on the largest combined army on one side (not the combination of both sides). |Battle scale|Board size| |:-----------|:---------| |1-2 armies |4x4 | |3 armies |5x4 | |4-5 armies |6x4 | |6 armies |8x4 |</p>
+<p>Choose a board size based on the largest combined army on one side (not the combination of both sides).</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Battle scale</th>
+<th align="center">Board size</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1-2 armies</td>
+<td align="center">4x4</td>
+</tr>
+<tr class="even">
+<td align="left">3 armies</td>
+<td align="center">5x4</td>
+</tr>
+<tr class="odd">
+<td align="left">4-5 armies</td>
+<td align="center">6x4</td>
+</tr>
+<tr class="even">
+<td align="left">6 armies</td>
+<td align="center">8x4</td>
+</tr>
+</tbody>
+</table>
 <h4 id="defend">Defend</h4>
 <p>A player that chose Defend as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may add, remove, or move 1 piece of terrain on the table to represent their defensive choices.</p>
 <p>During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage that turn to an enemy that is routed, choose only 1 unit to receive the medal.</p>
@@ -157,7 +186,7 @@ Only choosable if the army is on a settlement. The army intends to burn down the
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Kingdom's battle results</th>
+<th align="left">Kingdom's battle result</th>
 <th align="left">Effect</th>
 </tr>
 </thead>
@@ -183,9 +212,9 @@ Only choosable if the army is on a settlement. The army intends to burn down the
 <p>Excess Medals can be used to undo the effects of Scars from previous months, and vice versa with Scars and Medals.</p>
 <p>For any leftover medals or scars, consult one of the following tables as appropriate to the balance.</p>
 <h4 id="medals">Medals</h4>
-<table style="width:76%;">
+<table style="width:82%;">
 <colgroup>
-<col width="13%" />
+<col width="19%" />
 <col width="62%" />
 </colgroup>
 <thead>
@@ -197,7 +226,7 @@ Only choosable if the army is on a settlement. The army intends to burn down the
 <tbody>
 <tr class="odd">
 <td align="left">2-4</td>
-<td align="left">No effect</td>
+<td align="left">No effect.</td>
 </tr>
 <tr class="even">
 <td align="left">5</td>
@@ -215,9 +244,9 @@ Only choosable if the army is on a settlement. The army intends to burn down the
 </table>
 <p>After rolling remove all medals from the unit.</p>
 <h4 id="scars">Scars</h4>
-<table style="width:96%;">
+<table style="width:99%;">
 <colgroup>
-<col width="16%" />
+<col width="19%" />
 <col width="79%" />
 </colgroup>
 <thead>
@@ -276,20 +305,70 @@ Only choosable if the army is on a settlement. The army intends to burn down the
 <p>At each fortress you may recruit 1 army each winter. You may use a fortress you built this winter to recruit an army. An army costs 1 food to recruit. Place an army token in the fortress and assign it a list as per 1). Setup F) above, with the following additional restrictions: Living Legends (units denoted [1] in their army lists) must be unique across all the armies in a kingdom, not just unique per army. Magic items must also be unique across all the armies in a kingdom. Allies may only be taken as an entire army, not as part of an army. You may only take an allied army if you have 3 or more other non-allied armies already. This is only checked when creating the army. If you drop below 3 other armies in a later turn there is no effect on the allied army.</p>
 <p>You may only have a maximum of 6 armies. If you wish to build a new army when you already have 6, you may disband an existing army to do so. Tithe Give 1 other player up to 1 gold and up to 1 food. These gifts may not be refused, but may be given away by the receiver in a later tithe action of their own. A player may only tithe to each enemy once each winter. A tithe may or may not be attached to deals, promises or threats, none of which are enforcable. Backstabbing is encouraged!</p>
 <h3 id="d-deploy-armies">D) Deploy armies</h3>
-<p>Place each of your armies in any settlement you control. Settlements may only have a limited number of armies deployed to each of them as seen in the following table. Deployment limits Settlement Maximum number of armies Village 1 City 2 Fortress 3 Glossary</p>
-<p>Unexplored tile: Tiles that no players' armies have visited yet. Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it be taken by another player. Kingdom: All the tiles owned by a player. These need not be contiguous. Control marker: A small token representing a player's kingdom, used to mark explored tiles. Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlement. Summer month: A turn in which a player moves their armies to explore and engage in battles. Enemy: Any army, settlement or tile controlled by another player. Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.<br />
-##6. Advanced rules</p>
+<p>Place each of your armies in any settlement you control. Settlements may only have a limited number of armies deployed to each of them as seen in the following table. Deployment limits Settlement Maximum number of armies Village 1 City 2 Fortress 3</p>
+<h3 id="glossary">Glossary</h3>
+<p>Unexplored tile: Tiles that no players' armies have visited yet.<br />
+Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it be taken by another player.<br />
+Kingdom: All the tiles owned by a player. These need not be contiguous.<br />
+Control marker: A small token representing a player's kingdom, used to mark explored tiles.<br />
+Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlement.<br />
+Summer month: A turn in which a player moves their armies to explore and engage in battles.<br />
+Enemy: Any army, settlement or tile controlled by another player.<br />
+Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.</p>
+<h2 id="advanced-rules">6. Advanced rules</h2>
 <p>To do:<br />
 Mines<br />
 Bridges Ships</p>
 <h3 id="winter">Winter</h3>
 <h4 id="b-spend-resources">B) Spend Resources</h4>
-<p><strong>Armies</strong> <em>Additional restrictions</em> No monsters, war machines, or magic items may be chosen. Some of these restrictions are removed if the following terrain conditions of the kingdom are met: * If the fortress is in or adjacent to a tile you control with mountains or a swamp you may include monsters in that army. * If the Fortress is in or adjacent to a tile you control with forest on it you may include war machines in that army.</p>
+<p><strong>Armies</strong><br />
+<em>Additional restrictions</em><br />
+No monsters, war machines, or magic items may be chosen. Some of these restrictions are removed if the following terrain conditions of the kingdom are met:<br />
+* If the fortress is in or adjacent to a tile you control with mountains or a swamp you may include monsters in that army.<br />
+* If the Fortress is in or adjacent to a tile you control with forest on it you may include war machines in that army.</p>
 <h4 id="wizards-towers-and-quests">Wizard’s towers and quests</h4>
 <p>Add the following rule to the Exploration Table: If a double value was rolled on exploration (both dice showed the same value), roll the dice again. If any double is rolled the second time, replace the result of the exploration with a Wizard's tower. A unit that moved into a Wizard's Tower hex is pushed back into the hex it came from immediately. No army may enter the Wizard's Tower hex, and no kingdom is ever considered to own the Wizard's Tower. Add an additional option in the Winter B) Spend resources step: Wizard's quest.</p>
 <h5 id="wizards-quest">Wizard's Quest</h5>
 <p>If you control one or more tiles adjacent to a Wizard’s Tower, you may send one Hero on one quest per tower. The same Hero may not go on two or more quests in a Winter, for each tower it must be different Heroes. Heroes from different kingdoms may go on quests for the same Wizard's Tower, however. The wizard is equitable, if fickle. Choose a Hero unit from any of your armies, and roll on the below table. Add 1 to the roll for every full 100 points the hero costs.</p>
-<p><strong>Quest table</strong> |D6 |Quest result | |:----|:---------------------------------------------------------------| |1 |The hero fails to return. Cross it off your army list. A day of mourning is held in their honour.| |2 |The hero returns, badly hurt and empty handed. Give the hero 1 scar and resolve it as per Summer D) Reform rules.| |3 |The hero returns, but failed to locate any items of worth. No effect.| |4 |The quest was a success! The hero returns unharmed, bearing one random artefact worth 5-15 points.| |5 |The quest was very successful! The hero returns in glory, bearing one random artefact worth 20-30 points.| |6+ |The hero excels, and brings back a rare artefact with immense power! Gain one random artefact worth 35-50 points.|</p>
+<p><strong>Quest table</strong></p>
+<table style="width:99%;">
+<colgroup>
+<col width="8%" />
+<col width="90%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">D6</th>
+<th align="left">Quest result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1</td>
+<td align="left">The hero fails to return. Cross it off your army list. A day of mourning is held in their honour.</td>
+</tr>
+<tr class="even">
+<td align="left">2</td>
+<td align="left">The hero returns, badly hurt and empty handed. Give the hero 1 scar and resolve it as per Summer D) Reform rules.</td>
+</tr>
+<tr class="odd">
+<td align="left">3</td>
+<td align="left">The hero returns, but failed to locate any items of worth. No effect.</td>
+</tr>
+<tr class="even">
+<td align="left">4</td>
+<td align="left">The quest was a success! The hero returns unharmed, bearing one random artefact worth 5-15 points.</td>
+</tr>
+<tr class="odd">
+<td align="left">5</td>
+<td align="left">The quest was very successful! The hero returns in glory, bearing one random artefact worth 20-30 points.</td>
+</tr>
+<tr class="even">
+<td align="left">6+</td>
+<td align="left">The hero excels, and brings back a rare artefact with immense power! Gain one random artefact worth 35-50 points.</td>
+</tr>
+</tbody>
+</table>
 <p>The hero, if they return, will be back in time to rejoin their army for C) Deploy armies.</p>
 <h5 id="magical-artefacts">Magical Artefacts</h5>
 <p>Magical artefacts are unique across the entire game, not per army. There should only be one deck of magical artefacts card (or one list), and anytime someone gains one, no other player or army may have that same item. During the deploy armies phase, secretly allocate your items to specific units in your armies. You may not change this allocation until next Winter (losing and recapturing an item is an exception to this). Items on units are revealed at the start of a battle along with the rest of the list. Magical Artefacts are bonus items and do not count towards the points value of the unit or army for any purpose.</p>
