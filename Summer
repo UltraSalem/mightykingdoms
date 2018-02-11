@@ -10,15 +10,17 @@ C) Battle
 D) Reform  
 
 ###A) Orders
-In player order, each player chooses one army and gives it an order. This is one order cycle. Repeat the order cycle until at least one player has given an order to all of their armies, then finish that order cycle and stop giving orders. That is, the maximum number of orders that can be given per player is the number of armies controlled by the player with the least armies.
+In player order, each player chooses one army and gives it an order. This is one order cycle. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to.
 
-Players may choose from the following orders:
-Move  
+Players may choose from any of the following orders for each of their armies. An army on its side may only choose Regroup. 
+* Move  
 Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved.  
-Defend   
-The army wishes to set up a defensive position and does not intend to move. Place a defensive marker on the army.  
-Raze   
+* Defend   
+The army wishes to set up a defensive position and does not intend to move. The players will gain some terrain advantages if a battle is fought here. See C) Battles below. 
+* Raze   
 Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.  
+* Regroup 
+Only choosable by an army laying on its side. Stand an army upright that is on its side.
 
 ###B) Resolution
 Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.  
@@ -29,9 +31,11 @@ Resolve orders in player order, with each player choosing one army, resolving it
 ||||
 |Move|Controlled|Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).|
 ||||
-|Raze|Settlement|If there is no enemy army in the tile remove the settlement. If there is an enemy army, the Raze fails with no effect.|
+|Raze|Settlement|If there is no enemy army in the tile at the time of resolution, remove the settlement. If there is an enemy army, the Raze fails with no effect.|
 ||||
-|Defend|Controlled|The army stays where it is.|
+|Defend|Controlled|The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker in the tile. See C) Battles - Defend below.|
+||||
+|Regroup|Controlled|Stand the army upright.|
 
 The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution. 
   
@@ -44,51 +48,65 @@ The status of the tile may change during the resolution phase. Use the table ent
 |11-12 |Fortress|
 
 ###C) Battle
-After resolution, in player order each player chooses a tile in which they and an enemy have armies. They then choose an enemy in that tile and have a battle. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results. You must choose an opponent with upright armies if possible. If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them.
+After resolution, in player order each player chooses a tile in which they have at least one upright army and an enemy has armies. They then choose an enemy in that tile and have a battle. You must choose an opponent with upright armies if possible. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results.  If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them. This may mean you choose your armies more than once.
 
-During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month. If multiple units caused damage that turn to an enemy that is routed, choose only 1 unit to receive the medal. 
-Kingdom's battle results
-Loss
-Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed.
-Draw
-All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed.
-Win
-Control of the tile is given to the winning kingdom. In addition 1 army may be moved to an adjacent tile they control.
+####Board Size 
+Choose a board size based on the largest combined army on one side (not the combination of both sides). 
+|Battle scale|Board size|
+|:-----------|:---------|
+|1-2 armies  |4x4       |
+|3 armies    |5x4       |
+|4-5 armies  |6x4       |
+|6 armies    |8x4       |
+
+####Defend 
+A player that chose Defend as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may add, remove, or move 1 piece of terrain on the table to represent their defensive choices.
+
+During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage that turn to an enemy that is routed, choose only 1 unit to receive the medal. 
+
+|Kingdom's battle results|Effect                                     | 
+|:-------------|:----------------------------------------------------| 
+|Loss          |Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed.| 
+|Draw          |All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed.| 
+|Win           |Control of the tile is given to the winning kingdom. In addition 1 army may be moved to an adjacent tile they control.|
+
+As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory.
 
 ###D) Reform
-Stand up any armies that are on their side, and turn any settlements back the right way up that were upside down. Any tiles with only one kingdom's army on them become owned by that kingdom.
+Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom. 
+ 
+Every scar on a unit is cancelled out by a medal on that unit. 
+ 
+Excess Medals can be used to undo the effects of Scars from previous months, and vice versa with Scars and Medals.
 
-Every scar on a unit is cancelled out by a medal on that unit.
-
-For any leftover medals or scars, consult the following tables.  
+For any leftover medals or scars, consult one of the following tables as appropriate to the balance.  
 
 ####Medals  
-D6 + # of medals	Result  
-2			Choose whether the unit gains Brutal or Headstrong.  
-3			Improve the unit's nerve by +1/+1 (or -/+1 if fearless).  
-4			Choose whether the unit gains Elite or Vicious.  
-5			Choose whether the unit gains or improves crushing strength or piercing by 1, to a maximum of (3) each.  
-6			Choose whether the unit increases its Me or Ra by 1, to no better than 2+.  
-7+			Improve the unit's Def by 1, up to a maximum of 6.  
-
-If the unit cannot benefit from the roll it gets, then they get a nice ceremony but no further lasting effect.
+|D6 + # of medals|Result                               | 
+|:--------|:-------------------------------------------|
+|2-4      |No effect| 
+|5        |Gain elite or vicious, player's choice. If the unit already has both, no effect.|
+|6        |Gain or improve piercing or crushing strength by 1, up to a maximum of (4). If the unit already has (4) or does not have an attack appropriate to the special rule, it gains as per 5 above.|
+|7+       |Improve Me or Ra by 1, to no better than 2+. May not improve a stat the unit does not have. If the unit already has 2+ of all relevant stats, it gains as per 6 above.|
 
 After rolling remove all medals from the unit.
 
 ####Scars  
-D6 - # of scars	Result  
--1 or less	Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.  
-0		Choose whether the unit lowers its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.  
-1		Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.  
-2		The unit gains Yellow Bellied.  
-3+		If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.  
-
+|D6 - # of scars|Result  |
+|:----------|:-------------------------------------------------------|
+|-1 or less |Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.|  
+|0          |Choose whether the unit worsens its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.|  
+|1          |Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.|  
+|2          |The unit gains Yellow Bellied.| 
+|3+         |If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.|
+  
 List building army composition rules only apply during the initial creation of an army. If a scar roll destroys a unit that would leave the number of other unit choices invalid (such as destorying a regiment meaning you have too many heroes), this is ok.
 
 After rolling remove all scars from the unit.
 
 If a destroyed unit was the last unit in an army, remove the army.
 
+####Player order 
 **Player order is redetermined at the end of each _Reform_ phase. Player order is now set by number of armies, descending. _That is, the player with the greatest number of armies is now the first player._ Randomly determine player order if there are ties in any slots.**  
   
 
