@@ -1,5 +1,5 @@
 File created on
-Sun 11 Feb 18:08:28 AEDT 2018
+Sun 11 Feb 19:28:17 AEDT 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -7,17 +7,25 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 Project hosted at:
 https://github.com/UltraSalem/mightykingdoms
 
-publish.sh script requires linux with pandoc and wkhtmltopdf installed.
-This script will take the chapter files, combine them into a single html file, and convert into PDF.
+# Mighty Kingdoms
+Campaign rules for Kings of War for use with the the Mighty Empires tiles by GW, or any other hex based map.  
+
+All you need to play these rules is the already generated PDF file.  
+
+If instead you want to edit the component parts and combine into one document yourself, and convert it into a PDF, you'll need some additional tools.  
+
+The component files themselves are written in markdown syntax, and can be eited with any plain text editor.  
+
+publish.sh script requires linux with pandoc and wkhtmltopdf installed.  
+This script will take the chapter files, combine them into a single md files, then a html file, and convert into PDF.
 
 ~~~~
 # Install prerequisites on Ubuntu
 $ sudo apt install pandoc wkhtmltopdf
+
+# run script
+$ ./publish.sh
 ~~~~
-
-# Mighty Kingdoms
-Campaign rules for Kings of War for use with the the Mighty Empires tiles by GW, or any other hex based map.
-
 
 
 ##Overview
@@ -49,11 +57,15 @@ markers on the other 2 tiles not occupied by settlements.
 E) Each player gets 1 army token to start. In player order, each player places it in any tile they control that contains a settlement.
 F) Each player writes up a 500 pt army list to represent the starting army. The list must be legal as per the standard Kings of War rules, and may not include any allies. Once written, the list for that army is static and may not change except as per the medal and scar rules, below. Mark the army token with a unique symbol or number, and mark the list with the same symbol or number so you can keep track of it. Digital only lists may be difficult to use to track the status of the units of an army, so printed lists are encouraged. Lists can be kept secret until a battle occurs with that army, at which point all players (not just those involved) may look at all of the lists involved in the battle. Tales of the battle will spread far and wide in the aftermath of the carnage!
 
+-------
+
 ##2. The Year
 
 Play proceeds through the summer season and winter season. The summer season is further broken down into months, during each of which players move armies, 
 explore tiles and engage in battles. During the winter season players build settlements and new armies.
 
+
+-------  
 
 ##3. Summer season
 
@@ -83,7 +95,6 @@ Only choosable if the army is on a settlement. The army intends to burn down the
 **Regroup**  
 Only choosable by an army laying on its side. Stand an army upright that is on its side.  
 
-
 ###B) Resolution
 Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.  
 
@@ -104,10 +115,10 @@ The status of the tile may change during the resolution phase. Use the table ent
 ####Exploration table
 |2D6|Tile contents|
 |:--------|:--------------|
-|2-7   |Empty|
-|8-9   |Village|
-|10    |City|
-|11-12 |Fortress|
+|2-7|Empty|
+|8-9|Village|
+|10|City|
+|11-12|Fortress|  
 
 ###C) Battle
 After resolution, in player order each player chooses a tile in which they have at least one upright army and an enemy has armies. They then choose an enemy in that tile and have a battle. You must choose an opponent with upright armies if possible. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results.  If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them. This may mean you choose your armies more than once.
@@ -115,17 +126,17 @@ After resolution, in player order each player chooses a tile in which they have 
 ####Board Size 
 Choose a board size based on the largest combined army on one side (not the combination of both sides).  
 
-|Battle scale     |Board size|
-|:----------------|:--------:|
-|1-2 armies       |4x4       |
-|3 armies         |5x4       |
-|4-5 armies       |6x4       |
-|6 armies         |8x4       |
+|Battle scale          |Board size  |
+|:---------------------|:----------:|
+|1-2 armies            |4x4       |
+|3 armies              |5x4       |
+|4-5 armies            |6x4       |
+|6 armies              |8x4       |
 
 ####Defend 
 A player that chose Defend as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may add, remove, or move 1 piece of terrain on the table to represent their defensive choices.
 
-During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage that turn to an enemy that is routed, choose only 1 unit to receive the medal.  
+During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage in the same phase to an enemy that is routed that phase, choose only 1 unit to receive the medal.  
 
 |Kingdom's battle result|Effect                                     |
 |:-------------|:----------------------------------------------------|
@@ -148,7 +159,7 @@ For any leftover medals or scars, consult one of the following tables as appropr
 |D6 + # of medals|Result                               | 
 |:------------|:-------------------------------------------|
 |2-4      |No effect.| 
-|5        |Gain elite or vicious, player's choice. If the unit already has both, no effect.|
+|5        |Gain Elite or Vicious, player's choice. If the unit already has both, no effect.|
 |6        |Gain or improve piercing or crushing strength by 1, up to a maximum of (4). If the unit already has (4) or does not have an attack appropriate to the special rule, it gains as per 5 above.|
 |7+       |Improve Me or Ra by 1, to no better than 2+. May not improve a stat the unit does not have. If the unit already has 2+ of all relevant stats, it gains as per 6 above.|
 
@@ -163,17 +174,19 @@ After rolling remove all medals from the unit.
 |2            |The unit gains Yellow Bellied.| 
 |3+           |If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.|
   
-List building army composition rules only apply during the initial creation of an army. If a scar roll destroys a unit that would leave the number of other unit choices invalid (such as destorying a regiment meaning you have too many heroes), this is ok.
+List building army composition rules only apply during the initial creation of an army. If a scar roll destroys a unit that would leave the number of other unit choices invalid (such as destorying a regiment meaning you have too many heroes), this is ok.  
 
-After rolling remove all scars from the unit.
+After rolling remove all scars from the unit.  
 
-If a destroyed unit was the last unit in an army, remove the army.
+If a destroyed unit was the last unit in an army, remove the army.  
 
 ####Player order 
-**Player order is redetermined at the end of each _Reform_ phase. Player order is now set by number of armies, descending. _That is, the player with the greatest number of armies is now the first player._ Randomly determine player order if there are ties in any slots.**  
-  
+Player order is redetermined at the end of each _Reform_ phase. Player order is now set by number of armies, descending. _That is, the player with the greatest number of armies is now the first player._ Randomly determine player order if there are ties in any slots.  
+
+Players now start a new Summer month with A) Orders. Repeat until 6 Summer months have passed. Once 6 Summer months have passed, proceed instead to Winter season, below.
 
 ----------  
+
 ##4. Winter season
 
 Winter has 4 phases
@@ -187,48 +200,69 @@ D) Deploy armies
 All players pick up all their armies and place them in their capital city tile. If they do not have a capital city, they place them in one other city tile of their choice. If there are no other cities either, choose a village tile. If there are no villages either, the armies are destroyed. A kingdom that is all Fortresses cannot support the armies over the winter months. 
 
 ###B) Gather resources
-There are two resources - food and gold. Each player gathers resources simultaneously based on the settlements in their kingdom.
-For every village you control, gain 1 food. For every city you control, gain 1 gold. Your capital city produces an additional gold for you if you control it (but not for you or the enemy if an enemy has taken it over). 
+There are two resources - gold (g) and food (f). Each player gathers resources simultaneously based on the settlements in their kingdom.
+For every village you control, gain 1 food. For every city you control, gain 1 gold. Your capital city produces an additional gold for you if you control it. If an enemy has taken over your capital it gets downgraded to a regular city and only provides the standard 1 gold for them. 
 
 ###C) Spend resources
-In player order, each player may make one purchase. A purchase may be a settlement, an army, or a tithe. Repeat the purchase cycle until no more players wish to spend resources.
-Settlements
-You may build settlements in tiles you control. Each tile may only contain one settlement. Consult the following list for the cost of building settlements in various target tiles you control. If you build a settlement in a tile that already contains a settlement, the old settlement is replaced with the new one. An greyed out entry means that type of settlement may not be built on that type of tile.
+  1. Tithe. In player order, each player may give 1 other player up to 1 gold and up to 1 food, or pass. These gifts may not be refused, but may be given away by the receiver in a later tithe action of their own. A player may only tithe to each enemy once each Winter. A tithe may or may not be attached to deals, promises or threats, none of which are enforcable. Backstabbing is encouraged! Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing.  
+  
+  2. Build and recruit. In player order, each player makes 1 purchase or passes. Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing.  
+  
+####Settlements
+You may build settlements in tiles you control. Each tile may only contain one settlement. Consult the following list for the cost of building or upgrading settlements in various target tiles you control. If you build a settlement in a tile that already contains a settlement, the old settlement is replaced with the new one.  
 
-If to want to make radical changes to your kingdom's demographics, you may want to Raze the settlements during the summer. You cannot voluntarily destroy settlements during the winter.
+|Tile       |Upgrade to      |Cost   |
+|:----------|:---------------|:------|
+|Empty      |Village         |1g     |
+|Village    |City            |1g 1f  |
+|Village    |Fortress        |2g     |
+|City       |Capital City    |1g 1f  |  
+*You may only have one Capital City per kingdom, so you may only upgrade a city to a Capital City if your previous Capital City has been razed or taken over.*  
+
+If you want to make radical changes to your kingdom's demographics, you may want to Raze the settlements during the summer. You cannot voluntarily destroy settlements during the winter.  
 
 ####Armies
-At each fortress you may recruit 1 army each winter. You may use a fortress you built this winter to recruit an army. An army costs 1 food to recruit. Place an army token in the fortress and assign it a list as per 1). Setup F) above, with the following additional restrictions:
-Living Legends (units denoted [1] in their army lists) must be unique across all the armies in a kingdom, not just unique per army.
-Magic items must also be unique across all the armies in a kingdom.
-Allies may only be taken as an entire army, not as part of an army. You may only take an allied army if you have 3 or more other non-allied armies already. This is only checked when creating the army. If you drop below 3 other armies in a later turn there is no effect on the allied army.
+At each Fortress you may recruit 1 army each winter. You may use a fortress you built this winter to recruit an army. An army costs 1 gold to recruit. Place an army token in the fortress and assign it a list as per 1). Setup F) above, with the following additional restrictions:  
+Living Legends (units denoted [1] in their army lists) must be unique across all the armies in a kingdom, not just unique per army.  
+Magic items must also be unique across all the armies in a kingdom.  
+Allies may only be taken as an entire army, not as part of an army. You may only take an allied army if you have 3 or more other non-allied armies already. This is only checked when creating the army. If you drop below 3 other armies in a later turn there is no effect on the allied army.  
 
-You may only have a maximum of 6 armies. If you wish to build a new army when you already have 6, you may disband an existing army to do so.
-Tithe
-Give 1 other player up to 1 gold and up to 1 food. These gifts may not be refused, but may be given away by the receiver in a later tithe action of their own. A player may only tithe to each enemy once each winter. A tithe may or may not be attached to deals, promises or threats, none of which are enforcable. Backstabbing is encouraged! 
- 
+You may only have a maximum of 6 armies. If you wish to build a new army when you already have 6, you may disband an existing army to do so. Simply remove an existing army token and  
+
+  3. Feed armies. If you wish to maintain your armies, you must feed them. For each army you have (including newly purchased ones), you must spend 1 food or remove that army. At the end of this step, any unspent gold or food is lost and is not retained for next Winter.  
+  
 ###D) Deploy armies 
-Place each of your armies in any settlement you control. Settlements may only have a limited number of armies deployed to each of them as seen in the following table.
-Deployment limits
-Settlement
-Maximum number of armies
-Village
-1
-City
-2
-Fortress
-3
+Each player removes all their armies from the board and places them in front of them in a staging area. Redetermine player order as normal based on the current number of armies each player has.
+
+In player order, each player places an army in any settlement they control. Players may not pass unless they have deployed all their armies. Settlements may only have a limited number of armies deployed to each of them as seen in the following table.
+
+####Deployment limits
+|Settlement|Maximum number of armies|
+|:-----------|:---------------------:|
+|Village|1|
+|City|2|
+|Capital City|3|
+|Fortress|3|
+
+Once deployment is completed, start a new 3) Summer season.
   
 ###Glossary
 
 Unexplored tile: Tiles that no players' armies have visited yet.  
-Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it be taken by another player.  
+
+Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it taken by another player.  
+
 Kingdom: All the tiles owned by a player. These need not be contiguous.  
+
 Control marker: A small token representing a player's kingdom, used to mark explored tiles.  
-Settlement: A city, village, fortress. A tile may contain a maximum of 1 settlement.  
+
+Settlement: A city, village, fortress.  
+
 Summer month: A turn in which a player moves their armies to explore and engage in battles.  
+
 Enemy: Any army, settlement or tile controlled by another player.  
-Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile, and if razed and rebuilt will again count as your capital city. If another player controls it it will count as a regular city for them.  
+
+Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile. If another player controls it it will count as a regular city for them.  
   
   
   
@@ -244,7 +278,7 @@ Ships
 **Armies**  
 *Additional restrictions*  
 No monsters, war machines, or magic items may be chosen. Some of these restrictions are removed if the following terrain conditions of the kingdom are met:  
-* If the fortress is in or adjacent to a tile you control with mountains or a swamp you may include monsters in that army.  
+* If the Fortress is in or adjacent to a tile you control with mountains or a swamp you may include monsters in that army.  
 * If the Fortress is in or adjacent to a tile you control with forest on it you may include war machines in that army.  
 
 ####Wizard’s towers and quests
