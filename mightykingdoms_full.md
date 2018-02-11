@@ -1,5 +1,5 @@
 File created on
-Sun 11 Feb 19:28:17 AEDT 2018
+Sun 11 Feb 23:03:26 AEDT 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -204,9 +204,9 @@ There are two resources - gold (g) and food (f). Each player gathers resources s
 For every village you control, gain 1 food. For every city you control, gain 1 gold. Your capital city produces an additional gold for you if you control it. If an enemy has taken over your capital it gets downgraded to a regular city and only provides the standard 1 gold for them. 
 
 ###C) Spend resources
-  1. Tithe. In player order, each player may give 1 other player up to 1 gold and up to 1 food, or pass. These gifts may not be refused, but may be given away by the receiver in a later tithe action of their own. A player may only tithe to each enemy once each Winter. A tithe may or may not be attached to deals, promises or threats, none of which are enforcable. Backstabbing is encouraged! Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing.  
+  1. **Tithe.** In player order, each player may give 1 other player up to 1 gold and up to 1 food, or pass. These gifts may not be refused, but may be given away by the receiver in a later tithe action of their own. A player may only tithe to each enemy once each Winter. A tithe may or may not be attached to deals, promises or threats, none of which are enforcable. Backstabbing is encouraged! Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing.  
   
-  2. Build and recruit. In player order, each player makes 1 purchase or passes. Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing.  
+  2. **Build and recruit.** In player order, each player makes 1 purchase or passes. Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing.  
   
 ####Settlements
 You may build settlements in tiles you control. Each tile may only contain one settlement. Consult the following list for the cost of building or upgrading settlements in various target tiles you control. If you build a settlement in a tile that already contains a settlement, the old settlement is replaced with the new one.  
@@ -223,13 +223,15 @@ If you want to make radical changes to your kingdom's demographics, you may want
 
 ####Armies
 At each Fortress you may recruit 1 army each winter. You may use a fortress you built this winter to recruit an army. An army costs 1 gold to recruit. Place an army token in the fortress and assign it a list as per 1). Setup F) above, with the following additional restrictions:  
-Living Legends (units denoted [1] in their army lists) must be unique across all the armies in a kingdom, not just unique per army.  
-Magic items must also be unique across all the armies in a kingdom.  
-Allies may only be taken as an entire army, not as part of an army. You may only take an allied army if you have 3 or more other non-allied armies already. This is only checked when creating the army. If you drop below 3 other armies in a later turn there is no effect on the allied army.  
 
-You may only have a maximum of 6 armies. If you wish to build a new army when you already have 6, you may disband an existing army to do so. Simply remove an existing army token and  
+* Living Legends (units denoted [1] in their army lists) must be unique across all the armies in a kingdom, not just unique per army.  
+* Magic items must also be unique across all the armies in a kingdom.  
+* Allies may only be taken as an entire army, not as part of an army. You may only take an allied army if you have 3 or more other non-allied armies already. This is only checked when creating the army. If you drop below 3 other armies in a later turn there is no effect on the allied army.  
 
-  3. Feed armies. If you wish to maintain your armies, you must feed them. For each army you have (including newly purchased ones), you must spend 1 food or remove that army. At the end of this step, any unspent gold or food is lost and is not retained for next Winter.  
+You may only have a maximum of 6 armies. If you wish to build a new army when you already have 6, you may disband an existing army to do so. Simply remove an existing army token from the board.  
+*For bigger or longer campaigns you might want to increase this number, noting that players will need enough miniatures to potentially field all of their armies at once.*   
+
+  3. **Feed armies.** If you wish to maintain your armies, you must feed them. For each army you have (including newly purchased ones), you must spend 1 food or remove that army. At the end of this step, any unspent gold or food is lost and is not retained for next Winter.  
   
 ###D) Deploy armies 
 Each player removes all their armies from the board and places them in front of them in a staging area. Redetermine player order as normal based on the current number of armies each player has.
@@ -278,6 +280,7 @@ Ships
 **Armies**  
 *Additional restrictions*  
 No monsters, war machines, or magic items may be chosen. Some of these restrictions are removed if the following terrain conditions of the kingdom are met:  
+
 * If the Fortress is in or adjacent to a tile you control with mountains or a swamp you may include monsters in that army.  
 * If the Fortress is in or adjacent to a tile you control with forest on it you may include war machines in that army.  
 
