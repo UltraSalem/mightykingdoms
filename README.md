@@ -1,7 +1,7 @@
 # Mighty Kingdoms
 Campaign rules for Kings of War for use with the the Mighty Empires tiles by GW, or any other hex based map.  
 
-All you need to play these rules is the already generated PDF file.  
+All you need to play these rules is the already generated PDF file - mightykingdoms_full.pdf  
 
 If instead you want to edit the component parts and combine into one document yourself, and convert it into a PDF, you'll need some additional tools.  
 

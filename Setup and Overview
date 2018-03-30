@@ -19,8 +19,11 @@ An optional Simple battles system can be used instead of Kings of War battles, t
 
 -------
 
-##1. Setup  
-  
+##1. Setup
+
+###Prerequisites
+To play you'll need a hex based map. You can build it using an online tool, using GW hex tiles, printed hex tiles, or other methods. You will also need tokens to represent armies, cities, villages, fortresses, kingdom ownership, ships, and armies that are in Defence, as well as a handful of six-sided dice ("D6"), and usually 2000-3000 points of King of War miniatures armies for each player.
+
 ###Initial kingdom
 A) Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.
 

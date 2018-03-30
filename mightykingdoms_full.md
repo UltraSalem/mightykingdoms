@@ -1,5 +1,5 @@
 File created on
-Fri 30 Mar 14:41:23 AEDT 2018
+Fri 30 Mar 14:52:20 AEDT 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -11,7 +11,7 @@ https://github.com/UltraSalem/mightykingdoms
 # Mighty Kingdoms
 Campaign rules for Kings of War for use with the the Mighty Empires tiles by GW, or any other hex based map.  
 
-All you need to play these rules is the already generated PDF file.  
+All you need to play these rules is the already generated PDF file - mightykingdoms_full.pdf  
 
 If instead you want to edit the component parts and combine into one document yourself, and convert it into a PDF, you'll need some additional tools.  
 
@@ -50,8 +50,11 @@ An optional Simple battles system can be used instead of Kings of War battles, t
 
 -------
 
-##1. Setup  
-  
+##1. Setup
+
+###Prerequisites
+To play you'll need a hex based map. You can build it using an online tool, using GW hex tiles, printed hex tiles, or other methods. You will also need tokens to represent armies, cities, villages, fortresses, kingdom ownership, ships, and armies that are in Defence, as well as a handful of six-sided dice ("D6"), and usually 2000-3000 points of King of War miniatures armies for each player.
+
 ###Initial kingdom
 A) Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.
 
@@ -136,7 +139,7 @@ Instead of playing a game of Kings of War to resolve a battle, you may use the f
 
 As per normal battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.
 
-After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: as 500 point army is Defence 5). 
+After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). 
 
 Any army that took a _Defend_ action gains +1 Defence.
 
