@@ -1,5 +1,19 @@
 <header> <meta charset=utf-8>  </header>
-<p>File created on Fri 30 Mar 12:08:10 AEDT 2018</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="table.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<p>File created on Fri 30 Mar 13:26:30 AEDT 2018</p>
 <p>Licenced under Creative commons non commercial share alike v4.0<br />
 https://creativecommons.org/licenses/by-nc-sa/4.0/</p>
 <p>Project hosted at: https://github.com/UltraSalem/mightykingdoms</p>
@@ -18,7 +32,7 @@ $ ./publish.sh</code></pre>
 <h2 id="overview">Overview</h2>
 <p>In Mighty Kingdoms each army token represents up to 500 points of a Kings of War army, which are used to explore a hex map to build a player's kingdom. When other kingdoms are encountered, the army tokens will also be used to fight Kings of War tabletop battles. Bigger battles are fought by bringing multiple army tokens to the same hex. Players will want their kingdoms to be a mix of villages, cities and fortresses to allow them to build and feed armies. Each full game turn represents one year, and cycles through summer and winter seasons.</p>
 <h2 id="index">Index</h2>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li>Setup</li>
 <li>The Year</li>
 <li>Summer season</li>
@@ -29,7 +43,7 @@ $ ./publish.sh</code></pre>
 <hr />
 <h2 id="setup">1. Setup</h2>
 <h3 id="initial-kingdom">Initial kingdom</h3>
-<ol style="list-style-type: upper-alpha">
+<ol type="A">
 <li>Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.</li>
 <li>Players are assigned a random player order. This will change at the end of each summer month in the Reform phase.</li>
 <li>In player order each player takes turns choosing a starting tile (denoted with a white circle) by placing a city on it. This is the player's Capital City.</li>
@@ -44,7 +58,7 @@ $ ./publish.sh</code></pre>
 <h2 id="summer-season">3. Summer season</h2>
 <p>Summer has six turns, known as months.</p>
 <p>Each month is split into 4 phases:</p>
-<ol style="list-style-type: upper-alpha">
+<ol type="A">
 <li>Orders<br />
 </li>
 <li>Resolution<br />
@@ -59,51 +73,51 @@ $ ./publish.sh</code></pre>
 <p><strong>Move</strong><br />
 Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved. Armies may not normally be moved off water tile edges (entirely blue edges) or in to marsh tiles, but may move along the coast.</p>
 <p><strong>Defend</strong><br />
-The army wishes to set up a defensive position and does not intend to move. The players will gain some terrain advantages if a battle is fought here. See <em>C) Battles</em> below.</p>
+The army wishes to set up a defensive position and does not intend to move. The players will gain some advantages if a battle is fought here. See <em>C) Battles</em> below.</p>
 <p><strong>Raze</strong><br />
 Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.</p>
 <p><strong>Regroup</strong><br />
 Only choosable by an army laying on its side. Stand the army upright.</p>
 <h3 id="b-resolution">B) Resolution</h3>
 <p>Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.</p>
-<table>
+<table style="width:94%;">
 <colgroup>
-<col width="11%" />
-<col width="16%" />
-<col width="71%" />
+<col style="width: 13%" />
+<col style="width: 19%" />
+<col style="width: 61%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Order</th>
-<th align="left">Chosen tile</th>
-<th align="left">Effect</th>
+<th style="text-align: left;">Order</th>
+<th style="text-align: left;">Chosen tile</th>
+<th style="text-align: left;">Effect</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Move</td>
-<td align="left">Unexplored</td>
-<td align="left">Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player. If moving across certain terrain features the army might end up on its side, see <em>Terrain features</em> below.</td>
+<td style="text-align: left;">Move</td>
+<td style="text-align: left;">Unexplored</td>
+<td style="text-align: left;">Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player. If moving across certain terrain features the army might end up on its side, see <em>Terrain features</em> below.</td>
 </tr>
 <tr class="even">
-<td align="left">Move</td>
-<td align="left">Controlled</td>
-<td align="left">Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).</td>
+<td style="text-align: left;">Move</td>
+<td style="text-align: left;">Controlled</td>
+<td style="text-align: left;">Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).</td>
 </tr>
 <tr class="odd">
-<td align="left">Raze</td>
-<td align="left">Settlement</td>
-<td align="left">If there is no enemy army in the tile at the time of resolution, remove the settlement. If there is an enemy army, the Raze fails with no effect.</td>
+<td style="text-align: left;">Raze</td>
+<td style="text-align: left;">Settlement</td>
+<td style="text-align: left;">If there is no enemy army in the tile at the time of resolution, remove the settlement. If there is an enemy army, the Raze fails with no effect.</td>
 </tr>
 <tr class="even">
-<td align="left">Defend</td>
-<td align="left">Controlled</td>
-<td align="left">The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker in the tile. See C) Battles - Defend below.</td>
+<td style="text-align: left;">Defend</td>
+<td style="text-align: left;">Controlled</td>
+<td style="text-align: left;">The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker in the tile. See C) Battles - Defend below.</td>
 </tr>
 <tr class="odd">
-<td align="left">Regroup</td>
-<td align="left">Controlled</td>
-<td align="left">Stand the army upright.</td>
+<td style="text-align: left;">Regroup</td>
+<td style="text-align: left;">Controlled</td>
+<td style="text-align: left;">Stand the army upright.</td>
 </tr>
 </tbody>
 </table>
@@ -114,190 +128,198 @@ Only choosable by an army laying on its side. Stand the army upright.</p>
 <table>
 <thead>
 <tr class="header">
-<th align="left">2D6</th>
-<th align="left">Tile contents</th>
+<th style="text-align: left;">2D6</th>
+<th style="text-align: left;">Tile contents</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">2-7</td>
-<td align="left">Empty</td>
+<td style="text-align: left;">2-7</td>
+<td style="text-align: left;">Empty</td>
 </tr>
 <tr class="even">
-<td align="left">8-9</td>
-<td align="left">Village</td>
+<td style="text-align: left;">8-9</td>
+<td style="text-align: left;">Village</td>
 </tr>
 <tr class="odd">
-<td align="left">10</td>
-<td align="left">City</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">City</td>
 </tr>
 <tr class="even">
-<td align="left">11-12</td>
-<td align="left">Fortress</td>
+<td style="text-align: left;">11-12</td>
+<td style="text-align: left;">Fortress</td>
 </tr>
 </tbody>
 </table>
 <h3 id="c-battle">C) Battle</h3>
 <p>After resolution, in player order each player chooses a tile in which they have at least one upright army and an enemy has armies. They then choose an enemy in that tile and have a battle. You must choose an opponent with upright armies if possible. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results. If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them. This may mean you choose your armies more than once.</p>
+<h4 id="simple-battles">Simple battles</h4>
+<p>Instead of playing a game of Kings of War to resolve a battle, you may use the following system instead.</p>
+<p>As per normal battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.</p>
+<p>After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). Any army that took a <em>Defend</em> action gains +1 Defence.</p>
+<p>Next, each player in the battle simultaneously rolls 1 die for each army they have.</p>
+<p>Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit' and is reduced by 100 points. An army is destroyed if it is reduced to 0 points and is removed from the board. The die that army generated is still retained if it has not been used, and can be allocated to an enemy army as normal.</p>
+<p>After resolving all dice, if there is only armies from one kingdom left, that player wins the battle. If both kingdoms still have armies, compare the points value reductions caused by each kingdom. The kingdom that caused more points to be reduced is the winner, with the other the loser. If the points reductions are equal, the result is a draw. Note that the number of armies or their points values remaining are irrelevant to this result, it is only the reductions caused. This means that although it is unlikely, a lucky smaller army can fight off a larger force if the dice are on their side!</p>
+<p>Proceed to <em>Results</em>, below. If <em>Simple battles</em> are being used, ignore all <em>Scars and Medals</em> sections.</p>
 <h4 id="board-size">Board Size</h4>
 <p>Choose a board size based on the largest combined army on one side (not the combination of both sides).</p>
 <table>
 <thead>
 <tr class="header">
-<th align="left">Battle scale</th>
-<th align="center">Board size</th>
+<th style="text-align: left;">Battle scale</th>
+<th style="text-align: left;">Board size</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">1-2 armies</td>
-<td align="center">4x4</td>
+<td style="text-align: left;">1-2 armies</td>
+<td style="text-align: left;">4x4</td>
 </tr>
 <tr class="even">
-<td align="left">3 armies</td>
-<td align="center">5x4</td>
+<td style="text-align: left;">3 armies</td>
+<td style="text-align: left;">5x4</td>
 </tr>
 <tr class="odd">
-<td align="left">4-5 armies</td>
-<td align="center">6x4</td>
+<td style="text-align: left;">4-5 armies</td>
+<td style="text-align: left;">6x4</td>
 </tr>
 <tr class="even">
-<td align="left">6 armies</td>
-<td align="center">8x4</td>
+<td style="text-align: left;">6 armies</td>
+<td style="text-align: left;">8x4</td>
 </tr>
 </tbody>
 </table>
-<h4 id="defend">Defend</h4>
-<p>A player that chose Defend as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.</p>
-<table style="width:97%;">
+<h4 id="defended-tiles">Defended tiles</h4>
+<p>A player that took <em>Defend</em> as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.</p>
+<table style="width:81%;">
 <colgroup>
-<col width="13%" />
-<col width="83%" />
+<col style="width: 19%" />
+<col style="width: 61%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Settlement</th>
-<th align="left">Benefit</th>
+<th style="text-align: left;">Settlement</th>
+<th style="text-align: left;">Benefit</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">None</td>
-<td align="left">Add, remove, or move 1 piece of terrain on the table to represent the defenders choosing the battle ground.</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Add, remove, or move 1 piece of terrain on the table to represent the defenders choosing the battle ground.</td>
 </tr>
 <tr class="even">
-<td align="left">Village</td>
-<td align="left">May add up to 1 blocking or difficult ground terrain pieces (village buildings, fields, etc) and up to 2 obstacles of around 6&quot; long each anywhere on the board.</td>
+<td style="text-align: left;">Village</td>
+<td style="text-align: left;">May add up to 1 blocking or difficult ground terrain pieces (village buildings, fields, etc) and up to 2 obstacles of around 6&quot; long each anywhere on the board.</td>
 </tr>
 <tr class="odd">
-<td align="left">City</td>
-<td align="left">May add up to 2 blocking or difficult ground terrain pieces (city buildings, vineyards, ponds, etc) and up to 2 obstacles of around 6&quot; long each anywhere on the board. In addition, the defender places 1 objective marker on their half of the board which is worth 1 Victory Point for the side that controls it at the end of the game, in addition to the normal scenario scoring.</td>
+<td style="text-align: left;">City</td>
+<td style="text-align: left;">May add up to 2 blocking or difficult ground terrain pieces (city buildings, vineyards, ponds, etc) and up to 2 obstacles of around 6&quot; long each anywhere on the board. In addition, the defender places 1 objective marker on their half of the board which is worth 1 Victory Point for the side that controls it at the end of the game, in addition to the normal scenario scoring.</td>
 </tr>
 <tr class="even">
-<td align="left">Fortress</td>
-<td align="left">May add up to 2 blocking or difficult ground terrain pieces (fortifications or other defences) and up to 4 obstacles of around 6&quot; long each anywhere on the board. In addition, the defender places 2 objective markers on their half of the board which are worth 1 Victory Point each for the side that controls either or both of them at the end of the game, in addition to the normal scenario scoring.</td>
+<td style="text-align: left;">Fortress</td>
+<td style="text-align: left;">May add up to 2 blocking or difficult ground terrain pieces (fortifications or other defences) and up to 4 obstacles of around 6&quot; long each anywhere on the board. In addition, the defender places 2 objective markers on their half of the board which are worth 1 Victory Point each for the side that controls either or both of them at the end of the game, in addition to the normal scenario scoring.</td>
 </tr>
 </tbody>
 </table>
 <h4 id="medals-and-scars">Medals and scars</h4>
 <p>During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage in the same phase to an enemy that is routed that phase, choose only 1 unit to receive the medal.</p>
 <h4 id="results">Results</h4>
-<table style="width:96%;">
+<table style="width:81%;">
 <colgroup>
-<col width="20%" />
-<col width="75%" />
+<col style="width: 19%" />
+<col style="width: 61%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Kingdom's battle result</th>
-<th align="left">Effect</th>
+<th style="text-align: left;">Kingdom's battle result</th>
+<th style="text-align: left;">Effect</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Loss</td>
-<td align="left">Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed.</td>
+<td style="text-align: left;">Loss</td>
+<td style="text-align: left;">Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed.</td>
 </tr>
 <tr class="even">
-<td align="left">Draw</td>
-<td align="left">All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed.</td>
+<td style="text-align: left;">Draw</td>
+<td style="text-align: left;">All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed.</td>
 </tr>
 <tr class="odd">
-<td align="left">Win</td>
-<td align="left">Control of the tile is given to the winning kingdom. In addition 1 army may be moved to an adjacent tile they control.</td>
+<td style="text-align: left;">Win</td>
+<td style="text-align: left;">Control of the tile is given to the winning kingdom. In addition 1 army may be moved to an adjacent tile they control.</td>
 </tr>
 </tbody>
 </table>
-<p>As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory.</p>
+<p>As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory!</p>
 <h3 id="d-reform">D) Reform</h3>
 <p>Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom.</p>
 <p>Every scar on a unit is cancelled out by a medal on that unit.</p>
 <p>Excess Medals can be used to undo the effects of Scars from previous months, and vice versa with Scars and Medals.</p>
 <p>For any leftover medals or scars, consult one of the following tables as appropriate to the balance.</p>
 <h4 id="medals">Medals</h4>
-<table style="width:82%;">
+<table style="width:81%;">
 <colgroup>
-<col width="19%" />
-<col width="62%" />
+<col style="width: 19%" />
+<col style="width: 61%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">D6 + # of medals</th>
-<th align="left">Result</th>
+<th style="text-align: left;">D6 + # of medals</th>
+<th style="text-align: left;">Result</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">2-4</td>
-<td align="left">No effect.</td>
+<td style="text-align: left;">2-4</td>
+<td style="text-align: left;">No effect.</td>
 </tr>
 <tr class="even">
-<td align="left">5</td>
-<td align="left">Gain Elite or Vicious, player's choice. If the unit already has both, no effect.</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Gain Elite or Vicious, player's choice. If the unit already has both, no effect.</td>
 </tr>
 <tr class="odd">
-<td align="left">6</td>
-<td align="left">Gain or improve piercing or crushing strength by 1, up to a maximum of (4). If the unit already has (4) or does not have an attack appropriate to the special rule, it gains as per 5 above.</td>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Gain or improve piercing or crushing strength by 1, up to a maximum of (4). If the unit already has (4) or does not have an attack appropriate to the special rule, it gains as per 5 above.</td>
 </tr>
 <tr class="even">
-<td align="left">7+</td>
-<td align="left">Improve Me or Ra by 1, to no better than 2+. May not improve a stat the unit does not have. If the unit already has 2+ of all relevant stats, it gains as per 6 above.</td>
+<td style="text-align: left;">7+</td>
+<td style="text-align: left;">Improve Me or Ra by 1, to no better than 2+. May not improve a stat the unit does not have. If the unit already has 2+ of all relevant stats, it gains as per 6 above.</td>
 </tr>
 </tbody>
 </table>
 <p>After rolling remove all medals from the unit.</p>
 <h4 id="scars">Scars</h4>
-<table style="width:99%;">
+<table style="width:81%;">
 <colgroup>
-<col width="19%" />
-<col width="79%" />
+<col style="width: 19%" />
+<col style="width: 61%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">D6 - # of scars</th>
-<th align="left">Result</th>
+<th style="text-align: left;">D6 - # of scars</th>
+<th style="text-align: left;">Result</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">-1 or less</td>
-<td align="left">Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.</td>
+<td style="text-align: left;">-1 or less</td>
+<td style="text-align: left;">Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.</td>
 </tr>
 <tr class="even">
-<td align="left">0</td>
-<td align="left">Choose whether the unit worsens its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">Choose whether the unit worsens its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.</td>
 </tr>
 <tr class="odd">
-<td align="left">1</td>
-<td align="left">Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.</td>
 </tr>
 <tr class="even">
-<td align="left">2</td>
-<td align="left">The unit gains Yellow Bellied.</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">The unit gains Yellow Bellied.</td>
 </tr>
 <tr class="odd">
-<td align="left">3+</td>
-<td align="left">If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.</td>
+<td style="text-align: left;">3+</td>
+<td style="text-align: left;">If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.</td>
 </tr>
 </tbody>
 </table>
@@ -310,7 +332,7 @@ Only choosable by an army laying on its side. Stand the army upright.</p>
 <hr />
 <h2 id="winter-season">4. Winter season</h2>
 <p>Winter has 4 phases</p>
-<ol style="list-style-type: upper-alpha">
+<ol type="A">
 <li>Recall armies</li>
 <li>Gather resources<br />
 </li>
@@ -323,7 +345,7 @@ Only choosable by an army laying on its side. Stand the army upright.</p>
 <h3 id="b-gather-resources">B) Gather resources</h3>
 <p>There are two resources - gold (g) and food (f). Each player gathers resources simultaneously based on the settlements in their kingdom. For every village you control, gain 1 food. For every city you control, gain 1 gold. Your capital city produces an additional gold for you if you control it. If an enemy has taken over your capital it gets downgraded to a regular city and only provides the standard 1 gold for them.</p>
 <h3 id="c-spend-resources">C) Spend resources</h3>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li><p><strong>Tithe.</strong> In player order, each player may give 1 other player up to 1 gold and up to 1 food, or pass. These gifts may not be refused, but may be given away by the receiver in a later tithe action of their own. A player may only tithe to each enemy once each Winter. A tithe may or may not be attached to deals, promises or threats, none of which are enforcable. Backstabbing is encouraged! Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing.</p></li>
 <li><p><strong>Build and recruit.</strong> In player order, each player makes 1 purchase or passes. Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing.</p></li>
 </ol>
@@ -332,31 +354,31 @@ Only choosable by an army laying on its side. Stand the army upright.</p>
 <table>
 <thead>
 <tr class="header">
-<th align="left">Tile</th>
-<th align="left">Upgrade to</th>
-<th align="left">Cost</th>
+<th style="text-align: left;">Tile</th>
+<th style="text-align: left;">Upgrade to</th>
+<th style="text-align: left;">Cost</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Empty</td>
-<td align="left">Village</td>
-<td align="left">1g</td>
+<td style="text-align: left;">Empty</td>
+<td style="text-align: left;">Village</td>
+<td style="text-align: left;">1g</td>
 </tr>
 <tr class="even">
-<td align="left">Village</td>
-<td align="left">City</td>
-<td align="left">1g 1f</td>
+<td style="text-align: left;">Village</td>
+<td style="text-align: left;">City</td>
+<td style="text-align: left;">1g 1f</td>
 </tr>
 <tr class="odd">
-<td align="left">Village</td>
-<td align="left">Fortress</td>
-<td align="left">2g</td>
+<td style="text-align: left;">Village</td>
+<td style="text-align: left;">Fortress</td>
+<td style="text-align: left;">2g</td>
 </tr>
 <tr class="even">
-<td align="left">City</td>
-<td align="left">Capital City</td>
-<td align="left">1g 1f</td>
+<td style="text-align: left;">City</td>
+<td style="text-align: left;">Capital City</td>
+<td style="text-align: left;">1g 1f</td>
 </tr>
 </tbody>
 </table>
@@ -373,7 +395,7 @@ Only choosable by an army laying on its side. Stand the army upright.</p>
 </ul>
 <p>You may only have a maximum of 6 armies. If you wish to build a new army when you already have 6, you may disband an existing army to do so. Simply remove an existing army token from the board.<br />
 <em>For bigger or longer campaigns you might want to increase this number, noting that players will need enough miniatures to potentially field all of their armies at once.</em></p>
-<ol start="3" style="list-style-type: decimal">
+<ol start="3" type="1">
 <li><strong>Feed armies.</strong> If you wish to maintain your armies, you must feed them. For each army you have (including newly purchased ones), you must spend 1 food or remove that army. At the end of this step, any unspent gold or food is lost and is not retained for next Winter.</li>
 </ol>
 <h3 id="d-deploy-armies">D) Deploy armies</h3>
@@ -383,26 +405,26 @@ Only choosable by an army laying on its side. Stand the army upright.</p>
 <table>
 <thead>
 <tr class="header">
-<th align="left">Settlement</th>
-<th align="center">Maximum number of armies</th>
+<th style="text-align: left;">Settlement</th>
+<th style="text-align: center;">Maximum number of armies</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Village</td>
-<td align="center">1</td>
+<td style="text-align: left;">Village</td>
+<td style="text-align: center;">1</td>
 </tr>
 <tr class="even">
-<td align="left">City</td>
-<td align="center">2</td>
+<td style="text-align: left;">City</td>
+<td style="text-align: center;">2</td>
 </tr>
 <tr class="odd">
-<td align="left">Capital City</td>
-<td align="center">3</td>
+<td style="text-align: left;">Capital City</td>
+<td style="text-align: center;">3</td>
 </tr>
 <tr class="even">
-<td align="left">Fortress</td>
-<td align="center">3</td>
+<td style="text-align: left;">Fortress</td>
+<td style="text-align: center;">3</td>
 </tr>
 </tbody>
 </table>
@@ -437,39 +459,39 @@ No monsters, war machines, or magic items may be chosen. Some of these restricti
 <p><strong>Quest table</strong></p>
 <table style="width:99%;">
 <colgroup>
-<col width="8%" />
-<col width="90%" />
+<col style="width: 8%" />
+<col style="width: 90%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">D6</th>
-<th align="left">Quest result</th>
+<th style="text-align: left;">D6</th>
+<th style="text-align: left;">Quest result</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">1</td>
-<td align="left">The hero fails to return. Cross it off your army list. A day of mourning is held in their honour.</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">The hero fails to return. Cross it off your army list. A day of mourning is held in their honour.</td>
 </tr>
 <tr class="even">
-<td align="left">2</td>
-<td align="left">The hero returns, badly hurt and empty handed. Give the hero 1 scar and resolve it as per Summer D) Reform rules.</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">The hero returns, badly hurt and empty handed. Give the hero 1 scar and resolve it as per Summer D) Reform rules.</td>
 </tr>
 <tr class="odd">
-<td align="left">3</td>
-<td align="left">The hero returns, but failed to locate any items of worth. No effect.</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">The hero returns, but failed to locate any items of worth. No effect.</td>
 </tr>
 <tr class="even">
-<td align="left">4</td>
-<td align="left">The quest was a success! The hero returns unharmed, bearing one random artefact worth 5-15 points.</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">The quest was a success! The hero returns unharmed, bearing one random artefact worth 5-15 points.</td>
 </tr>
 <tr class="odd">
-<td align="left">5</td>
-<td align="left">The quest was very successful! The hero returns in glory, bearing one random artefact worth 20-30 points.</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">The quest was very successful! The hero returns in glory, bearing one random artefact worth 20-30 points.</td>
 </tr>
 <tr class="even">
-<td align="left">6+</td>
-<td align="left">The hero excels, and brings back a rare artefact with immense power! Gain one random artefact worth 35-50 points.</td>
+<td style="text-align: left;">6+</td>
+<td style="text-align: left;">The hero excels, and brings back a rare artefact with immense power! Gain one random artefact worth 35-50 points.</td>
 </tr>
 </tbody>
 </table>
@@ -477,3 +499,5 @@ No monsters, war machines, or magic items may be chosen. Some of these restricti
 <h5 id="magical-artefacts">Magical Artefacts</h5>
 <p>Magical artefacts are unique across the entire game, not per army. There should only be one deck of magical artefacts card (or one list), and anytime someone gains one, no other player or army may have that same item. During the deploy armies phase, secretly allocate your items to specific units in your armies. You may not change this allocation until next Winter (losing and recapturing an item is an exception to this). Items on units are revealed at the start of a battle along with the rest of the list. Magical Artefacts are bonus items and do not count towards the points value of the unit or army for any purpose.</p>
 <p>If a unit with an item is routed in a battle in which their army loses, give the item to the winning player to allocate to an appropriate unit in that winning army. They may not change this allocation until next winter. If there are no appropriate units in that army (eg: Scarletmaw’s Fenulian Amulet and the army has no Lightning Bolt), the item is considered held by the player’s Capital City instead, to be allocated next Winter. If the player does not hold their Capital city, the item is lost on the field, and returned to the available pool of items for Wizard’s Quests. An item held by a Capital City that is taken over by an enemy is given to a unit in an enemy army that was part of the takeover.</p>
+</body>
+</html>

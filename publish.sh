@@ -15,7 +15,7 @@ cat Winter >> $FILEM
 cat Glossary >> $FILEM
 cat Advanced\ rules >> $FILEM
 
-pandoc -r markdown -w html -o $FILE.html $FILEM
+pandoc -r markdown -w html5 -o $FILE.html $FILEM --css=table.css
 echo "<header> <meta charset="utf-8">  </header>" > header
 cat $FILE.html >> header
 mv header $FILE.html

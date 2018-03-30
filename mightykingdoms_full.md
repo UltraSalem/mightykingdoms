@@ -1,5 +1,5 @@
 File created on
-Fri 30 Mar 12:08:10 AEDT 2018
+Fri 30 Mar 13:26:30 AEDT 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -87,7 +87,7 @@ Players may choose from any of the following orders for each of their armies. _E
 Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved. Armies may not normally be moved off water tile edges (entirely blue edges) or in to marsh tiles, but may move along the coast.  
 
 **Defend**  
-The army wishes to set up a defensive position and does not intend to move. The players will gain some terrain advantages if a battle is fought here. See _C) Battles_ below.  
+The army wishes to set up a defensive position and does not intend to move. The players will gain some advantages if a battle is fought here. See _C) Battles_ below.  
 
 **Raze**  
 Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.  
@@ -99,7 +99,7 @@ Only choosable by an army laying on its side. Stand the army upright.
 Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.  
 
 |Order|Chosen tile|Effect|
-|:--------|:------------|:----------------------------------------------------------|
+|:--------|:------------|:------------------------------------------|
 |Move|Unexplored|Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player. If moving across certain terrain features the army might end up on its side, see _Terrain features_ below.|
 |Move|Controlled|Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).|
 |Raze|Settlement|If there is no enemy army in the tile at the time of resolution, remove the settlement. If there is an enemy army, the Raze fails with no effect.|
@@ -122,21 +122,36 @@ Armies that have moved may be slowed down by terrain, or forced to find safe pas
 ###C) Battle
 After resolution, in player order each player chooses a tile in which they have at least one upright army and an enemy has armies. They then choose an enemy in that tile and have a battle. You must choose an opponent with upright armies if possible. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results.  If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them. This may mean you choose your armies more than once.
 
+####Simple battles
+Instead of playing a game of Kings of War to resolve a battle, you may use the following system instead.
+
+As per normal battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.
+
+After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). Any army that took a _Defend_ action gains +1 Defence.
+
+Next, each player in the battle simultaneously rolls 1 die for each army they have.
+
+Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit' and is reduced by 100 points. An army is destroyed if it is reduced to 0 points and is removed from the board. The die that army generated is still retained if it has not been used, and can be allocated to an enemy army as normal.
+
+After resolving all dice, if there is only armies from one kingdom left, that player wins the battle. If both kingdoms still have armies, compare the points value reductions caused by each kingdom. The kingdom that caused more points to be reduced is the winner, with the other the loser. If the points reductions are equal, the result is a draw. Note that the number of armies or their points values remaining are irrelevant to this result, it is only the reductions caused. This means that although it is unlikely, a lucky smaller army can fight off a larger force if the dice are on their side! 
+
+Proceed to _Results_, below. If _Simple battles_ are being used, ignore all _Scars and Medals_ sections.
+
 ####Board Size 
 Choose a board size based on the largest combined army on one side (not the combination of both sides).  
 
 |Battle scale          |Board size  |
-|:---------------------|:----------:|
+|:------------|:------------------------------------------|
 |1-2 armies            |4x4       |
 |3 armies              |5x4       |
 |4-5 armies            |6x4       |
 |6 armies              |8x4       |
 
-####Defend 
-A player that chose Defend as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.
+####Defended tiles 
+A player that took _Defend_ as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.
 
 |Settlement|Benefit|
-|:--------|:----------------------------------------------------------|
+|:------------|:------------------------------------------|
 |None|Add, remove, or move 1 piece of terrain on the table to represent the defenders choosing the battle ground.|
 |Village|May add up to 1 blocking or difficult ground terrain pieces (village buildings, fields, etc) and up to 2 obstacles of around 6" long each anywhere on the board.|
 |City|May add up to 2 blocking or difficult ground terrain pieces (city buildings, vineyards, ponds, etc) and up to 2 obstacles of around 6" long each anywhere on the board. In addition, the defender places 1 objective marker on their half of the board which is worth 1 Victory Point for the side that controls it at the end of the game, in addition to the normal scenario scoring.|
@@ -146,13 +161,13 @@ A player that chose Defend as their action gains a terrain advantage. Their troo
 During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage in the same phase to an enemy that is routed that phase, choose only 1 unit to receive the medal.  
   
 ####Results
-|Kingdom's battle result|Effect                                     |
-|:-------------|:----------------------------------------------------|
+|Kingdom's battle result|Effect|
+|:------------|:------------------------------------------|
 |Loss          |Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed.|
 |Draw          |All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed.|
 |Win           |Control of the tile is given to the winning kingdom. In addition 1 army may be moved to an adjacent tile they control.|
 
-As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory.
+As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory!
 
 ###D) Reform
 Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom. 
@@ -164,8 +179,8 @@ Excess Medals can be used to undo the effects of Scars from previous months, and
 For any leftover medals or scars, consult one of the following tables as appropriate to the balance.  
 
 ####Medals  
-|D6 + # of medals|Result                               | 
-|:------------|:-------------------------------------------|
+|D6 + # of medals|Result| 
+|:------------|:------------------------------------------|
 |2-4      |No effect.| 
 |5        |Gain Elite or Vicious, player's choice. If the unit already has both, no effect.|
 |6        |Gain or improve piercing or crushing strength by 1, up to a maximum of (4). If the unit already has (4) or does not have an attack appropriate to the special rule, it gains as per 5 above.|
@@ -174,8 +189,8 @@ For any leftover medals or scars, consult one of the following tables as appropr
 After rolling remove all medals from the unit.
 
 ####Scars  
-|D6 - # of scars|Result  |
-|:------------|:-------------------------------------------------------|
+|D6 - # of scars|Result|
+|:------------|:------------------------------------------|
 |-1 or less   |Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.|  
 |0            |Choose whether the unit worsens its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.|  
 |1            |Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.|  
