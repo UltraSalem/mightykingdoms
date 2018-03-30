@@ -1,5 +1,5 @@
 File created on
-Fri 30 Mar 13:26:30 AEDT 2018
+Fri 30 Mar 13:46:15 AEDT 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -31,9 +31,12 @@ $ ./publish.sh
 ##Overview
 
 In Mighty Kingdoms each army token represents up to 500 points of a Kings of War army, which are used to explore a hex map to build a player's kingdom. 
-When other kingdoms are encountered, the army tokens will also be used to fight Kings of War tabletop battles. Bigger battles are fought by bringing multiple 
-army tokens to the same hex. Players will want their kingdoms to be a mix of villages, cities and fortresses to allow them to build and feed armies. Each full game turn 
-represents one year, and cycles through summer and winter seasons.
+
+When other kingdoms are encountered, the army tokens will also be used to fight Kings of War tabletop battles. Bigger battles are fought by bringing multiple army tokens to the same hex. 
+
+Players will want their kingdoms to be a mix of villages, cities and fortresses to allow them to build more settlements, recruit more armies, and feed those armies. Each full game turn represents one year, and cycles through summer and winter seasons.
+
+An optional Simple battles system can be used instead of Kings of War battles, to have just a campaign based game without tabletop miniatures battles.
 
 ##Index
 
@@ -42,27 +45,32 @@ represents one year, and cycles through summer and winter seasons.
 3. Summer season
 4. Winter season
 5. Glossary
-6. Advanced rules  
+6. Advanced rules
 
 -------
 
-##1. Setup
-
+##1. Setup  
+  
 ###Initial kingdom
 A) Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.
+
 B) Players are assigned a random player order. This will change at the end of each summer month in the Reform phase.
+
 C) In player order each player takes turns choosing a starting tile (denoted with a white circle) by placing a city on it. This is the player's Capital City.
-D) In player order each player places all of 1 additional city, 1 fortress, and 2 villages on any of the 6 tiles surrounding the capital. They also place control 
-markers on the other 2 tiles not occupied by settlements.
+
+D) In player order each player places all of 1 additional city, 1 fortress, and 2 villages on any of the 6 tiles surrounding the capital, with flags for their empire indicating their control of them. They also place control markers on the other 2 tiles not occupied by settlements to show they are also part of their kingdom.
+
 E) Each player gets 1 army token to start. In player order, each player places it in any tile they control that contains a settlement.
-F) Each player writes up a 500 pt army list to represent the starting army. The list must be legal as per the standard Kings of War rules, and may not include any allies. Once written, the list for that army is static and may not change except as per the medal and scar rules, below. Mark the army token with a unique symbol or number, and mark the list with the same symbol or number so you can keep track of it. Digital only lists may be difficult to use to track the status of the units of an army, so printed lists are encouraged. Lists can be kept secret until a battle occurs with that army, at which point all players (not just those involved) may look at all of the lists involved in the battle. Tales of the battle will spread far and wide in the aftermath of the carnage!
+
+F) Decide whether you are going to resolve battles between armies using Kings of War tabletop battles, or Simple battles where you just need a few dice and no miniatures. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i) If using Kings of War battles, each player writes up a 500 pt army list to represent the starting army from the list for their main race as chosen in A) above. The list must be legal as per the standard Kings of War rules, and may not include any allies. Once written, the list for that army is static and may not change except as per the medal and scar rules, below. Mark the army token with a unique symbol or number, and mark the list with the same symbol or number so you can keep track of it. Digital only lists may be difficult to use to track the status of the units of an army, so printed lists are encouraged. Lists can be kept secret until a battle occurs with that army, at which point all players (not just those involved) may look at all of the lists involved in the battle. Tales of the battle will spread far and wide in the aftermath of the carnage!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii) If using Simple battles, just start writing a roster of your armies with the number of the army token and the points value of that army. Each army starts at 500 points, but can take points reductions during the resolution of Simple battles as described later on.
 
 -------
 
 ##2. The Year
 
-Play proceeds through the summer season and winter season. The summer season is further broken down into months, during each of which players move armies, 
-explore tiles and engage in battles. During the winter season players build settlements and new armies.
+Play proceeds through the summer season and winter season. The summer season is further broken down into months, during each of which players move armies, explore tiles and engage in battles. During the winter season players build settlements and new armies.
 
 
 -------  
@@ -127,7 +135,9 @@ Instead of playing a game of Kings of War to resolve a battle, you may use the f
 
 As per normal battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.
 
-After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). Any army that took a _Defend_ action gains +1 Defence.
+After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). 
+
+Any army that took a _Defend_ action gains +1 Defence.
 
 Next, each player in the battle simultaneously rolls 1 die for each army they have.
 

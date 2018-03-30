@@ -13,7 +13,7 @@
   <![endif]-->
 </head>
 <body>
-<p>File created on Fri 30 Mar 13:26:30 AEDT 2018</p>
+<p>File created on Fri 30 Mar 13:46:15 AEDT 2018</p>
 <p>Licenced under Creative commons non commercial share alike v4.0<br />
 https://creativecommons.org/licenses/by-nc-sa/4.0/</p>
 <p>Project hosted at: https://github.com/UltraSalem/mightykingdoms</p>
@@ -30,7 +30,10 @@ $ sudo apt install pandoc wkhtmltopdf
 # run script
 $ ./publish.sh</code></pre>
 <h2 id="overview">Overview</h2>
-<p>In Mighty Kingdoms each army token represents up to 500 points of a Kings of War army, which are used to explore a hex map to build a player's kingdom. When other kingdoms are encountered, the army tokens will also be used to fight Kings of War tabletop battles. Bigger battles are fought by bringing multiple army tokens to the same hex. Players will want their kingdoms to be a mix of villages, cities and fortresses to allow them to build and feed armies. Each full game turn represents one year, and cycles through summer and winter seasons.</p>
+<p>In Mighty Kingdoms each army token represents up to 500 points of a Kings of War army, which are used to explore a hex map to build a player's kingdom.</p>
+<p>When other kingdoms are encountered, the army tokens will also be used to fight Kings of War tabletop battles. Bigger battles are fought by bringing multiple army tokens to the same hex.</p>
+<p>Players will want their kingdoms to be a mix of villages, cities and fortresses to allow them to build more settlements, recruit more armies, and feed those armies. Each full game turn represents one year, and cycles through summer and winter seasons.</p>
+<p>An optional Simple battles system can be used instead of Kings of War battles, to have just a campaign based game without tabletop miniatures battles.</p>
 <h2 id="index">Index</h2>
 <ol type="1">
 <li>Setup</li>
@@ -44,12 +47,12 @@ $ ./publish.sh</code></pre>
 <h2 id="setup">1. Setup</h2>
 <h3 id="initial-kingdom">Initial kingdom</h3>
 <ol type="A">
-<li>Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.</li>
-<li>Players are assigned a random player order. This will change at the end of each summer month in the Reform phase.</li>
-<li>In player order each player takes turns choosing a starting tile (denoted with a white circle) by placing a city on it. This is the player's Capital City.</li>
-<li>In player order each player places all of 1 additional city, 1 fortress, and 2 villages on any of the 6 tiles surrounding the capital. They also place control markers on the other 2 tiles not occupied by settlements.</li>
-<li>Each player gets 1 army token to start. In player order, each player places it in any tile they control that contains a settlement.</li>
-<li>Each player writes up a 500 pt army list to represent the starting army. The list must be legal as per the standard Kings of War rules, and may not include any allies. Once written, the list for that army is static and may not change except as per the medal and scar rules, below. Mark the army token with a unique symbol or number, and mark the list with the same symbol or number so you can keep track of it. Digital only lists may be difficult to use to track the status of the units of an army, so printed lists are encouraged. Lists can be kept secret until a battle occurs with that army, at which point all players (not just those involved) may look at all of the lists involved in the battle. Tales of the battle will spread far and wide in the aftermath of the carnage!</li>
+<li><p>Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.</p></li>
+<li><p>Players are assigned a random player order. This will change at the end of each summer month in the Reform phase.</p></li>
+<li><p>In player order each player takes turns choosing a starting tile (denoted with a white circle) by placing a city on it. This is the player's Capital City.</p></li>
+<li><p>In player order each player places all of 1 additional city, 1 fortress, and 2 villages on any of the 6 tiles surrounding the capital, with flags for their empire indicating their control of them. They also place control markers on the other 2 tiles not occupied by settlements to show they are also part of their kingdom.</p></li>
+<li><p>Each player gets 1 army token to start. In player order, each player places it in any tile they control that contains a settlement.</p></li>
+<li><p>Decide whether you are going to resolve battles between armies using Kings of War tabletop battles, or Simple battles where you just need a few dice and no miniatures.        i) If using Kings of War battles, each player writes up a 500 pt army list to represent the starting army from the list for their main race as chosen in A) above. The list must be legal as per the standard Kings of War rules, and may not include any allies. Once written, the list for that army is static and may not change except as per the medal and scar rules, below. Mark the army token with a unique symbol or number, and mark the list with the same symbol or number so you can keep track of it. Digital only lists may be difficult to use to track the status of the units of an army, so printed lists are encouraged. Lists can be kept secret until a battle occurs with that army, at which point all players (not just those involved) may look at all of the lists involved in the battle. Tales of the battle will spread far and wide in the aftermath of the carnage!        ii) If using Simple battles, just start writing a roster of your armies with the number of the army token and the points value of that army. Each army starts at 500 points, but can take points reductions during the resolution of Simple battles as described later on.</p></li>
 </ol>
 <hr />
 <h2 id="the-year">2. The Year</h2>
@@ -156,7 +159,8 @@ Only choosable by an army laying on its side. Stand the army upright.</p>
 <h4 id="simple-battles">Simple battles</h4>
 <p>Instead of playing a game of Kings of War to resolve a battle, you may use the following system instead.</p>
 <p>As per normal battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.</p>
-<p>After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). Any army that took a <em>Defend</em> action gains +1 Defence.</p>
+<p>After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5).</p>
+<p>Any army that took a <em>Defend</em> action gains +1 Defence.</p>
 <p>Next, each player in the battle simultaneously rolls 1 die for each army they have.</p>
 <p>Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit' and is reduced by 100 points. An army is destroyed if it is reduced to 0 points and is removed from the board. The die that army generated is still retained if it has not been used, and can be allocated to an enemy army as normal.</p>
 <p>After resolving all dice, if there is only armies from one kingdom left, that player wins the battle. If both kingdoms still have armies, compare the points value reductions caused by each kingdom. The kingdom that caused more points to be reduced is the winner, with the other the loser. If the points reductions are equal, the result is a draw. Note that the number of armies or their points values remaining are irrelevant to this result, it is only the reductions caused. This means that although it is unlikely, a lucky smaller army can fight off a larger force if the dice are on their side!</p>
