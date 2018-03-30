@@ -29,19 +29,20 @@ You may build settlements in tiles you control. Each tile may only contain one s
 |Empty      |Village         |1g     |
 |Village    |City            |1g 1f  |
 |Village    |Fortress        |2g     |
-|City       |Capital City    |1g 1f  |  
+|City       |Capital City    |1g 1f  |
+  
 *You may only have one Capital City per kingdom, so you may only upgrade a city to a Capital City if your previous Capital City has been razed or taken over.*  
 
 If you want to make radical changes to your kingdom's demographics, you may want to Raze the settlements during the summer. You cannot voluntarily destroy settlements during the winter.  
 
 ####Armies
-At each Fortress you may recruit 1 army each winter. You may use a fortress you built this winter to recruit an army. An army costs 1 gold to recruit. Place an army token in the fortress and assign it a list as per 1). Setup F) above, with the following additional restrictions:  
+At each Fortress you may recruit 1 army each winter. You may use a fortress you built this winter to recruit an army. An army costs 1 gold to recruit. Place an army token in the fortress. If playing Simple battles, add the notation to your army roster of your new 500 point army. If playing Kings of War battles, assign it a 500 point list as per *1). Setup F)* above, with the following additional restrictions:  
 
 * Living Legends (units denoted [1] in their army lists) must be unique across all the armies in a kingdom, not just unique per army.  
 * Magic items must also be unique across all the armies in a kingdom.  
-* Allies may only be taken as an entire army, not as part of an army. You may only take an allied army if you have 3 or more other non-allied armies already. This is only checked when creating the army. If you drop below 3 other armies in a later turn there is no effect on the allied army.  
+* Allies may only be taken as an entire army, not as part of an army. You may only take an allied army if you have 3 or more other non-allied armies already. This is only checked when creating the army. If you drop below 3 other armies in a later turn there is no effect on the allied army. An allied army is simply a fully legal army from a list that could normally be allied to your main army. You may only have 1 allied army in your kingdom. When fielded in a game of Kings of War alongside your other armies, it is treated as a normal ally as per the Kings of War ally rules. 
 
-You may only have a maximum of 6 armies. If you wish to build a new army when you already have 6, you may disband an existing army to do so. Simply remove an existing army token from the board.  
+You may only have a maximum of 6 armies in your entire kingdom. If you wish to build a new army when you already have 6, you may disband an existing army to do so. Simply remove an existing army token from the board. This might be prudent where one of your armies has been quite heavily damaged, and you want to recruit a fresh full strength force.  
 *For bigger or longer campaigns you might want to increase this number, noting that players will need enough miniatures to potentially field all of their armies at once.*   
 
   3. **Feed armies.** If you wish to maintain your armies, you must feed them. For each army you have (including newly purchased ones), you must spend 1 food or remove that army. At the end of this step, any unspent gold or food is lost and is not retained for next Winter.  

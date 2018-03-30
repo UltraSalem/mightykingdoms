@@ -36,13 +36,13 @@ Resolve orders in player order, with each player choosing one army, resolving it
 |Move|Unexplored|Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player. If moving across certain terrain features the army might end up on its side, see _Terrain features_ below.|
 |Move|Controlled|Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).|
 |Raze|Settlement|If there is no enemy army in the tile at the time of resolution, remove the settlement. If there is an enemy army, the Raze fails with no effect.|
-|Defend|Controlled|The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker in the tile. See C) Battles - Defend below.|
+|Defend|Controlled|The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker against the army token. See C) Battles - Defend below.|
 |Regroup|Controlled|Stand the army upright.|
-  
-The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution.  
-  
-####Terrain features
-Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side. This does not effect armies moving out of a river tile (unless the new tile also contains a river).  
+
+
+The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution, not order choosing.  
+
+Crossing over terrain features may slow down later movement by the army, see _Terrain features_ in the _Reform_ section below.
   
 ####Exploration table
 |2D6|Tile contents|
@@ -50,7 +50,7 @@ Armies that have moved may be slowed down by terrain, or forced to find safe pas
 |2-7|Empty|
 |8-9|Village|
 |10|City|
-|11-12|Fortress|  
+|11-12|Fortress|
 
 ###C) Battle
 After resolution, in player order each player chooses a tile in which they have at least one upright army and an enemy has armies. They then choose an enemy in that tile and have a battle. You must choose an opponent with upright armies if possible. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results.  If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them. This may mean you choose your armies more than once.
@@ -60,7 +60,7 @@ Instead of playing a game of Kings of War to resolve a battle, you may use the f
 
 As per normal battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.
 
-After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). 
+After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: as 500 point army is Defence 5). 
 
 Any army that took a _Defend_ action gains +1 Defence.
 
@@ -70,7 +70,7 @@ Starting with the attacker, each player takes turns allocating and resolving 1 d
 
 After resolving all dice, if there is only armies from one kingdom left, that player wins the battle. If both kingdoms still have armies, compare the points value reductions caused by each kingdom. The kingdom that caused more points to be reduced is the winner, with the other the loser. If the points reductions are equal, the result is a draw. Note that the number of armies or their points values remaining are irrelevant to this result, it is only the reductions caused. This means that although it is unlikely, a lucky smaller army can fight off a larger force if the dice are on their side! 
 
-Proceed to _Results_, below. If _Simple battles_ are being used, ignore all _Scars and Medals_ sections.
+Proceed to _Results_, below. If _Simple battles_ are being used, ignore all *Unit Strength* rules.
 
 ####Board Size 
 Choose a board size based on the largest combined army on one side (not the combination of both sides).  
@@ -88,53 +88,39 @@ A player that took _Defend_ as their action gains a terrain advantage. Their tro
 |Settlement|Benefit|
 |:------------|:------------------------------------------|
 |None|Add, remove, or move 1 piece of terrain on the table to represent the defenders choosing the battle ground.|
-|Village|May add up to 1 blocking or difficult ground terrain pieces (village buildings, fields, etc) and up to 2 obstacles of around 6" long each anywhere on the board.|
-|City|May add up to 2 blocking or difficult ground terrain pieces (city buildings, vineyards, ponds, etc) and up to 2 obstacles of around 6" long each anywhere on the board. In addition, the defender places 1 objective marker on their half of the board which is worth 1 Victory Point for the side that controls it at the end of the game, in addition to the normal scenario scoring.|
-|Fortress|May add up to 2 blocking or difficult ground terrain pieces (fortifications or other defences) and up to 4 obstacles of around 6" long each anywhere on the board. In addition, the defender places 2 objective markers on their half of the board which are worth 1 Victory Point each for the side that controls either or both of them at the end of the game, in addition to the normal scenario scoring.|  
+|Village|May add up to 1 blocking or difficult ground terrain pieces (village buildings, fields, etc) and up to 2 obstacles anywhere on the board.|
+|City|May add up to 2 blocking or difficult ground terrain pieces (city buildings, vineyards, ponds, etc) and up to 2 obstacles anywhere on the board. In addition, the defender places 1 objective marker on their half of the board which is worth 1 Victory Point for the side that controls it at the end of the game, in addition to the normal scenario scoring.|
+|Fortress|May add up to 2 blocking or difficult ground terrain pieces (fortifications or other defences) and up to 4 obstacles anywhere on the board. In addition, the defender places 2 objective markers on their half of the board which are worth 1 Victory Point each for the side that controls either or both of them at the end of the game, in addition to the normal scenario scoring.|  
+
+_Obstacles_: Should be around 6" long each. Or if multiples chosen, can combine for longer pieces.
+_Blocking or difficult_: Should be around 6"x6" in area. Or if multiples chosen, can combine areas into larger pieces. _Blocking_ may not be placed within 3" of the centre circle or objective markers. _Difficult ground_ may be either completely flat or height 0, as appropriate to the scenery available and the player's choice.
   
-####Medals and scars
-During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage in the same phase to an enemy that is routed that phase, choose only 1 unit to receive the medal.  
+####Unit strength
+During a battle, the first time a unit damages and routs an enemy (shooting or melee) it gains +1 Unit Strength from the next battle onwards, and any unit that is routed has their Unit Strength reduced by 1. Mark these in pencil on the army list. A unit may gain or lose multiple Unit Strength over the course of the month if they are involved in multiple battles. If multiple units caused damage in the same phase to an enemy that is routed that phase, choose only 1 unit to receive the Unit Strength.
+
+These modifiers are permanent and carry over from year to year.
+
+In a Kings of War battle, treat any unit with a negative Unit Strength as Unit Strength 0, and any unit with Unit Strength 4 or greater as 3. However, ensure you track their modified Unit Strength accurately outside of battles, as it will effect whether they are destroyed in the _Reform_ phase, below.
   
 ####Results
 |Kingdom's battle result|Effect|
 |:------------|:------------------------------------------|
 |Loss          |Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed.|
 |Draw          |All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed.|
-|Win           |Control of the tile is given to the winning kingdom. In addition 1 army may be moved to an adjacent tile they control.|
+|Win           |Control of the tile is given to the winning kingdom. In addition, 1 army the winner controls may be moved to an adjacent tile they control.|
 
 As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory!
 
 ###D) Reform
+
+####Terrain features
+Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side. This does not effect armies moving out of a river tile (unless the new tile also contains a river). Any battles between a moving army and an army already in the tile are assumed to have occurred at the borders without the baggage trains involved, which is why Battles are resolved before this effect is applied.
+
 Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom. 
  
-Every scar on a unit is cancelled out by a medal on that unit. 
+*Reduced strength:* Any unit that has a total -2 or worse Unit Strength in the Reform phase is destroyed. For example, if a Regiment (Unit Strength 2) has been routed 4 times without routing any enemies, its total Unit Strength will be 2 - 4 = -2, so it will be destroyed.
  
-Excess Medals can be used to undo the effects of Scars from previous months, and vice versa with Scars and Medals.
-
-For any leftover medals or scars, consult one of the following tables as appropriate to the balance.  
-
-####Medals  
-|D6 + # of medals|Result| 
-|:------------|:------------------------------------------|
-|2-4      |No effect.| 
-|5        |Gain Elite or Vicious, player's choice. If the unit already has both, no effect.|
-|6        |Gain or improve piercing or crushing strength by 1, up to a maximum of (4). If the unit already has (4) or does not have an attack appropriate to the special rule, it gains as per 5 above.|
-|7+       |Improve Me or Ra by 1, to no better than 2+. May not improve a stat the unit does not have. If the unit already has 2+ of all relevant stats, it gains as per 6 above.|
-
-After rolling remove all medals from the unit.
-
-####Scars  
-|D6 - # of scars|Result|
-|:------------|:------------------------------------------|
-|-1 or less   |Worsen the unit's Def by 1. If this goes below 2, the unit is destroyed.|  
-|0            |Choose whether the unit worsens its Me or Ra by 1. You cannot choose a stat the unit does not have. If this goes above 6, the unit is destroyed.|  
-|1            |Worsen the unit's nerve by -1/-1 (or -/-1 if fearless). If their rout value goes below 6, the unit is destroyed.|  
-|2            |The unit gains Yellow Bellied.| 
-|3+           |If the unit was Very Inspiring, it becomes Inspiring. If the unit was Inspiring, it loses Inspiring. If it had neither, there is no effect.|
-  
-List building army composition rules only apply during the initial creation of an army. If a scar roll destroys a unit that would leave the number of other unit choices invalid (such as destorying a regiment meaning you have too many heroes), this is ok.  
-
-After rolling remove all scars from the unit.  
+List building army composition rules only apply during the initial creation of an army. If reduced Unit Strength destroys a unit that would leave the number of other unit choices invalid (such as destorying a regiment meaning you have too many heroes), this is ok.  
 
 If a destroyed unit was the last unit in an army, remove the army.  
 
