@@ -1,5 +1,5 @@
 File created on
-Fri 30 Mar 14:52:20 AEDT 2018
+Fri 30 Mar 15:10:42 AEDT 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -219,8 +219,10 @@ B) Gather resources
 C) Spend resources  
 D) Deploy armies  
 
-###A) Recall armies
+###A) Recall
 All players pick up all their armies and place them in their capital city tile. If they do not have a capital city, they place them in one other city tile of their choice. If there are no other cities either, choose a village tile. If there are no villages either, the armies are destroyed. A kingdom that is all Fortresses cannot support the armies over the winter months. 
+
+Each ship is picked up and returned to a coastal city or river city tile controlled by the same player as the ship. As each ship actually represents a small fleet of vessels, each city can only dock one ship over the Winter, and no new ships may be built in a city that has a ship in dock.
 
 ###B) Gather resources
 There are two resources - gold (g) and food (f). Each player gathers resources simultaneously based on the settlements in their kingdom.
@@ -245,8 +247,11 @@ You may build settlements in tiles you control. Each tile may only contain one s
 
 If you want to make radical changes to your kingdom's demographics, you may want to Raze the settlements during the summer. You cannot voluntarily destroy settlements during the winter.  
 
+####Ships
+You may build a ship at the cost of 1 gold. It must be placed in one of your cities on the coast or on a river that does not already have a ship at it. If there are no such vacant cities, you may not build any ships.
+
 ####Armies
-At each Fortress you may recruit 1 army each winter. You may use a fortress you built this winter to recruit an army. An army costs 1 gold to recruit. Place an army token in the fortress. If playing Simple battles, add the notation to your army roster of your new 500 point army. If playing Kings of War battles, assign it a 500 point list as per *1). Setup F)* above, with the following additional restrictions:  
+At each Fortress you may recruit 1 army each winter. You may use a fortress you built this winter to recruit an army. An army costs 1 gold to recruit. Place an army token in the fortress. This will serve as a reminder that that fortress has already recruited this phase. If playing Simple battles, add the entry to your army roster of your new 500 point army. If playing Kings of War battles, assign it a 500 point list as per *1). Setup F)* above, with the following additional restrictions:  
 
 * Living Legends (units denoted [1] in their army lists) must be unique across all the armies in a kingdom, not just unique per army.  
 * Magic items must also be unique across all the armies in a kingdom.  
@@ -255,10 +260,14 @@ At each Fortress you may recruit 1 army each winter. You may use a fortress you 
 You may only have a maximum of 6 armies in your entire kingdom. If you wish to build a new army when you already have 6, you may disband an existing army to do so. Simply remove an existing army token from the board. This might be prudent where one of your armies has been quite heavily damaged, and you want to recruit a fresh full strength force.  
 *For bigger or longer campaigns you might want to increase this number, noting that players will need enough miniatures to potentially field all of their armies at once.*   
 
-  3. **Feed armies.** If you wish to maintain your armies, you must feed them. For each army you have (including newly purchased ones), you must spend 1 food or remove that army. At the end of this step, any unspent gold or food is lost and is not retained for next Winter.  
+  3. **Feed armies.** If you wish to maintain your armies, you must feed them. For each army you have (including newly purchased ones), you must spend 1 food or remove that army. 
+  
+ At the end of this phase, any unspent gold or food is lost and is not retained for next Winter.  
   
 ###D) Deploy armies 
 Each player removes all their armies from the board and places them in front of them in a staging area. Redetermine player order as normal based on the current number of armies each player has.
+
+Ships start summer in the city they were docked in over Winter, so are not part of deployment.
 
 In player order, each player places an army in any settlement they control. Players may not pass unless they have deployed all their armies. Settlements may only have a limited number of armies deployed to each of them as seen in the following table.
 
