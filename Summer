@@ -16,28 +16,38 @@ In player order, each player chooses one army and gives it an order. This is one
 
 Players may choose from any of the following orders for each of their armies. _Exception:_ An army on its side may only choose Regroup.  
 
+Ships are given orders in the same way as armies. If an army shares a tile with a ship, it may set sail with them. The army and ship are paired up for the order, and the pair is treated as part of the ship for movement. Each ship can pair with only one army. By doing this a player may move armies across oceans. Ship/army pairs are only given one order for the pair, and the orders are resolved as one order. A pair can unpair at the start of any order phase if the player wishes, unless on the open ocean!
+
 **Move**  
-Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved. Armies may not normally be moved off water tile edges (entirely blue edges) or in to marsh tiles, but may move along the coast.  
+Put the army or ship you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army or ship is still considered to be in the start tile until its order is resolved. 
+
+Armies may not normally be moved off water tile edges (entirely blue edges) or in to marsh tiles, but may move along the coast. 
+
+Ships may only be moved along coastal, open ocean, and river tiles. They still may not enter marsh tiles.   
 
 **Defend**  
-The army wishes to set up a defensive position and does not intend to move. The players will gain some advantages if a battle is fought here. See _C) Battles_ below.  
+The army wishes to set up a defensive position and does not intend to move. The players will gain some advantages if a battle is fought here. See _C) Battles_ below.
+
+Ships or ship/army pairs may not choose the _Defend_ order.  
 
 **Raze**  
-Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.  
+Only choosable if the army or ship is on a settlement. They intend to burn down the settlement. Turn the settlement upside down to mark this order. 
 
 **Regroup**  
-Only choosable by an army laying on its side. Stand the army upright.  
+Only choosable by an army or ship laying on its side. The leaders call their units together and give some inspiring speeches.
 
 ###B) Resolution
-Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.  
+Resolve orders in player order, with each player choosing one army or ship, resolving its order, and then the next player chooses 1 army or ship, and so on until all armies have been resolved.  
+
+Open water tiles (complete blue) never contain settlements and are never controlled. Ignore any such effects for moving into those tiles.
 
 |Order|Chosen tile|Effect|
 |:--------|:------------|:------------------------------------------|
-|Move|Unexplored|Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player. If moving across certain terrain features the army might end up on its side, see _Terrain features_ below.|
+|Move|Unexplored|Put the army or ship in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player. If moving across certain terrain features the army might end up on its side, see _Terrain features_ below.|
 |Move|Controlled|Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).|
-|Raze|Settlement|If there is no enemy army in the tile at the time of resolution, remove the settlement. If there is an enemy army, the Raze fails with no effect.|
+|Raze|Settlement|If there is no enemy army or ship in the tile at the time of resolution, remove the settlement. If there is an enemy army or ship, the Raze fails with no effect.|
 |Defend|Controlled|The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker against the army token. See C) Battles - Defend below.|
-|Regroup|Controlled|Stand the army upright.|
+|Regroup|Controlled|Stand the army or ship upright.|
 
 
 The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution, not order choosing.  
@@ -53,22 +63,35 @@ Crossing over terrain features may slow down later movement by the army, see _Te
 |11-12|Fortress|
 
 ###C) Battle
-After resolution, in player order each player chooses a tile in which they have at least one upright army and an enemy has armies. They then choose an enemy in that tile and have a battle. You must choose an opponent with upright armies if possible. When a battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. The exception is armies on their side do not participate. They are not brought to the table for Kings of War, but they are affected by the results.  If all enemies only have armies on their side, remove one of those armies instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies from more than one kingdom on them. This may mean you choose your armies more than once.
+After order resolution, in player order each player chooses a tile in which they have at least one upright army or ship and an enemy has armies or ships. They then choose an enemy in that tile and have a battle. You must choose an opponent with upright armies or ships if possible. From among those players with upright armies or ships, you must then choose the player that controls the tile if possible. This is to try and minimise the instances of two players having a battle on a tile controlled by a third player, and having their battle result determine the tile owner. Armies and ships on their sides will not participate, but will be affected by the results of the battles.
+
+Note that this phase is about choosing battle, and resolving battles with the appropriate forces in the tile; not choosing individual army or ship tokens.
+
+The type of battle depends on the type of tokens on the tile.
+
+####Naval battles
+If there are ships from opposing kingdoms on the tile, you may choose to have a naval battle. Each player rolls 1 die for each ship they control. Each ship with a paired army adds +1 to the roll. All dice get -1 if the battle is on a river tile. For every 4+ you roll, remove one ship or ship/army pair from your opponent. Yes, the brutality of naval combat could have you losing whole armies at a time if they are onboard ships that sink! The player losing the ship decides which ones are lost if they have several to choose from. Repeat this roll-off until one player declares themselves the loser after resolving all rolled dice (the other player wins), or there are no ships left from the battling players. There are no draws at sea.
+
+####Land battles
+If there are armies from opposing kingdoms on the tile, you will have a land battle. When a land battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. If all enemies only have armies or ships on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies or ships from more than one kingdom on them. This may mean you choose your armies more than once. 
+
+####Land/water battles
+If one player has ships and the other has armies, they try and drive each other out. Each player rolls one dice for each army or ship they have (ship/army pairs count as 2 dice in this instance), and adds up the total. The higher player defeats the lower player. Equal values equals a draw. No ships or armies are damaged in this engagement unless forced to retreat to unfrendly tiles as per below.
 
 ####Simple battles
-Instead of playing a game of Kings of War to resolve a battle, you may use the following system instead.
+Instead of playing a game of Kings of War to resolve a land battle, you may use the following system instead.
 
-As per normal battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.
+As per normal land battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.
 
-After choosing an enemy with at least one upright army, each army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). 
+After choosing an enemy with at least one upright army, each upright army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). 
 
 Any army that took a _Defend_ action gains +1 Defence.
 
 Next, each player in the battle simultaneously rolls 1 die for each army they have.
 
-Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit' and is reduced by 100 points. An army is destroyed if it is reduced to 0 points and is removed from the board. The die that army generated is still retained if it has not been used, and can be allocated to an enemy army as normal.
+Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit' and is reduced by 100 points. An army is destroyed if it is reduced to 0 points, and is removed from the board. The die that army generated is still retained if it has not been used, and can be allocated to an enemy army as normal.
 
-After resolving all dice, if there is only armies from one kingdom left, that player wins the battle. If both kingdoms still have armies, compare the points value reductions caused by each kingdom. The kingdom that caused more points to be reduced is the winner, with the other the loser. If the points reductions are equal, the result is a draw. Note that the number of armies or their points values remaining are irrelevant to this result, it is only the reductions caused. This means that although it is unlikely, a lucky smaller army can fight off a larger force if the dice are on their side! 
+After resolving all dice, if there are only armies from one kingdom left, that player wins the battle. If both kingdoms still have armies, compare the points value reductions caused by each kingdom. The kingdom that caused more points to be reduced is the winner, with the other the loser. If the points reductions are equal, the result is a draw. Note that the number of armies or their points values remaining are irrelevant to this result, it is only the reductions caused. This means that although it is unlikely, a lucky smaller army can fight off a larger force if the dice are on their side! 
 
 Proceed to _Results_, below. If _Simple battles_ are being used, ignore all *Unit Strength* rules.
 
@@ -105,9 +128,9 @@ In a Kings of War battle, treat any unit with a negative Unit Strength as Unit S
 ####Results
 |Kingdom's battle result|Effect|
 |:------------|:------------------------------------------|
-|Loss          |Each army on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed.|
-|Draw          |All armies remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed.|
-|Win           |Control of the tile is given to the winning kingdom. In addition, 1 army the winner controls may be moved to an adjacent tile they control.|
+|Loss          |Each army or ship on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships.|
+|Draw          |All armies and ships remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships.|
+|Win           |Control of the tile is given to the winning kingdom. In addition, 1 army or ship that the winner controls may be moved to an adjacent tile they control.|
 
 As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory!
 
@@ -115,6 +138,8 @@ As you can see from the table, losing or drawing with no adjacent controlled til
 
 ####Terrain features
 Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side. This does not effect armies moving out of a river tile (unless the new tile also contains a river). Any battles between a moving army and an army already in the tile are assumed to have occurred at the borders without the baggage trains involved, which is why Battles are resolved before this effect is applied.
+
+Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
 
 Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom. 
  
