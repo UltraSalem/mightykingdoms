@@ -1,5 +1,5 @@
 <header> <meta charset=utf-8>  </header>
-<p>File created on Sun 11 Feb 23:03:26 AEDT 2018</p>
+<p>File created on Fri 30 Mar 12:08:10 AEDT 2018</p>
 <p>Licenced under Creative commons non commercial share alike v4.0<br />
 https://creativecommons.org/licenses/by-nc-sa/4.0/</p>
 <p>Project hosted at: https://github.com/UltraSalem/mightykingdoms</p>
@@ -55,15 +55,15 @@ $ ./publish.sh</code></pre>
 </ol>
 <h3 id="a-orders">A) Orders</h3>
 <p>In player order, each player chooses one army and gives it an order. This is one order cycle. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to.</p>
-<p>Players may choose from any of the following orders for each of their armies. An army on its side may only choose Regroup.</p>
+<p>Players may choose from any of the following orders for each of their armies. <em>Exception:</em> An army on its side may only choose Regroup.</p>
 <p><strong>Move</strong><br />
-Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved.</p>
+Put the army you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army is still considered to be in the start tile until its order is resolved. Armies may not normally be moved off water tile edges (entirely blue edges) or in to marsh tiles, but may move along the coast.</p>
 <p><strong>Defend</strong><br />
-The army wishes to set up a defensive position and does not intend to move. The players will gain some terrain advantages if a battle is fought here. See C) Battles below.</p>
+The army wishes to set up a defensive position and does not intend to move. The players will gain some terrain advantages if a battle is fought here. See <em>C) Battles</em> below.</p>
 <p><strong>Raze</strong><br />
 Only choosable if the army is on a settlement. The army intends to burn down the settlement. Turn the settlement upside down to mark this order.</p>
 <p><strong>Regroup</strong><br />
-Only choosable by an army laying on its side. Stand an army upright that is on its side.</p>
+Only choosable by an army laying on its side. Stand the army upright.</p>
 <h3 id="b-resolution">B) Resolution</h3>
 <p>Resolve orders in player order, with each player choosing one army, resolving its order, and then the next player chooses 1 army, and so on until all armies have been resolved.</p>
 <table>
@@ -83,22 +83,12 @@ Only choosable by an army laying on its side. Stand an army upright that is on i
 <tr class="odd">
 <td align="left">Move</td>
 <td align="left">Unexplored</td>
-<td align="left">Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player.</td>
+<td align="left">Put the army in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player. If moving across certain terrain features the army might end up on its side, see <em>Terrain features</em> below.</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
 <td align="left">Move</td>
 <td align="left">Controlled</td>
 <td align="left">Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="left">Raze</td>
@@ -106,19 +96,9 @@ Only choosable by an army laying on its side. Stand an army upright that is on i
 <td align="left">If there is no enemy army in the tile at the time of resolution, remove the settlement. If there is an enemy army, the Raze fails with no effect.</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
 <td align="left">Defend</td>
 <td align="left">Controlled</td>
 <td align="left">The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker in the tile. See C) Battles - Defend below.</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="left">Regroup</td>
@@ -128,6 +108,8 @@ Only choosable by an army laying on its side. Stand an army upright that is on i
 </tbody>
 </table>
 <p>The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution.</p>
+<h4 id="terrain-features">Terrain features</h4>
+<p>Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side. This does not effect armies moving out of a river tile (unless the new tile also contains a river).</p>
 <h4 id="exploration-table">Exploration table</h4>
 <table>
 <thead>
@@ -186,8 +168,40 @@ Only choosable by an army laying on its side. Stand an army upright that is on i
 </tbody>
 </table>
 <h4 id="defend">Defend</h4>
-<p>A player that chose Defend as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may add, remove, or move 1 piece of terrain on the table to represent their defensive choices.</p>
+<p>A player that chose Defend as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.</p>
+<table style="width:97%;">
+<colgroup>
+<col width="13%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Settlement</th>
+<th align="left">Benefit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">None</td>
+<td align="left">Add, remove, or move 1 piece of terrain on the table to represent the defenders choosing the battle ground.</td>
+</tr>
+<tr class="even">
+<td align="left">Village</td>
+<td align="left">May add up to 1 blocking or difficult ground terrain pieces (village buildings, fields, etc) and up to 2 obstacles of around 6&quot; long each anywhere on the board.</td>
+</tr>
+<tr class="odd">
+<td align="left">City</td>
+<td align="left">May add up to 2 blocking or difficult ground terrain pieces (city buildings, vineyards, ponds, etc) and up to 2 obstacles of around 6&quot; long each anywhere on the board. In addition, the defender places 1 objective marker on their half of the board which is worth 1 Victory Point for the side that controls it at the end of the game, in addition to the normal scenario scoring.</td>
+</tr>
+<tr class="even">
+<td align="left">Fortress</td>
+<td align="left">May add up to 2 blocking or difficult ground terrain pieces (fortifications or other defences) and up to 4 obstacles of around 6&quot; long each anywhere on the board. In addition, the defender places 2 objective markers on their half of the board which are worth 1 Victory Point each for the side that controls either or both of them at the end of the game, in addition to the normal scenario scoring.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="medals-and-scars">Medals and scars</h4>
 <p>During a battle, any unit that damages and routs an enemy (shooting or melee) is given a medal, and any unit that is routed is given a scar. Mark these in pencil on the army list. A unit may only gain one of each per battle, but may earn more than one of each over the course of the month if they are involved in multiple battles. If multiple units caused damage in the same phase to an enemy that is routed that phase, choose only 1 unit to receive the medal.</p>
+<h4 id="results">Results</h4>
 <table style="width:96%;">
 <colgroup>
 <col width="20%" />
