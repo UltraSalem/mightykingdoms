@@ -19,4 +19,4 @@ pandoc -r markdown -w html5 -o $FILE.html $FILEM --css=table.css
 echo "<header> <meta charset="utf-8">  </header>" > header
 cat $FILE.html >> header
 mv header $FILE.html
-wkhtmltopdf --encoding UTF-8 $FILE.html $FILE.pdf 
+wkhtmltopdf --footer-right "Page [page] of [toPage]" --encoding UTF-8 $FILE.html $FILE.pdf 
