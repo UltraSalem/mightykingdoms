@@ -1,5 +1,5 @@
 File created on
-Tue 10 Apr 19:59:07 AEST 2018
+Sun 15 Apr 12:49:54 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -59,7 +59,9 @@ An optional Simple battles system can be used instead of Kings of War battles, t
 ##1. Setup
 
 ###Prerequisites
-To play you'll need a hex based map. You can build it using an online tool, using GW hex tiles, printed hex tiles, or other methods. You will also need tokens to represent armies, cities, villages, fortresses, kingdom ownership, ships, and armies that are in Defence, as well as a handful of six-sided dice ("D6"), and usually 2000-3000 points of King of War miniatures armies for each player.
+You wil need to provide around 20 small tokens of your kingdom's livery (colour/logo), approx 1cm square (any shape), to place in the hex tiles you control to show your ownership. These are known as 'control markers'. 
+
+Players will also need 3000 points worth of miniatures for Kings of War battles. The bulk must be from your chosen race, however exactly 500 points of that may be allies, the specifics of how to include them is explained in the *Winter* section below. 3000 points is the theoretical maximum, and will only be required when a player brings their entire kindgom's forces against another's.
 
 ###Initial kingdom
 A) Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.
@@ -72,15 +74,13 @@ D) In player order each player places all of 1 additional city, 1 fortress, and 
 
 E) Each player gets 1 army token to start. In player order, each player places it in any tile they control that contains a settlement.
 
-F) Decide whether you are going to resolve battles between armies using Kings of War tabletop battles, or Simple battles where you just need a few dice and no miniatures. 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i) If using Kings of War battles, each player writes up a 500 pt army list to represent the starting army from the list for their main race as chosen in A) above. The list must be legal as per the standard Kings of War rules, and may not include any allies. Once written, the list for that army is static and may not change except if units are destroyed such as from a loss of Unit Strength in the _Reform_ phase, below. Mark the army token with a unique symbol or number, and mark the list with the same symbol or number so you can keep track of it. Digital only lists may be difficult to use to track the status of the units of an army, so printed lists are encouraged. Lists can be kept secret until a battle occurs with that army, at which point all players (not just those involved) may look at all of the lists involved in the battle. Tales of the battle will spread far and wide in the aftermath of the carnage!
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii) If using Simple battles, just start writing a roster of your armies with the number of the army token and the points value of that army. Each army starts at 500 points, but can take points reductions during the resolution of Simple battles as described later on.
+The army token represents a 500 pt army list for their main race as chosen in A) above. The list must be legal as per the standard Kings of War rules, and may not include any allies. Each army token always represents 500 points. To have bigger battles, players bring more army tokens to the same hex to commit them all to a battle. To speed up the transition from map movement to tabletop battle, players are encouraged to pre-write up a list for each of 500, 1000, 1500, 2000, 2500, and 3000. You may write up a few options for each value if you want, and change them whenever you want, as the lists will not be fixed until the actual battle. You can just wait until the battle is about to occur to write your list as the composition of the army list can vary from battle to battle and will not need to be tracked explicitly, but this may slow down the overall game.
 
 -------
 
 ##2. The Year
 
-Play proceeds through the summer season and winter season. The summer season is further broken down into months, during each of which players move armies, explore tiles and engage in battles. During the winter season players build settlements and new armies.
+Play proceeds through the *Summer* season and *Winter* season. The *Summer* season is further broken down into months, during each of which players move armies, explore tiles and engage in battles. During the *Winter* season players build settlements and new armies.
 
 
 -------  
@@ -97,11 +97,13 @@ C) Battle
 D) Reform  
 
 ###A) Orders
-In player order, each player chooses one army and gives it an order. This is one order cycle. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to.
+*First player brakes*: To minimise the compounding benefit of having more armies, if the first player has more armies than the second player, the first player chooses an order for *all* of their armies before any other players. Then proceed to *Order cycle*, below.
 
-Players may choose from any of the following orders for each of their armies. _Exception:_ An army on its side may only choose Regroup.  
+*Order cycle*: In player order, each player chooses one army and gives it an order. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to. The first player is not included in the *Order cycle* if they had more armies as per *First player breaks*, above.
 
 Ships are given orders in the same way as armies. If an army shares a tile with a ship, it may set sail with them. The army and ship are paired up for the order, and the pair is treated as part of the ship for movement. Each ship can pair with only one army. By doing this a player may move armies across oceans. Ship/army pairs are only given one order for the pair, and the orders are resolved as one order. A pair can unpair at the start of any order phase if the player wishes, unless on the open ocean!
+
+Players may choose from any of the following orders for each of their armies. _Exception:_ An army on its side may only choose Regroup.  
 
 **Move**  
 Put the army or ship you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army or ship is still considered to be in the start tile until its order is resolved. 
@@ -119,19 +121,19 @@ Ships or ship/army pairs may not choose the _Defend_ order.
 Only choosable if the army or ship is on a settlement. They intend to burn down the settlement. Turn the settlement upside down to mark this order. 
 
 **Regroup**  
-Only choosable by an army or ship laying on its side. The leaders call their units together and give some inspiring speeches.
+Only choosable for an army or ship laying on its side. The leaders call their units together and give some inspiring speeches. Flip the token over from army number face down to army number face up to show it has been given an order. It will stand up in the *Resolution* phase below.
 
 ###B) Resolution
-Resolve orders in player order, with each player choosing one army or ship, resolving its order, and then the next player chooses 1 army or ship, and so on until all armies have been resolved.  
+Resolve orders in player order, with each player choosing one army or ship, resolving its order, and then the next player chooses one army or ship, and so on until all armies have been resolved.  
 
-Open water tiles (complete blue) never contain settlements and are never controlled. Ignore any such effects for moving into those tiles.
+Open water tiles (complete blue) never contain settlements and are never controlled. Ignore any such control or settlement effects for moving into those tiles.
 
 |Order|Chosen tile|Effect|
 |:--------|:------------|:------------------------------------------|
 |Move|Unexplored|Put the army or ship in the indicated tile. Roll on the Exploration table and place the appropriate marker or settlement there under the control of the resolving player. If moving across certain terrain features the army might end up on its side, see _Terrain features_ below.|
 |Move|Controlled|Put the army in the indicated tile. If no enemy army is in the tile, the tile becomes controlled by the kingdom the army belongs to (or remains controlled by them if already the same).|
 |Raze|Settlement|If there is no enemy army or ship in the tile at the time of resolution, remove the settlement. If there is an enemy army or ship, the Raze fails with no effect.|
-|Defend|Controlled|The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker against the army token. See C) Battles - Defend below.|
+|Defend|Controlled|The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker against the army token. See *C) Battles - Defended tiles* below.|
 |Regroup|Controlled|Stand the army or ship upright.|
 
 
@@ -152,33 +154,46 @@ After order resolution, in player order each player chooses a tile in which they
 
 Note that this phase is about choosing battle, and resolving battles with the appropriate forces in the tile; not choosing individual army or ship tokens.
 
+Either player may choose to concede the field instead of having a pitched battle. The conceder is considered to have taken a *loss* result, with the other player taking a *win* (see *Results*, below). A player who's opponent has more army tokens than them in the hex **must** concede the field. A win on concession (forced or chosen) does **not** count for gaining *might* in the end of campaign scoring.
+
+**Last Stand**: An exception to forced conceding is the Last Stand. If a player has no friendly adjacent tiles, they may choose to fight a Pitched Battle instead of automatically conceding. As this will be a very one sided battle, it will be rare that people would choose this, but it might be the stuff legends are made of! The winner will get 1 *might* as normal for a pitched battle.
+
 The type of battle depends on the type of tokens on the tile.
 
 ####Naval battles
 If there are ships from opposing kingdoms on the tile, you may choose to have a naval battle. Each player rolls 1 die for each ship they control. Each ship with a paired army adds +1 to the roll. All dice get -1 if the battle is on a river tile. For every 4+ you roll, remove one ship or ship/army pair from your opponent. Yes, the brutality of naval combat could have you losing whole armies at a time if they are onboard ships that sink! The player losing the ship decides which ones are lost if they have several to choose from. Repeat this roll-off until one player declares themselves the loser after resolving all rolled dice (the other player wins), or there are no ships left from the battling players. There are no draws at sea.
 
-####Land battles
-If there are armies from opposing kingdoms on the tile, you will have a land battle. When a land battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. If all enemies only have armies or ships on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. Continue choosing battles in player order until there are no more tiles with armies or ships from more than one kingdom on them. This may mean you choose your armies more than once. 
+####Pitched battles
+If there are armies from opposing kingdoms on the tile, you will have a pitched battle. When a pitched battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. 
+
+####Slaughter
+If all enemies only have armies or ships tokens laying on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. 
 
 ####Land/water battles
 If one player has ships and the other has armies, they try and drive each other out. Each player rolls one dice for each army or ship they have (ship/army pairs count as 2 dice in this instance), and adds up the total. The higher player defeats the lower player. Equal values equals a draw. No ships or armies are damaged in this engagement unless forced to retreat to unfrendly tiles as per below.
 
 ####Simple battles
-Instead of playing a game of Kings of War to resolve a land battle, you may use the following system instead.
+Instead of playing a game of Kings of War to resolve a pitched battle, you may use the following system instead. This may be required if a player is unable to schedule a Kings of War game before play is to progress.
 
 As per normal land battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.
 
-After choosing an enemy with at least one upright army, each upright army involved from both players gets a Defence value equal to its points value divided by 100 (eg: a 500 point army is Defence 5). 
+After choosing an enemy with at least one upright army, each upright army involved from both players gets a Defence value of 4.
 
-Any army that took a _Defend_ action gains +1 Defence.
+Defence is modified as followed:
+
+|Situation|Defence modifier|
+|:-----------------------|:--------|
+|Defend order|+1|
+|In Capital City they control|+1|
+|In Fortress they control|+1|
 
 Next, each player in the battle simultaneously rolls 1 die for each army they have.
 
-Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit' and is reduced by 100 points. An army is destroyed if it is reduced to 0 points, and is removed from the board. The die that army generated is still retained if it has not been used, and can be allocated to an enemy army as normal.
+Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit'.
 
-After resolving all dice, if there are only armies from one kingdom left, that player wins the battle. If both kingdoms still have armies, compare the points value reductions caused by each kingdom. The kingdom that caused more points to be reduced is the winner, with the other the loser. If the points reductions are equal, the result is a draw. Note that the number of armies or their points values remaining are irrelevant to this result, it is only the reductions caused. This means that although it is unlikely, a lucky smaller army can fight off a larger force if the dice are on their side! 
+Whoever scores the most hits gets a *win* result, with the other player a *loss*. If the number of hits is equal, a *draw* occurs.
 
-Proceed to _Results_, below. If _Simple battles_ are being used, ignore all *Unit Strength* rules.
+Proceed to _Results_, below. 
 
 ####Board Size 
 Choose a board size based on the largest combined army on one side (not the combination of both sides).  
@@ -191,7 +206,7 @@ Choose a board size based on the largest combined army on one side (not the comb
 |6 armies              |8x4       |
 
 ####Defended tiles 
-A player that took _Defend_ as their action gains a terrain advantage. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.
+A player that took _Defend_ as their action gains a terrain advantage in a pitched battle. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.
 
 |Settlement|Benefit|
 |:------------|:------------------------------------------|
@@ -203,41 +218,30 @@ A player that took _Defend_ as their action gains a terrain advantage. Their tro
 _Obstacles_: Should be around 6" long each. Or if multiples chosen, can combine for longer pieces.
 _Blocking or difficult_: Should be around 6"x6" in area. Or if multiples chosen, can combine areas into larger pieces. _Blocking_ may not be placed within 3" of the centre circle or objective markers. _Difficult ground_ may be either completely flat or height 0, as appropriate to the scenery available and the player's choice.
   
-####Unit strength
-During a battle, the first time a unit damages and routs an enemy (shooting or melee) it gains +1 Unit Strength from the next battle onwards, and any unit that is routed has their Unit Strength reduced by 1. Mark these in pencil on the army list. A unit may gain or lose multiple Unit Strength over the course of the month if they are involved in multiple battles. If multiple units caused damage in the same phase to an enemy that is routed that phase, choose only 1 unit to receive the Unit Strength.
-
-These modifiers are permanent and carry over from year to year.
-
-In a Kings of War battle, treat any unit with a negative Unit Strength as Unit Strength 0, and any unit with Unit Strength 4 or greater as 3. However, ensure you track their modified Unit Strength accurately outside of battles, as it will effect whether they are destroyed in the _Reform_ phase, below.
-  
 ####Results
 |Kingdom's battle result|Effect|
 |:------------|:------------------------------------------|
-|Loss          |Each army or ship on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side. If there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships.|
+|Loss          |Each army or ship on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side, army token number face down. If there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships.|
 |Draw          |All armies and ships remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships.|
-|Win           |Control of the tile is given to the winning kingdom. In addition, 1 army or ship that the winner controls may be moved to an adjacent tile they control.|
+|Win           |Control of the tile is given to the winning kingdom. If it was a pitched battle played on a Kings of War table, the winner also gets 1 *might* for scoring at the end of the game.|
 
 As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory!
+
+Continue choosing battles in player order until there are no more tiles with armies or ships from more than one kingdom on them. This may mean you choose your armies more than once. 
 
 ###D) Reform
 
 ####Terrain features
-Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side. This does not effect armies moving out of a river tile (unless the new tile also contains a river). Any battles between a moving army and an army already in the tile are assumed to have occurred at the borders without the baggage trains involved, which is why Battles are resolved before this effect is applied.
+Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side, army token number down. This does not effect armies moving *out of* a river tile (unless the new tile also contains a river). Any battles between a moving army and an army already in the tile are assumed to have occurred at the borders without the baggage trains involved, which is why Battles are resolved before this effect is applied.
 
 Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
 
 Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom. 
  
-*Reduced strength:* Any unit that has a total -2 or worse Unit Strength in the Reform phase is destroyed. For example, if a Regiment (Unit Strength 2) has been routed 4 times without routing any enemies, its total Unit Strength will be 2 - 4 = -2, so it will be destroyed.
- 
-List building army composition rules only apply during the initial creation of an army. If reduced Unit Strength destroys a unit that would leave the number of other unit choices invalid (such as destorying a regiment meaning you have too many heroes), this is ok.  
-
-If a destroyed unit was the last unit in an army, remove the army.  
-
 ####Player order 
-Player order is redetermined at the end of each _Reform_ phase. Player order is now set by number of armies, descending. _That is, the player with the greatest number of armies is now the first player._ Randomly determine player order if there are ties in any slots.  
+Player order is redetermined at the end of each _Reform_ phase. Player order is now set by number of armies, descending. **_That is, the player with the greatest number of armies is now the first player._** Randomly determine player order if there are ties in any slots.  
 
-Players now start a new Summer month with A) Orders. Repeat until 6 Summer months have passed. Once 6 Summer months have passed, proceed instead to Winter season, below.
+Players now start a new Summer month with *A) Orders*. Repeat until 6 Summer months have passed. Once 6 *Summer* months have passed, proceed instead to *Winter* season, below.
 
 ----------  
 
@@ -249,6 +253,7 @@ A) Recall armies
 B) Gather resources  
 C) Spend resources  
 D) Deploy armies  
+E) (Optional) Scoring
 
 ###A) Recall
 All players pick up all their armies and place them in their capital city tile. If they do not have a capital city, they place them in one other city tile of their choice. If there are no other cities either, choose a village tile. If there are no villages either, the armies are destroyed. A kingdom that is all Fortresses cannot support the armies over the winter months. 
@@ -310,7 +315,22 @@ In player order, each player places an army in any settlement they control. Play
 |Capital City|3|
 |Fortress|3|
 
-Once deployment is completed, start a new 3) Summer season.
+Once deployment is completed, if 6 years have passed go to *E) Scoring*, otherwise start a new *3) Summer* season.
+
+###E) Scoring
+
+If 6 full years have passed, the campaign is over and its time to score.
+
+Each player gains 1 *might* for each of the following:
+
+Controlled Object|Might|
+|:-----------|:---------------------:|
+|Pitched battle won|1|
+|Village|1|
+|City|2|
+|Fortress|2|
+|Capital City|3|
+|Army|5|
   
 ###Glossary
 
