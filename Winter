@@ -29,9 +29,11 @@ For every village you control, gain 1 food. For every city you control, gain 1 g
 
 This phase contains the following steps:
 
-1. Tithe.
-2. Build and recruit.
-3. Feed armies.
+i. Tithe.
+ii. Build and recruit.
+iii. Feed armies.
+
+<!---end list--->
 
 i.  **Tithe.** In player order, each player may give 1 other player up to 1 gold and up to 1 food, or pass. These gifts may not be refused, but may be given away by the receiver in a later tithe action of their own. A player may only tithe to each enemy once each Winter. A tithe may or may not be attached to deals, promises or threats, none of which are enforcable. Backstabbing is encouraged! Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing. 
 
@@ -71,7 +73,7 @@ Each player removes all their armies from the board and places them in front of 
 
 Ships start summer in the city they were docked in over Winter, so are not part of deployment.
 
-*First player brake*: If the first player has more armies than the second player, then they must deploy all their armies first before the other players place as per below. 
+*First player brakes*: If the first player has more armies than the second player, then they must deploy all their armies first before the other players place as per below. 
 
 In player order, each player places an army from their staging area into any settlement they control that is connected to their Capital City. Players may not pass unless they have no more armies in their staging area. Settlements may only have a limited number of armies deployed to each of them as seen in the following table. If there is no more room left to deploy an army due to the settlement deployment limits, the army is destroyed.
 

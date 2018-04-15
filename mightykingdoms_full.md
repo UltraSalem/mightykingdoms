@@ -1,5 +1,5 @@
 File created on
-Sun 15 Apr 14:48:43 AEST 2018
+Sun 15 Apr 15:16:00 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -74,7 +74,7 @@ D) Reform
 ###A) Orders
 *First player brakes*: To minimise the compounding benefit of having more armies, if the first player has more armies than the second player, the first player chooses an order for *all* of their armies before any other players. Then proceed to *Order cycle*, below.
 
-*Order cycle*: In player order, each player chooses one army and gives it an order. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to. The first player is not included in the *Order cycle* if they had more armies as per *First player breaks*, above.
+*Order cycle*: In player order, each player chooses one army and gives it an order. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to. The first player is not included in the *Order cycle* if they had more armies as per *First player brakes*, above.
 
 Ships are given orders in the same way as armies. If an army shares a tile with a ship, it may set sail with them. The army and ship are paired up for the order, and the pair is treated as part of the ship for movement. Each ship can pair with only one army. By doing this a player may move armies across oceans. Ship/army pairs are only given one order for the pair, and the orders are resolved as one order. A pair can unpair at the start of any order phase if the player wishes, unless on the open ocean!
 
@@ -154,19 +154,19 @@ As per normal land battles above, armies on their sides never get allocated a De
 
 After choosing an enemy with at least one upright army, each upright army involved from both players gets a Defence value of 4.
 
-Defence is modified as followed:
+Defence is modified as followed: (these values are cumulative)
 
 |Situation|Defence modifier|
 |:-----------------------|:--------|
 |Defend order|+1|
-|In Capital City they control|+1|
-|In Fortress they control|+1|
+|In a tile with the Capital City they control|+1|
+|In a tile with a Fortress they control|+1|
 
-Next, each player in the battle simultaneously rolls 1 die for each army they have.
+Next, each player in the battle simultaneously rolls 1 die for each army they have. These dice may be rolled by a campaign administrator in the absence of a player's attendance.
 
-Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit'.
+Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit'. An army that has been hit may still allocate its die back against the opponent.
 
-Whoever scores the most hits gets a *win* result, with the other player a *loss*. If the number of hits is equal, a *draw* occurs.
+Whoever scores the most hits gets a *win* result, with the other player a *loss*. If the number of hits is equal, a *draw* occurs (including if neither player scored a hit).
 
 Proceed to _Results_, below. 
 
@@ -192,11 +192,19 @@ A player that took _Defend_ as their action gains a terrain advantage in a pitch
 
 _Obstacles_: Should be around 6" long each. Or if multiples chosen, can combine for longer pieces.
 _Blocking or difficult_: Should be around 6"x6" in area. Or if multiples chosen, can combine areas into larger pieces. _Blocking_ may not be placed within 3" of the centre circle or objective markers. _Difficult ground_ may be either completely flat or height 0, as appropriate to the scenery available and the player's choice.
-  
+
+####Tile terrain
+[Tas to put in what we decided for the Condition cards]
+
+####Strategies
+Each time a player loses a pitched battle, their overall kingdom learns a new strategy. For each new strategy learned, the player may draw one random card from the Battlefields cards *Strategy* deck at the start of every battle for use in that battle. 
+
+*For example, if a player has lost their first pitched battle, they will have learned one new strategy. At the start of their second battle, they will be able to draw one strategy card for use in that battle. If they then lose that battle, they will learn a new strategy again. At the start of the third battle they will draw two strategy cards for use in that battle.*
+
 ####Results
 |Kingdom's battle result|Effect|
 |:------------|:------------------------------------------|
-|Loss          |Each army or ship on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side, army token number face down. If there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships.|
+|Loss          |Each army or ship on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side, army token number face down. If there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships. Player learns a new *strategy*.|
 |Draw          |All armies and ships remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships.|
 |Win           |Control of the tile is given to the winning kingdom. If it was a pitched battle played on a Kings of War table, the winner also gets 1 *might* for scoring at the end of the game.|
 
@@ -204,12 +212,16 @@ As you can see from the table, losing or drawing with no adjacent controlled til
 
 Continue choosing battles in player order until there are no more tiles with armies or ships from more than one kingdom on them. This may mean you choose your armies more than once. 
 
+Note that no matter how badly you defeat an army, they will be at full strength again next time you face them (but with new strategies to try out up their sleeves!). To destroy armies you have to cut off their lines of retreat before battling them, or cut off their lines of supply back to their capital before *Winter* sets in.
+
 ###D) Reform
 
 ####Terrain features
 Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side, army token number down. This does not effect armies moving *out of* a river tile (unless the new tile also contains a river). Any battles between a moving army and an army already in the tile are assumed to have occurred at the borders without the baggage trains involved, which is why Battles are resolved before this effect is applied.
 
-Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
+*Exception:* City tiles are assumed to be well explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain.
+
+*Exception:* Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
 
 Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom. 
  
@@ -249,9 +261,11 @@ For every village you control, gain 1 food. For every city you control, gain 1 g
 
 This phase contains the following steps:
 
-1. Tithe.
-2. Build and recruit.
-3. Feed armies.
+i. Tithe.
+ii. Build and recruit.
+iii. Feed armies.
+
+<!---end list--->
 
 i.  **Tithe.** In player order, each player may give 1 other player up to 1 gold and up to 1 food, or pass. These gifts may not be refused, but may be given away by the receiver in a later tithe action of their own. A player may only tithe to each enemy once each Winter. A tithe may or may not be attached to deals, promises or threats, none of which are enforcable. Backstabbing is encouraged! Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing. 
 
@@ -291,7 +305,7 @@ Each player removes all their armies from the board and places them in front of 
 
 Ships start summer in the city they were docked in over Winter, so are not part of deployment.
 
-*First player brake*: If the first player has more armies than the second player, then they must deploy all their armies first before the other players place as per below. 
+*First player brakes*: If the first player has more armies than the second player, then they must deploy all their armies first before the other players place as per below. 
 
 In player order, each player places an army from their staging area into any settlement they control that is connected to their Capital City. Players may not pass unless they have no more armies in their staging area. Settlements may only have a limited number of armies deployed to each of them as seen in the following table. If there is no more room left to deploy an army due to the settlement deployment limits, the army is destroyed.
 
@@ -332,7 +346,8 @@ In the case of ties for *might*, use the following series of tiebreakers in orde
 * Most number of years before eliminated
 
 If players are still tied after all of those, they rejoice in their shared placement.
-    
+  
+  
 ###Glossary
 
 *Army token:* A token that represents 500 points of Kings of War armies controlled by a player, used to explore the map and conquer other players.
@@ -346,6 +361,8 @@ If players are still tied after all of those, they rejoice in their shared place
 *Controlled tile:* A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it taken by another player.  
 
 *Enemy: *Any army, settlement or tile controlled by another player.  
+
+*First player brakes:* The rules designated as these are there to put the brakes on the first player, preventing them from running too far ahead of the other players.
 
 *Kingdom:* All the tiles owned by a player. These need not be contiguous.  
 
