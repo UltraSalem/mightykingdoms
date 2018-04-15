@@ -8,7 +8,7 @@ echo "File created on" > $FILEM
 date >> $FILEM
 echo "" >> $FILEM
 cat licence >> $FILEM
-cat README.md >> $FILEM
+#cat README.md >> $FILEM
 cat Setup\ and\ Overview >> $FILEM
 cat Summer >> $FILEM
 cat Winter >> $FILEM
