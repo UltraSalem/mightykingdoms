@@ -1,5 +1,5 @@
 File created on
-Sun 15 Apr 14:38:55 AEST 2018
+Sun 15 Apr 14:48:43 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -16,7 +16,7 @@ When other kingdoms are encountered, the Kings of War armies represented by the 
 
 Players will want their kingdoms to be a mix of villages, cities and fortresses to allow them to build more settlements, recruit more armies, and feed those armies. Each full game turn represents one year, and cycles through summer and winter seasons.
 
-Winning the game is based on how mighty your kingdom is. Might is measured by number of battles won, and number and size of settlements you control at the end.
+Winning the game is based on how mighty your kingdom is at the end of the campaign. Might is measured by number of battles won, and number and size of settlements you control at the end.
 
 A campaign lasts for 6 game years (36 turns).
 
@@ -331,25 +331,26 @@ In the case of ties for *might*, use the following series of tiebreakers in orde
 * Most villages
 * Most number of years before eliminated
 
-If players are still tied after all of those, they rejoice in their shared placement.  
+If players are still tied after all of those, they rejoice in their shared placement.
+    
 ###Glossary
 
-Unexplored tile: Tiles that no players' armies have visited yet.  
+*Army token:* A token that represents 500 points of Kings of War armies controlled by a player, used to explore the map and conquer other players.
 
-Controlled tile: A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it taken by another player.  
+*Capital City:* Initially the city marker on your starting tile. It only counts as your capital city if it was *your* starting tile. If another player controls it it will count as a regular city for them. If this happens, you can nominate another of your cities to be your capital in the *Winer* phase. 
 
-Kingdom: All the tiles owned by a player. These need not be contiguous.  
+*Connected tile:* A tile that can trace a contiguous series of controlled tiles to another tile.
 
-Control marker: A small token representing a player's kingdom, used to mark explored tiles.  
+*Control marker: *A small token representing a player's kingdom, used to mark explored tiles.  
 
-Army token: A toekn that represents 500 points of Kings of War armies controlled by a player, used to explore the map and conquer other players.
+*Controlled tile:* A tile that has been explored by an army visiting it. Once explored, a tile will always be controlled by someone. Control is only lost to a player by having it taken by another player.  
 
-Settlement: A city, village, or fortress.  
+*Enemy: *Any army, settlement or tile controlled by another player.  
 
-Summer month: A turn in which a player moves their armies to explore and engage in battles.  
+*Kingdom:* All the tiles owned by a player. These need not be contiguous.  
 
-Enemy: Any army, settlement or tile controlled by another player.  
+*Settlement:* A city, village, or fortress.  
 
-Capital City: Initially the City marker on your starting tile. It only counts as your capital city if it was *your* starting tile. If another player controls it it will count as a regular city for them. If this happens, you can nominate another of your cities to be your capital in the *Winer* phase. 
-  
-  
+*Summer month:* A turn in which a player moves their armies to explore and engage in battles.  
+
+*Unexplored tile:* Tiles that no players' armies have visited yet.  
