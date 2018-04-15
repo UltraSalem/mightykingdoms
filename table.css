@@ -5,6 +5,8 @@ table {
     border-spacing: 0;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
+    page-break-inside: avoid;
+
 }
 table th {
     padding: 3px 10px;
@@ -13,6 +15,8 @@ table th {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid black;
+    page-break-inside: avoid;
+
 }
 table td {
     padding: 3px 10px;
@@ -20,4 +24,6 @@ table td {
     border-left: none;
     border-bottom: none;
     border-right: none;
+    page-break-inside: avoid;
 }
+
