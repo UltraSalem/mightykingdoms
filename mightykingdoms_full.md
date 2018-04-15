@@ -1,5 +1,5 @@
 File created on
-Sun 15 Apr 15:51:59 AEST 2018
+Sun 15 Apr 15:55:07 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -312,7 +312,9 @@ iii. **Feed armies.** If you wish to maintain your armies, you must feed them. F
   
 ###D) Deploy armies 
 
-Each player removes all their armies from the board and places them in front of them in a staging area. *Exception*: Armies recruited into a Fortress that is not connected to your Capital City remain in that Fortress. Redetermine player order as normal based on the current number of armies each player has.
+Each player removes all their armies from the board and places them in front of them in a staging area. 
+
+*Exception*: Armies recruited into a Fortress that is not connected to your Capital City remain in that Fortress. Redetermine player order as normal based on the current number of armies each player has.
 
 Ships start summer in the city they were docked in over Winter, so are not part of deployment.
 
@@ -332,7 +334,7 @@ Once deployment is completed, if 6 years have passed go to *E) Scoring*, otherwi
 
 ###E) Scoring
 
-If 6 full years have passed, the campaign is over and its time to score.
+If 6 full years have passed, the campaign is over and it is time to score.
 
 Each player will have gained 1 *might* for each pitched tabletop battle of Kings of War they won during the campaign.
 
