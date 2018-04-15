@@ -134,7 +134,15 @@ _Obstacles_: Should be around 6" long each. Or if multiples chosen, can combine 
 _Blocking or difficult_: Should be around 6"x6" in area. Or if multiples chosen, can combine areas into larger pieces. _Blocking_ may not be placed within 3" of the centre circle or objective markers. _Difficult ground_ may be either completely flat or height 0, as appropriate to the scenery available and the player's choice.
 
 ####Tile terrain
-[Tas to put in what we decided for the Condition cards]
+The terrain of the tile may effect the conditions in which the battle is fought. At the start of each battle, consult the following table and roll to randomly determine if a Battlefields deck condition card of the appropriate type will be in effect.
+
+|Tile|D6|
+|:------------|:--------------------------------------|
+|River valley| 1-3: Boggy Ground. 4-6: Clear Conditions|
+|Mountains|1-3: Unstable Ground. 4-6: Clear Conditions|
+|Coastal|1-3: Reduced Visibility. 4-6 Clear Conditions|
+|Lowland forests|1-3: Reduced Visibility. 4-6 Clear Conditions|
+|Lowland plains|1: Passing Engagement. 2-5: Clear Conditions. 6: Scouting Failure|
 
 ####Strategies
 Each time a player loses a pitched battle, their overall kingdom learns a new strategy. For each new strategy learned, the player may draw one random card from the Battlefields cards *Strategy* deck at the start of every battle for use in that battle. 
