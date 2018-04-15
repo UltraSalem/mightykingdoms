@@ -1,4 +1,5 @@
-----------  
+
+<P style="page-break-before: always">
 
 ##4. Winter season
 
@@ -10,7 +11,7 @@ C) Spend resources
 D) Deploy armies  
 E) (Optional) Scoring
 
-###A) Recall
+###A) Recall armies
 *Connected tile:* A tile that can trace a contiguous series of controlled tiles to another tile.
 
 All armies that are in a tile that is *connected* to their Capital City are picked up and placed in their Capital City tile. If they do not have a Capital City, they place them in one other city tile of their choice. If there are no other cities either, choose a village tile. If there are no villages either, the armies are destroyed. A kingdom that is all Fortresses cannot support the armies over the winter months. 

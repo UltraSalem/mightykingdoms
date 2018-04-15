@@ -1,5 +1,5 @@
 File created on
-Sun 15 Apr 16:01:28 AEST 2018
+Sun 15 Apr 16:32:24 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -31,7 +31,7 @@ A campaign lasts for 6 game years (36 turns).
 4. Winter season
 5. Glossary
 
--------
+<P style="page-break-before: always">
 
 ##1. Setup
 
@@ -60,7 +60,8 @@ The army token represents a 500 pt army list for their main race as chosen in A)
 Play proceeds through the *Summer* season and *Winter* season. The *Summer* season is further broken down into months, during each of which players move armies, explore tiles and engage in battles. During the *Winter* season players build settlements and new armies.
 
 
--------  
+
+<P style="page-break-before: always">
 
 ##3. Summer season
 
@@ -80,7 +81,9 @@ D) Reform
 
 Ships are given orders in the same way as armies. If an army shares a tile with a ship, it may set sail with them. The army and ship are paired up for the order, and the pair is treated as part of the ship for movement. Each ship can pair with only one army. By doing this a player may move armies across oceans. Ship/army pairs are only given one order for the pair, and the orders are resolved as one order. A pair can unpair at the start of any order phase if the player wishes, unless on the open ocean!
 
-Players may choose from any of the following orders for each of their armies. _Exception:_ An army on its side may only choose Regroup.  
+Players may choose from any of the following orders for each of their armies. 
+
+_Exception:_ An army on its side may only choose Regroup.  
 
 **Move**  
 Put the army or ship you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army or ship is still considered to be in the start tile until its order is resolved. 
@@ -90,15 +93,17 @@ Armies may not normally be moved off water tile edges (entirely blue edges) or i
 Ships may only be moved along coastal, open ocean, and river tiles. They still may not enter marsh tiles.   
 
 **Defend**  
-The army wishes to set up a defensive position and does not intend to move. The players will gain some advantages if a battle is fought here. See _C) Battles_ below.
+The army wishes to set up a defensive position and does not intend to move. The players will gain some advantages if a battle is fought here. See *C) Battles* below.
 
-Ships or ship/army pairs may not choose the _Defend_ order.  
+Ships and ship/army pairs may not choose the *Defend* order.  
 
 **Raze**  
 Only choosable if the army or ship is on a settlement. They intend to burn down the settlement. Turn the settlement upside down to mark this order. 
 
 **Regroup**  
 Only choosable for an army or ship laying on its side. The leaders call their units together and give some inspiring speeches. Flip the token over from army number face down to army number face up to show it has been given an order. It will stand up in the *Resolution* phase below.
+
+<P style="page-break-before: always">
 
 ###B) Order Resolution
 Resolve orders in player order, with each player choosing one army or ship, resolving its order, and then the next player chooses one army or ship, and so on until all armies have been resolved.  
@@ -112,7 +117,6 @@ Open water tiles (complete blue) never contain settlements and are never control
 |Raze|Settlement|If there is no enemy army or ship in the tile at the time of resolution, remove the settlement. If there is an enemy army or ship, the Raze fails with no effect.|
 |Defend|Controlled|The army stays where it is, while positioning themselves to defend the tile. Place a defensive marker against the army token. See *C) Battles - Defended tiles* below.|
 |Regroup|Controlled|Stand the army or ship upright.|
-
 
 The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution, not order choosing.  
 
@@ -131,29 +135,27 @@ After order resolution, in player order each player chooses a tile in which they
 
 Note that this phase is about choosing battle, and resolving battles with the appropriate forces in the tile; not choosing individual army or ship tokens.
 
-Either player may choose to concede the field instead of having a pitched battle. The conceder is considered to have taken a *loss* result, with the other player taking a *win* (see *Results*, below). A player who's opponent has more army tokens than them in the hex **must** concede the field. A win on concession (forced or chosen) does **not** count for gaining *might* in the end of campaign scoring.
+Either player may choose to concede the field instead of having a *pitched battle*. The conceder is considered to have taken a *loss* result, with the other player taking a *win* (see *Results*, below). A player who's opponent has more army tokens than them in the hex **must** concede the field. A win on concession (forced or chosen) does **not** count for gaining *might* in the end of campaign scoring.
 
-**Last Stand**: An exception to forced conceding is the Last Stand. If a player has no friendly adjacent tiles, they may choose to fight a Pitched Battle instead of automatically conceding. As this will be a very one sided battle, it will be rare that people would choose this, but it might be the stuff legends are made of! The winner will get 1 *might* as normal for a pitched battle.
+_**Last Stand:**_ An exception to forced conceding is the Last Stand. If a player has no friendly adjacent tiles, they may choose to fight a *pitched battle* instead of automatically conceding. As this will be a very one sided battle, it will be rare that people would choose this, but it might be the stuff legends are made of! The winner will get 1 *might* as normal for a *pitched battle*.
 
-The type of battle depends on the type of tokens on the tile.
-
-####Naval battles
-If there are ships from opposing kingdoms on the tile, you may choose to have a naval battle. Each player rolls 1 die for each ship they control. Each ship with a paired army adds +1 to the roll. All dice get -1 if the battle is on a river tile. For every 4+ you roll, remove one ship or ship/army pair from your opponent. Yes, the brutality of naval combat could have you losing whole armies at a time if they are onboard ships that sink! The player losing the ship decides which ones are lost if they have several to choose from. Repeat this roll-off until one player declares themselves the loser after resolving all rolled dice (the other player wins), or there are no ships left from the battling players. There are no draws at sea.
+The type of battle depends on the type of tokens on the tile, as explained below.
 
 ####Slaughter
 If all enemies only have armies or ships tokens laying on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. 
 
+####Naval battles
+If there are ships from opposing kingdoms on the tile, you may choose to have a naval battle. Each player rolls 1 die for each ship they control. Each ship with a paired army adds +1 to the roll. All dice get -1 if the battle is on a river tile. For every 4+ you roll, remove one ship or ship/army pair from your opponent. Yes, the brutality of naval combat could have you losing whole armies at a time if they are onboard ships that sink! The player losing the ship decides which ones are lost if they have several to choose from. Repeat this roll-off until one player declares themselves the loser after resolving all rolled dice (the other player wins), or there are no ships left from the battling players. There are no draws at sea.
+
 ####Land/water battles
 If one player has ships and the other has armies, they try and drive each other out. Each player rolls one dice for each army or ship they have (ship/army pairs count as 2 dice in this instance), and adds up the total. The higher player defeats the lower player. Equal values equals a draw. No ships or armies are damaged in this engagement unless forced to retreat to unfrendly tiles as per below.
 
-####Simple battles
-Instead of playing a game of Kings of War to resolve a pitched battle, you may use the following system instead. This may be required if a player is unable to schedule a Kings of War game before play is to progress.
-
-As per normal land battles above, armies on their sides never get allocated a Defence value or contribute dice as per below.
+####Simple land battles
+Instead of playing a game of Kings of War to resolve a *pitched battle* (see below), you may use the following system instead. This may be required if a player is unable to schedule a Kings of War game before campaign play is to progress.
 
 After choosing an enemy with at least one upright army, each upright army involved from both players gets a Defence value of 4.
 
-Defence is modified as followed: (these values are cumulative)
+Defence is modified as follows: (these values are cumulative)
 
 |Situation|Defence modifier|
 |:-----------------------|:--------|
@@ -170,9 +172,9 @@ Whoever scores the most hits gets a *win* result, with the other player a *loss*
 Proceed to _Results_, below. 
 
 ####Pitched battles
-If there are armies from opposing kingdoms on the tile, you will have a pitched battle. When a pitched battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. 
+If there are armies from opposing kingdoms on the tile, you will have a *pitched battle*. When a *pitched battle* occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. 
 
-* **Board Size**
+* **Board Size**  
 Choose a board size based on the size of the combined army on the largest side (not the combination of both sides). There will always be the same size army on each side except when involved in a *Last Stand* as per above.
 
 |Battle scale          |Board size  |
@@ -182,11 +184,11 @@ Choose a board size based on the size of the combined army on the largest side (
 |4-5 armies, 2000-2500 points            |6x4       |
 |6 armies, 3000 points              |8x4       |
 
-* **Defended tiles**
-A player that took _Defend_ as their action gains a terrain advantage in a pitched battle. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.
+* **Defended tiles**  
+A player that took _Defend_ as their action gains a terrain advantage in a *pitched battle*. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.
 
 |Settlement|Benefit|
-|:------------|:------------------------------------------|
+|:------------|:-----------------------------------------------------------|
 |None|Add, remove, or move 1 piece of terrain on the table to represent the defenders choosing the battle ground.|
 |Village|May add up to 1 blocking or difficult ground terrain pieces (village buildings, fields, etc) and up to 2 obstacles anywhere on the board.|
 |City|May add up to 2 blocking or difficult ground terrain pieces (city buildings, vineyards, ponds, etc) and up to 2 obstacles anywhere on the board. In addition, the defender places 1 objective marker on their half of the board which is worth 1 Victory Point for the side that controls it at the end of the game, in addition to the normal scenario scoring.|
@@ -199,7 +201,7 @@ _Blocking or difficult_: Should be around 6"x6" in area. Or if multiples chosen,
 The terrain of the tile may effect the conditions in which the battle is fought. At the start of each battle, consult the following table and roll to randomly determine if a Battlefields deck condition card of the appropriate type will be in effect.
 
 |Tile|D6|
-|:------------|:--------------------------------------|
+|:------------|:-----------------------------------------------------------|
 |River valley| 1-3: Boggy Ground. 4-6: Clear Conditions|
 |Mountains|1-3: Unstable Ground. 4-6: Clear Conditions|
 |Coastal|1-3: Reduced Visibility. 4-6 Clear Conditions|
@@ -207,16 +209,18 @@ The terrain of the tile may effect the conditions in which the battle is fought.
 |Lowland plains|1: Passing Engagement. 2-5: Clear Conditions. 6: Scouting Failure|
 
 * **Strategies**
-Each time a player loses a pitched battle, their overall kingdom learns a new strategy. For each new strategy learned, the player may draw one random card from the Battlefields cards *Strategy* deck at the start of every battle for use in that battle. 
+Each time a player loses a *pitched battle*, their overall kingdom learns a new strategy. For each new strategy learned, the player may draw one random card from the Battlefields cards *Strategy* deck at the start of every battle for use in that battle. 
 
-*For example, if a player has lost their first pitched battle, they will have learned one new strategy. At the start of their second battle, they will be able to draw one strategy card for use in that battle. If they then lose that battle, they will learn a new strategy again. At the start of the third battle they will draw two strategy cards for use in that battle.*
+*For example, if a player has lost their first *pitched battle*, they will have learned one new strategy. At the start of their second battle, they will be able to draw one strategy card for use in that battle. If they then lose that battle, they will learn a new strategy again. At the start of the third battle they will draw two strategy cards for use in that battle.*
+
+<P style="page-break-before: always">
   
 ####Battle Results
 |Kingdom's battle result|Effect|
-|:------------|:------------------------------------------|
+|:------------|:-----------------------------------------------------------|
 |Loss          |Each army or ship on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side, army token number face down. If there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships. Player learns a new *strategy*.|
 |Draw          |All armies and ships remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships.|
-|Win           |Control of the tile is given to the winning kingdom. If it was a pitched battle played on a Kings of War table, the winner also gets 1 *might* for scoring at the end of the game.|
+|Win           |Control of the tile is given to the winning kingdom. If it was a *pitched battle* played on a Kings of War table, the winner also gets 1 *might* for scoring at the end of the game.|
 
 As you can see from the table, losing or drawing with no adjacent controlled tile can be very dangerous. Keep this in mind before charging deep into enemy territory!
 
@@ -229,18 +233,20 @@ Note that no matter how badly you defeat an army, they will be at full strength 
 ####Terrain features
 Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side, army token number down. This does not effect armies moving *out of* a river tile (unless the new tile also contains a river). Any battles between a moving army and an army already in the tile are assumed to have occurred at the borders without the baggage trains involved, which is why Battles are resolved before this effect is applied.
 
-*Exception:* City tiles are assumed to be well explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain.
+*Exceptions:*  
 
-*Exception:* Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
+  * City tiles are assumed to be well explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain.  
+  * Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
 
 Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom. 
  
 ####Player order 
-Player order is redetermined at the end of each *Reform* phase. Player order is now set by number of armies, descending. **_That is, the player with the greatest number of armies is now the first player._** Randomly determine player order if there are ties in any slots.  
+Player order is redetermined at the end of each *Reform* phase. Player order is now set by number of armies, descending. **_That is, the player with the greatest number of armies is now the first player._** Randomly determine player order if there are ties in any slots. 
 
 Players now start a new Summer month with *A) Orders*. Repeat until 6 Summer months have passed. Once 6 *Summer* months have passed, proceed instead to *Winter* season, below.
 
-----------  
+
+<P style="page-break-before: always">
 
 ##4. Winter season
 
@@ -252,7 +258,7 @@ C) Spend resources
 D) Deploy armies  
 E) (Optional) Scoring
 
-###A) Recall
+###A) Recall armies
 *Connected tile:* A tile that can trace a contiguous series of controlled tiles to another tile.
 
 All armies that are in a tile that is *connected* to their Capital City are picked up and placed in their Capital City tile. If they do not have a Capital City, they place them in one other city tile of their choice. If there are no other cities either, choose a village tile. If there are no villages either, the armies are destroyed. A kingdom that is all Fortresses cannot support the armies over the winter months. 
@@ -359,8 +365,9 @@ In the case of ties for *might*, use the following series of tiebreakers in orde
 
 If players are still tied after all of those, they rejoice in their shared placement.
   
+<P style="page-break-before: always">
   
-##Glossary
+##5. Glossary
 
 *Army token:* A token that represents 500 points of Kings of War armies controlled by a player, used to explore the map and conquer other players.
 
