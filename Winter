@@ -8,6 +8,7 @@ A) Recall armies
 B) Gather resources  
 C) Spend resources  
 D) Deploy armies  
+E) (Optional) Scoring
 
 ###A) Recall
 All players pick up all their armies and place them in their capital city tile. If they do not have a capital city, they place them in one other city tile of their choice. If there are no other cities either, choose a village tile. If there are no villages either, the armies are destroyed. A kingdom that is all Fortresses cannot support the armies over the winter months. 
@@ -69,4 +70,19 @@ In player order, each player places an army in any settlement they control. Play
 |Capital City|3|
 |Fortress|3|
 
-Once deployment is completed, start a new 3) Summer season.
+Once deployment is completed, if 6 years have passed go to *E) Scoring*, otherwise start a new *3) Summer* season.
+
+###E) Scoring
+
+If 6 full years have passed, the campaign is over and its time to score.
+
+Each player gains 1 *might* for each of the following:
+
+Controlled Object|Might|
+|:-----------|:---------------------:|
+|Pitched battle won|1|
+|Village|1|
+|City|2|
+|Fortress|2|
+|Capital City|3|
+|Army|5|
