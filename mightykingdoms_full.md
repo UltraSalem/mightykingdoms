@@ -1,5 +1,5 @@
 File created on
-Sun 15 Apr 15:23:54 AEST 2018
+Sun 15 Apr 15:51:59 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -7,6 +7,9 @@ Project owned by Chris Kellahan
   
 Project hosted at:  
 https://github.com/UltraSalem/mightykingdoms
+
+  
+#Mighty Kingdoms
 
 ##Overview
 
@@ -66,12 +69,12 @@ Summer has six turns, known as months.
 
 Each month is split into 4 phases:
 
-A) Orders  
-B) Resolution  
+A) Give Orders  
+B) Order Resolution  
 C) Battle  
 D) Reform  
 
-###A) Orders
+###A) Give Orders
 *First player brakes*: To minimise the compounding benefit of having more armies, if the first player has more armies than the second player, the first player chooses an order for *all* of their armies before any other players. Then proceed to *Order cycle*, below.
 
 *Order cycle*: In player order, each player chooses one army and gives it an order. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to. The first player is not included in the *Order cycle* if they had more armies as per *First player brakes*, above.
@@ -98,7 +101,7 @@ Only choosable if the army or ship is on a settlement. They intend to burn down 
 **Regroup**  
 Only choosable for an army or ship laying on its side. The leaders call their units together and give some inspiring speeches. Flip the token over from army number face down to army number face up to show it has been given an order. It will stand up in the *Resolution* phase below.
 
-###B) Resolution
+###B) Order Resolution
 Resolve orders in player order, with each player choosing one army or ship, resolving its order, and then the next player chooses one army or ship, and so on until all armies have been resolved.  
 
 Open water tiles (complete blue) never contain settlements and are never controlled. Ignore any such control or settlement effects for moving into those tiles.
@@ -138,9 +141,6 @@ The type of battle depends on the type of tokens on the tile.
 ####Naval battles
 If there are ships from opposing kingdoms on the tile, you may choose to have a naval battle. Each player rolls 1 die for each ship they control. Each ship with a paired army adds +1 to the roll. All dice get -1 if the battle is on a river tile. For every 4+ you roll, remove one ship or ship/army pair from your opponent. Yes, the brutality of naval combat could have you losing whole armies at a time if they are onboard ships that sink! The player losing the ship decides which ones are lost if they have several to choose from. Repeat this roll-off until one player declares themselves the loser after resolving all rolled dice (the other player wins), or there are no ships left from the battling players. There are no draws at sea.
 
-####Pitched battles
-If there are armies from opposing kingdoms on the tile, you will have a pitched battle. When a pitched battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. 
-
 ####Slaughter
 If all enemies only have armies or ships tokens laying on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. 
 
@@ -170,17 +170,20 @@ Whoever scores the most hits gets a *win* result, with the other player a *loss*
 
 Proceed to _Results_, below. 
 
-####Board Size 
-Choose a board size based on the largest combined army on one side (not the combination of both sides).  
+####Pitched battles
+If there are armies from opposing kingdoms on the tile, you will have a pitched battle. When a pitched battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War. 
+
+* **Board Size**
+Choose a board size based on the size of the combined army on the largest side (not the combination of both sides). There will always be the same size army on each side except when involved in a *Last Stand* as per above.
 
 |Battle scale          |Board size  |
 |:------------|:------------------------------------------|
-|1-2 armies            |4x4       |
-|3 armies              |5x4       |
-|4-5 armies            |6x4       |
-|6 armies              |8x4       |
+|1-2 armies, 500-1000 points            |4x4       |
+|3 armies, 1500 points              |5x4       |
+|4-5 armies, 2000-2500 points            |6x4       |
+|6 armies, 3000 points              |8x4       |
 
-####Defended tiles 
+* **Defended tiles**
 A player that took _Defend_ as their action gains a terrain advantage in a pitched battle. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.
 
 |Settlement|Benefit|
@@ -193,7 +196,7 @@ A player that took _Defend_ as their action gains a terrain advantage in a pitch
 _Obstacles_: Should be around 6" long each. Or if multiples chosen, can combine for longer pieces.
 _Blocking or difficult_: Should be around 6"x6" in area. Or if multiples chosen, can combine areas into larger pieces. _Blocking_ may not be placed within 3" of the centre circle or objective markers. _Difficult ground_ may be either completely flat or height 0, as appropriate to the scenery available and the player's choice.
 
-####Tile terrain
+* **Tile terrain**
 The terrain of the tile may effect the conditions in which the battle is fought. At the start of each battle, consult the following table and roll to randomly determine if a Battlefields deck condition card of the appropriate type will be in effect.
 
 |Tile|D6|
@@ -204,12 +207,12 @@ The terrain of the tile may effect the conditions in which the battle is fought.
 |Lowland forests|1-3: Reduced Visibility. 4-6 Clear Conditions|
 |Lowland plains|1: Passing Engagement. 2-5: Clear Conditions. 6: Scouting Failure|
 
-####Strategies
+* **Strategies**
 Each time a player loses a pitched battle, their overall kingdom learns a new strategy. For each new strategy learned, the player may draw one random card from the Battlefields cards *Strategy* deck at the start of every battle for use in that battle. 
 
 *For example, if a player has lost their first pitched battle, they will have learned one new strategy. At the start of their second battle, they will be able to draw one strategy card for use in that battle. If they then lose that battle, they will learn a new strategy again. At the start of the third battle they will draw two strategy cards for use in that battle.*
-
-####Results
+  
+####Battle Results
 |Kingdom's battle result|Effect|
 |:------------|:------------------------------------------|
 |Loss          |Each army or ship on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side, army token number face down. If there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships. Player learns a new *strategy*.|
@@ -234,7 +237,7 @@ Armies that have moved may be slowed down by terrain, or forced to find safe pas
 Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom. 
  
 ####Player order 
-Player order is redetermined at the end of each _Reform_ phase. Player order is now set by number of armies, descending. **_That is, the player with the greatest number of armies is now the first player._** Randomly determine player order if there are ties in any slots.  
+Player order is redetermined at the end of each *Reform* phase. Player order is now set by number of armies, descending. **_That is, the player with the greatest number of armies is now the first player._** Randomly determine player order if there are ties in any slots.  
 
 Players now start a new Summer month with *A) Orders*. Repeat until 6 Summer months have passed. Once 6 *Summer* months have passed, proceed instead to *Winter* season, below.
 

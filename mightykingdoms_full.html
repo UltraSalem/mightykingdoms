@@ -13,12 +13,13 @@
   <![endif]-->
 </head>
 <body>
-<p>File created on Sun 15 Apr 15:23:54 AEST 2018</p>
+<p>File created on Sun 15 Apr 15:51:59 AEST 2018</p>
 <p>Licenced under Creative commons non commercial share alike v4.0<br />
 https://creativecommons.org/licenses/by-nc-sa/4.0/<br />
 Project owned by Chris Kellahan</p>
 <p>Project hosted at:<br />
 https://github.com/UltraSalem/mightykingdoms</p>
+<h1 id="mighty-kingdoms">Mighty Kingdoms</h1>
 <h2 id="overview">Overview</h2>
 <p>In Mighty Kingdoms each army token represents up to 500 points of a Kings of War army, which are used to explore a hex map to build a player's kingdom.</p>
 <p>When other kingdoms are encountered, the Kings of War armies represented by the army tokens will be used to fight Kings of War tabletop battles. Bigger battles are fought by bringing multiple army tokens to the same hex.</p>
@@ -56,15 +57,15 @@ https://github.com/UltraSalem/mightykingdoms</p>
 <p>Summer has six turns, known as months.</p>
 <p>Each month is split into 4 phases:</p>
 <ol type="A">
-<li>Orders<br />
+<li>Give Orders<br />
 </li>
-<li>Resolution<br />
+<li>Order Resolution<br />
 </li>
 <li>Battle<br />
 </li>
 <li>Reform</li>
 </ol>
-<h3 id="a-orders">A) Orders</h3>
+<h3 id="a-give-orders">A) Give Orders</h3>
 <p><em>First player brakes</em>: To minimise the compounding benefit of having more armies, if the first player has more armies than the second player, the first player chooses an order for <em>all</em> of their armies before any other players. Then proceed to <em>Order cycle</em>, below.</p>
 <p><em>Order cycle</em>: In player order, each player chooses one army and gives it an order. Repeat the order cycle until all armies have been given an order. Once given, an order may not be changed. A player may not pass when it is their turn unless they have no more armies to give orders to. The first player is not included in the <em>Order cycle</em> if they had more armies as per <em>First player brakes</em>, above.</p>
 <p>Ships are given orders in the same way as armies. If an army shares a tile with a ship, it may set sail with them. The army and ship are paired up for the order, and the pair is treated as part of the ship for movement. Each ship can pair with only one army. By doing this a player may move armies across oceans. Ship/army pairs are only given one order for the pair, and the orders are resolved as one order. A pair can unpair at the start of any order phase if the player wishes, unless on the open ocean!</p>
@@ -80,7 +81,7 @@ The army wishes to set up a defensive position and does not intend to move. The 
 Only choosable if the army or ship is on a settlement. They intend to burn down the settlement. Turn the settlement upside down to mark this order.</p>
 <p><strong>Regroup</strong><br />
 Only choosable for an army or ship laying on its side. The leaders call their units together and give some inspiring speeches. Flip the token over from army number face down to army number face up to show it has been given an order. It will stand up in the <em>Resolution</em> phase below.</p>
-<h3 id="b-resolution">B) Resolution</h3>
+<h3 id="b-order-resolution">B) Order Resolution</h3>
 <p>Resolve orders in player order, with each player choosing one army or ship, resolving its order, and then the next player chooses one army or ship, and so on until all armies have been resolved.</p>
 <p>Open water tiles (complete blue) never contain settlements and are never controlled. Ignore any such control or settlement effects for moving into those tiles.</p>
 <table style="width:94%;">
@@ -161,8 +162,6 @@ Only choosable for an army or ship laying on its side. The leaders call their un
 <p>The type of battle depends on the type of tokens on the tile.</p>
 <h4 id="naval-battles">Naval battles</h4>
 <p>If there are ships from opposing kingdoms on the tile, you may choose to have a naval battle. Each player rolls 1 die for each ship they control. Each ship with a paired army adds +1 to the roll. All dice get -1 if the battle is on a river tile. For every 4+ you roll, remove one ship or ship/army pair from your opponent. Yes, the brutality of naval combat could have you losing whole armies at a time if they are onboard ships that sink! The player losing the ship decides which ones are lost if they have several to choose from. Repeat this roll-off until one player declares themselves the loser after resolving all rolled dice (the other player wins), or there are no ships left from the battling players. There are no draws at sea.</p>
-<h4 id="pitched-battles">Pitched battles</h4>
-<p>If there are armies from opposing kingdoms on the tile, you will have a pitched battle. When a pitched battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War.</p>
 <h4 id="slaughter">Slaughter</h4>
 <p>If all enemies only have armies or ships tokens laying on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead.</p>
 <h4 id="landwater-battles">Land/water battles</h4>
@@ -198,8 +197,11 @@ Only choosable for an army or ship laying on its side. The leaders call their un
 <p>Starting with the attacker, each player takes turns allocating and resolving 1 die they rolled to one opposing army of their choice. To resolve, if the number on the die is equal to or higher than the Defence of the army it has been allocated to, that army is 'hit'. An army that has been hit may still allocate its die back against the opponent.</p>
 <p>Whoever scores the most hits gets a <em>win</em> result, with the other player a <em>loss</em>. If the number of hits is equal, a <em>draw</em> occurs (including if neither player scored a hit).</p>
 <p>Proceed to <em>Results</em>, below.</p>
-<h4 id="board-size">Board Size</h4>
-<p>Choose a board size based on the largest combined army on one side (not the combination of both sides).</p>
+<h4 id="pitched-battles">Pitched battles</h4>
+<p>If there are armies from opposing kingdoms on the tile, you will have a pitched battle. When a pitched battle occurs, all armies in the tile from one kingdom fight all the armies in the tile from the other kingdom in a game of Kings of War.</p>
+<ul>
+<li><strong>Board Size</strong> Choose a board size based on the size of the combined army on the largest side (not the combination of both sides). There will always be the same size army on each side except when involved in a <em>Last Stand</em> as per above.</li>
+</ul>
 <table>
 <thead>
 <tr class="header">
@@ -209,25 +211,26 @@ Only choosable for an army or ship laying on its side. The leaders call their un
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">1-2 armies</td>
+<td style="text-align: left;">1-2 armies, 500-1000 points</td>
 <td style="text-align: left;">4x4</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">3 armies</td>
+<td style="text-align: left;">3 armies, 1500 points</td>
 <td style="text-align: left;">5x4</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">4-5 armies</td>
+<td style="text-align: left;">4-5 armies, 2000-2500 points</td>
 <td style="text-align: left;">6x4</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">6 armies</td>
+<td style="text-align: left;">6 armies, 3000 points</td>
 <td style="text-align: left;">8x4</td>
 </tr>
 </tbody>
 </table>
-<h4 id="defended-tiles">Defended tiles</h4>
-<p>A player that took <em>Defend</em> as their action gains a terrain advantage in a pitched battle. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.</p>
+<ul>
+<li><strong>Defended tiles</strong> A player that took <em>Defend</em> as their action gains a terrain advantage in a pitched battle. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.</li>
+</ul>
 <table style="width:81%;">
 <colgroup>
 <col style="width: 19%" />
@@ -259,8 +262,9 @@ Only choosable for an army or ship laying on its side. The leaders call their un
 </tbody>
 </table>
 <p><em>Obstacles</em>: Should be around 6&quot; long each. Or if multiples chosen, can combine for longer pieces. <em>Blocking or difficult</em>: Should be around 6&quot;x6&quot; in area. Or if multiples chosen, can combine areas into larger pieces. <em>Blocking</em> may not be placed within 3&quot; of the centre circle or objective markers. <em>Difficult ground</em> may be either completely flat or height 0, as appropriate to the scenery available and the player's choice.</p>
-<h4 id="tile-terrain">Tile terrain</h4>
-<p>The terrain of the tile may effect the conditions in which the battle is fought. At the start of each battle, consult the following table and roll to randomly determine if a Battlefields deck condition card of the appropriate type will be in effect.</p>
+<ul>
+<li><strong>Tile terrain</strong> The terrain of the tile may effect the conditions in which the battle is fought. At the start of each battle, consult the following table and roll to randomly determine if a Battlefields deck condition card of the appropriate type will be in effect.</li>
+</ul>
 <table style="width:75%;">
 <colgroup>
 <col style="width: 19%" />
@@ -295,10 +299,11 @@ Only choosable for an army or ship laying on its side. The leaders call their un
 </tr>
 </tbody>
 </table>
-<h4 id="strategies">Strategies</h4>
-<p>Each time a player loses a pitched battle, their overall kingdom learns a new strategy. For each new strategy learned, the player may draw one random card from the Battlefields cards <em>Strategy</em> deck at the start of every battle for use in that battle.</p>
+<ul>
+<li><strong>Strategies</strong> Each time a player loses a pitched battle, their overall kingdom learns a new strategy. For each new strategy learned, the player may draw one random card from the Battlefields cards <em>Strategy</em> deck at the start of every battle for use in that battle.</li>
+</ul>
 <p><em>For example, if a player has lost their first pitched battle, they will have learned one new strategy. At the start of their second battle, they will be able to draw one strategy card for use in that battle. If they then lose that battle, they will learn a new strategy again. At the start of the third battle they will draw two strategy cards for use in that battle.</em></p>
-<h4 id="results">Results</h4>
+<h4 id="battle-results">Battle Results</h4>
 <table style="width:81%;">
 <colgroup>
 <col style="width: 19%" />
