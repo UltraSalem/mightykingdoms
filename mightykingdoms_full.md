@@ -1,5 +1,5 @@
 File created on
-Fri 30 Mar 18:25:16 AEDT 2018
+Tue 10 Apr 19:59:07 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -19,6 +19,12 @@ The component files themselves are written in markdown syntax, and can be edited
 
 publish.sh script requires linux with pandoc and wkhtmltopdf installed.  
 This script will take the chapter files, combine them into a single md file, then a html file, and convert into PDF.
+
+####Versions
+Files in the *dev* branch are the ones being actively worked on, and will be the most up to date. They may, however, contain untested rules or features that may or may not be unbalanced.
+
+Files in the *master* branch should be more stable, and are likely to have been playtested enough to think they are generally balanced.
+
 
 ~~~~
 # Install prerequisites on Ubuntu
