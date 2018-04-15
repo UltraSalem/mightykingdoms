@@ -24,9 +24,9 @@ _Exception:_ An army on its side may only choose Regroup.
 **Move**  
 Put the army or ship you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army or ship is still considered to be in the start tile until its order is resolved. 
 
-Armies may not normally be moved off water tile edges (entirely blue edges) or in to marsh tiles, but may move along the coast. 
+Armies may not normally be moved off water tile edges (entirely blue edges) or into marsh tiles, but may move along the coast. 
 
-Ships may only be moved along coastal, open ocean, and river tiles. They still may not enter marsh tiles.   
+Ships may only be moved along coastal, open ocean, and river tiles. They may not enter marsh tiles.   
 
 **Defend**  
 The army wishes to set up a defensive position and does not intend to move. The players will gain some advantages if a battle is fought here. See *C) Battles* below.
@@ -71,14 +71,14 @@ After order resolution, in player order each player chooses a tile in which they
 
 Note that this phase is about choosing battle, and resolving battles with the appropriate forces in the tile; not choosing individual army or ship tokens.
 
-Either player may choose to concede the field instead of having a *pitched battle*. The conceder is considered to have taken a *loss* result, with the other player taking a *win* (see *Results*, below). A player who's opponent has more army tokens than them in the hex **must** concede the field. A win on concession (forced or chosen) does **not** count for gaining *might* in the end of campaign scoring.
+Either player may choose to concede the field instead of having a *pitched battle*. The conceder is considered to have taken a *loss* result, with the other player taking a *win* (see *Results*, below). A player whose opponent has more army tokens than them in the hex **must** concede the field. A win on concession (forced or chosen) does **not** count for gaining *might* in the end of campaign scoring.
 
 _**Last Stand:**_ An exception to forced conceding is the Last Stand. If a player has no friendly adjacent tiles, they may choose to fight a *pitched battle* instead of automatically conceding. As this will be a very one sided battle, it will be rare that people would choose this, but it might be the stuff legends are made of! The winner will get 1 *might* as normal for a *pitched battle*.
 
 The type of battle depends on the type of tokens on the tile, as explained below.
 
 ####Slaughter
-If all enemies only have armies or ships tokens laying on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. 
+If all enemies only have armies or ships' tokens laying on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. 
 
 ####Naval battles
 If there are ships from opposing kingdoms on the tile, you may choose to have a naval battle. Each player rolls 1 die for each ship they control. Each ship with a paired army adds +1 to the roll. All dice get -1 if the battle is on a river tile. For every 4+ you roll, remove one ship or ship/army pair from your opponent. Yes, the brutality of naval combat could have you losing whole armies at a time if they are onboard ships that sink! The player losing the ship decides which ones are lost if they have several to choose from. Repeat this roll-off until one player declares themselves the loser after resolving all rolled dice (the other player wins), or there are no ships left from the battling players. There are no draws at sea.
@@ -168,7 +168,7 @@ i. *Terrain features.* Armies that have moved may be slowed down by terrain, or 
 
 *Exceptions:*  
 
-  * City tiles (including Capital Cities) are assumed to be well explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain crossed in either tile.  
+  * City tiles (including Capital Cities) are assumed to be well-explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain crossed in either tile.  
   * Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
 
 ii. *Safe from harm.* Turn any upside down settlements from a failed Raze back the right way up. 
