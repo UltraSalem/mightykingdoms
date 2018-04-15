@@ -1,5 +1,5 @@
 File created on
-Sun 15 Apr 16:32:24 AEST 2018
+Sun 15 Apr 17:43:14 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -23,6 +23,8 @@ Winning the game is based on how mighty your kingdom is at the end of the campai
 
 A campaign lasts for 6 game years (36 turns).
 
+-------
+
 ##Index
 
 1. Setup
@@ -31,14 +33,16 @@ A campaign lasts for 6 game years (36 turns).
 4. Winter season
 5. Glossary
 
-<P style="page-break-before: always">
+-------
 
 ##1. Setup
 
 ###Prerequisites
-You wil need to provide around 20 small tokens of your kingdom's livery (colour/logo), approx 1cm square (any shape), to place in the hex tiles you control to show your ownership. These are known as 'control markers'. 
+You will need to provide around 20 small tokens of your kingdom's livery (colour/logo), approx 1cm square (any shape), to place in the hex tiles you control to show your ownership. These are known as 'control markers'. 
 
 Players will also need 3000 points worth of miniatures for Kings of War battles. The bulk must be from your chosen race, however exactly 500 points of that may be allies, the specifics of how to include them is explained in the *Winter* section below. 3000 points is the theoretical maximum, and will only be required when a player brings their entire kindgom's forces against another's.
+
+Across the play group you will also need Battefields cards decks, preferably at least one per pair of players.
 
 ###Initial kingdom
 A) Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.
@@ -103,8 +107,6 @@ Only choosable if the army or ship is on a settlement. They intend to burn down 
 **Regroup**  
 Only choosable for an army or ship laying on its side. The leaders call their units together and give some inspiring speeches. Flip the token over from army number face down to army number face up to show it has been given an order. It will stand up in the *Resolution* phase below.
 
-<P style="page-break-before: always">
-
 ###B) Order Resolution
 Resolve orders in player order, with each player choosing one army or ship, resolving its order, and then the next player chooses one army or ship, and so on until all armies have been resolved.  
 
@@ -121,7 +123,9 @@ Open water tiles (complete blue) never contain settlements and are never control
 The status of the tile may change during the resolution phase. Use the table entry appropriate at the time of order resolution, not order choosing.  
 
 Crossing over terrain features may slow down later movement by the army, see _Terrain features_ in the _Reform_ section below.
-  
+
+Capital Cities that are taken over by enemies become regular cities, even if retaken by their original owner.
+
 ####Exploration table
 |2D6|Tile contents|
 |:--------|:--------------|
@@ -197,7 +201,7 @@ A player that took _Defend_ as their action gains a terrain advantage in a *pitc
 _Obstacles_: Should be around 6" long each. Or if multiples chosen, can combine for longer pieces.
 _Blocking or difficult_: Should be around 6"x6" in area. Or if multiples chosen, can combine areas into larger pieces. _Blocking_ may not be placed within 3" of the centre circle or objective markers. _Difficult ground_ may be either completely flat or height 0, as appropriate to the scenery available and the player's choice.
 
-* **Tile terrain**
+* **Tile terrain**  
 The terrain of the tile may effect the conditions in which the battle is fought. At the start of each battle, consult the following table and roll to randomly determine if a Battlefields deck condition card of the appropriate type will be in effect.
 
 |Tile|D6|
@@ -208,13 +212,11 @@ The terrain of the tile may effect the conditions in which the battle is fought.
 |Lowland forests|1-3: Reduced Visibility. 4-6 Clear Conditions|
 |Lowland plains|1: Passing Engagement. 2-5: Clear Conditions. 6: Scouting Failure|
 
-* **Strategies**
+* **Strategies**  
 Each time a player loses a *pitched battle*, their overall kingdom learns a new strategy. For each new strategy learned, the player may draw one random card from the Battlefields cards *Strategy* deck at the start of every battle for use in that battle. 
 
 *For example, if a player has lost their first *pitched battle*, they will have learned one new strategy. At the start of their second battle, they will be able to draw one strategy card for use in that battle. If they then lose that battle, they will learn a new strategy again. At the start of the third battle they will draw two strategy cards for use in that battle.*
 
-<P style="page-break-before: always">
-  
 ####Battle Results
 |Kingdom's battle result|Effect|
 |:------------|:-----------------------------------------------------------|
@@ -230,21 +232,18 @@ Note that no matter how badly you defeat an army, they will be at full strength 
 
 ###D) Reform
 
-####Terrain features
-Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side, army token number down. This does not effect armies moving *out of* a river tile (unless the new tile also contains a river). Any battles between a moving army and an army already in the tile are assumed to have occurred at the borders without the baggage trains involved, which is why Battles are resolved before this effect is applied.
+i. *Terrain features.* Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side, army token number down. This does not effect armies moving *out of* a river tile (unless the new tile also contains a river). This occurs in addition to any battle result effect.  
 
 *Exceptions:*  
 
-  * City tiles are assumed to be well explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain.  
+  * City tiles (including Capital Cities) are assumed to be well explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain crossed in either tile.  
   * Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
 
-Turn any upside down settlements from a failed Raze back the right way up. Any tiles with only one kingdom's army on them become owned by that kingdom. 
+ii. *Safe from harm.* Turn any upside down settlements from a failed Raze back the right way up. 
+
+iii. *Conquering heroes.* Any tiles with only one kingdom's army on them become owned by that kingdom. Capital Cities that are taken over by enemies become regular cities, even if retaken by their original owner.
  
-####Player order 
-Player order is redetermined at the end of each *Reform* phase. Player order is now set by number of armies, descending. **_That is, the player with the greatest number of armies is now the first player._** Randomly determine player order if there are ties in any slots. 
-
-Players now start a new Summer month with *A) Orders*. Repeat until 6 Summer months have passed. Once 6 *Summer* months have passed, proceed instead to *Winter* season, below.
-
+iv. *Player order.* Player order is redetermined at the end of each *Reform* phase. Player order is now set by number of armies, descending. **_That is, the player with the greatest number of armies is now the first player._** Randomly determine player order if there are ties in any slots. Players now start a new Summer month with *A) Orders*. Repeat until 6 Summer months have passed. Once 6 *Summer* months have passed, proceed instead to *Winter* season, below.
 
 <P style="page-break-before: always">
 
@@ -261,9 +260,9 @@ E) (Optional) Scoring
 ###A) Recall armies
 *Connected tile:* A tile that can trace a contiguous series of controlled tiles to another tile.
 
-All armies that are in a tile that is *connected* to their Capital City are picked up and placed in their Capital City tile. If they do not have a Capital City, they place them in one other city tile of their choice. If there are no other cities either, choose a village tile. If there are no villages either, the armies are destroyed. A kingdom that is all Fortresses cannot support the armies over the winter months. 
+All armies that are in a tile that is *connected* to their Capital City are picked up and placed in their Capital City tile. If they do not have a Capital City, they place them in one other city tile of their choice. If there are no other cities either, choose a village tile. If there are no villages either, the armies are destroyed. A kingdom that is all Fortresses cannot support the armies over the winter months.
 
-*Lines of supply:* Every army that is in a tile that is not *connected* to their Capital City tile is destroyed. Try not to get cut off!
+*Lines of supply:* Every army that is in a tile that is not *connected* to their Capital City tile is destroyed.
 
 Each ship is picked up and returned to a coastal city or river city tile controlled by the same player as the ship. As each ship actually represents a small fleet of vessels, each city can only dock one ship over the Winter, and no new ships may be built in a city that has a ship in dock.
 
@@ -271,7 +270,7 @@ Each ship is picked up and returned to a coastal city or river city tile control
 
 ###B) Gather resources
 There are two resources - gold (g) and food (f). Each player gathers resources simultaneously based on the settlements in their kingdom.
-For every village you control, gain 1 food. For every city you control, gain 1 gold. Your capital city produces an additional gold for you if you control it. If an enemy has taken over your capital it gets downgraded to a regular city and only provides the standard 1 gold for them. 
+For every village you control, gain 1 food. For every city you control, gain 1 gold. Your Capital City produces an additional gold for you if you control it. 
 
 ###C) Spend resources
 
@@ -287,7 +286,7 @@ i.  **Tithe.** In player order, each player may give 1 other player up to 1 gold
 
 ii. **Build and recruit.** In player order, each player makes 1 purchase or passes. Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing. 
 
-**Settlements**
+**Settlements**  
 You may build settlements in tiles you control. Each tile may only contain one settlement. Consult the following list for the cost of building or upgrading settlements in various target tiles you control. If you build a settlement in a tile that already contains a settlement, the old settlement is replaced with the new one. 
 
 |Tile       |Upgrade to      |Cost   |
@@ -301,31 +300,32 @@ You may build settlements in tiles you control. Each tile may only contain one s
 
 If you want to make radical changes to your kingdom's demographics, you may want to Raze the settlements during the summer. You cannot voluntarily destroy settlements during the winter. 
 
-**Ships**
+**Ships**  
 You may build a ship at the cost of 1 gold. It must be placed in one of your cities on the coast or on a river that does not already have a ship at it. If there are no such vacant cities, you may not build any ships.
 
-**Armies**
+**Armies**  
 At each Fortress you may recruit 1 army each winter. You may use a fortress you built this winter to recruit an army. An army costs 1 gold to recruit. Place an army token in the fortress. This will serve as a reminder that that fortress has already recruited this phase. 
 
 * Allies may only be taken as an entire 500 point army, not as part of another army. You may only take an allied army if you have 3 or more other non-allied armies already. You may only have 1 allied army in your kingdom, and the list to which it belongs is chosen and fixed when purchased. When fielded in a game of Kings of War alongside your other armies, it is treated as a normal ally as per the Kings of War ally rules. If fielded alone, it counts as the main army. Note which army token number is the ally, and its racial list. This information is public.
 
 You may only have a maximum of 6 armies in your entire kingdom. If you wish to build a new army when you already have 6, you may disband an existing army to do so. Simply remove an existing army token from the board. This will likely only happen where you want to switch an allied army to another race, or to allow deployment to annexed fortresses.
 
-iii. **Feed armies.** If you wish to maintain your armies, you must feed them. For each army you have (including newly purchased ones), you must spend 1 food or remove that army. Note that villages need not be connected to the Capital City to feed the armies, it is assumed smugglers can secretly move goods, or the militia are not concerned enough to prevent caravans passing through enemy territories.
+iii. **Feed armies.**  
+If you wish to maintain your armies, you must feed them. For each army you have (including newly purchased ones), you must spend 1 food or remove that army. Note that villages need not be *connected* to the Capital City to feed the armies.
   
- At the end of this phase, any unspent gold or food is lost and is not retained for next Winter.
+At the end of this phase, any unspent gold or food is lost and is not retained for next Winter.
   
 ###D) Deploy armies 
 
 Each player removes all their armies from the board and places them in front of them in a staging area. 
 
-*Exception*: Armies recruited into a Fortress that is not connected to your Capital City remain in that Fortress. Redetermine player order as normal based on the current number of armies each player has.
+*Exception*: Armies recruited into a Fortress that is not *connected* to your Capital City remain in that Fortress. Redetermine player order as normal based on the current number of armies each player has.
 
 Ships start summer in the city they were docked in over Winter, so are not part of deployment.
 
 *First player brakes*: If the first player has more armies than the second player, then they must deploy all their armies first before the other players place as per below. 
 
-In player order, each player places an army from their staging area into any settlement they control that is connected to their Capital City. Players may not pass unless they have no more armies in their staging area. Settlements may only have a limited number of armies deployed to each of them as seen in the following table. If there is no more room left to deploy an army due to the settlement deployment limits, the army is destroyed.
+In player order, each player places an army from their staging area into any settlement they control that is *connected* to their Capital City. Players may not pass unless they have no more armies in their staging area. Settlements may only have a limited number of armies deployed to each of them as seen in the following table. If there is no more room left to deploy an army due to the settlement deployment limits, the army is destroyed.
 
 ####Deployment limits
 |Settlement|Maximum number of armies|
@@ -338,8 +338,6 @@ In player order, each player places an army from their staging area into any set
 Once deployment is completed, if 6 years have passed go to *E) Scoring*, otherwise start a new *3) Summer* season. Note that deployment needs to occur before scoring to ensure the kingdoms have enough settlements to deploy their armies to.
 
 ###E) Scoring
-
-If 6 full years have passed, the campaign is over and it is time to score.
 
 Each player will have gained 1 *might* for each pitched tabletop battle of Kings of War they won during the campaign.
 
@@ -365,6 +363,7 @@ In the case of ties for *might*, use the following series of tiebreakers in orde
 
 If players are still tied after all of those, they rejoice in their shared placement.
   
+
 <P style="page-break-before: always">
   
 ##5. Glossary

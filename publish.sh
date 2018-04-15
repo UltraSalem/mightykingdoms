@@ -10,8 +10,11 @@ echo "" >> $FILEM
 cat licence >> $FILEM
 #cat README.md >> $FILEM
 cat Setup\ and\ Overview >> $FILEM
+cat pagebreak.html >> $FILEM
 cat Summer >> $FILEM
+cat pagebreak.html >> $FILEM
 cat Winter >> $FILEM
+cat pagebreak.html >> $FILEM
 cat Glossary >> $FILEM
 #cat Advanced\ rules >> $FILEM
 
