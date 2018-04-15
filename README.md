@@ -10,7 +10,7 @@ The component files themselves are written in markdown syntax, and can be edited
 publish.sh script requires linux with pandoc and wkhtmltopdf installed.  
 This script will take the chapter files, combine them into a single md file, then a html file, and convert into PDF.
 
-####Versions
+####Versions  
 Files in the *dev* branch are the ones being actively worked on, and will be the most up to date. They may, however, contain untested rules or features that may or may not be unbalanced.
 
 Files in the *master* branch should be more stable, and are likely to have been playtested enough to think they are generally balanced.
