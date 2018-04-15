@@ -1,5 +1,5 @@
 File created on
-Sun 15 Apr 15:55:07 AEST 2018
+Sun 15 Apr 16:01:28 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -30,7 +30,6 @@ A campaign lasts for 6 game years (36 turns).
 3. Summer season
 4. Winter season
 5. Glossary
-6. Advanced rules
 
 -------
 
@@ -361,7 +360,7 @@ In the case of ties for *might*, use the following series of tiebreakers in orde
 If players are still tied after all of those, they rejoice in their shared placement.
   
   
-###Glossary
+##Glossary
 
 *Army token:* A token that represents 500 points of Kings of War armies controlled by a player, used to explore the map and conquer other players.
 
