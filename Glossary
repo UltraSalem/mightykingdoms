@@ -9,12 +9,14 @@ Kingdom: All the tiles owned by a player. These need not be contiguous.
 
 Control marker: A small token representing a player's kingdom, used to mark explored tiles.  
 
-Settlement: A city, village, fortress.  
+Army token: A toekn that represents 500 points of Kings of War armies controlled by a player, used to explore the map and conquer other players.
+
+Settlement: A city, village, or fortress.  
 
 Summer month: A turn in which a player moves their armies to explore and engage in battles.  
 
 Enemy: Any army, settlement or tile controlled by another player.  
 
-Capital city: City marker on your starting tile. It only counts as your capital city if it was your starting tile. If another player controls it it will count as a regular city for them.  
+Capital City: Initially the City marker on your starting tile. It only counts as your capital city if it was *your* starting tile. If another player controls it it will count as a regular city for them. If this happens, you can nominate another of your cities to be your capital in the *Winer* phase. 
   
   
