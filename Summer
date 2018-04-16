@@ -168,8 +168,8 @@ i. *Terrain features.* Armies that have moved may be slowed down by terrain, or 
 
 *Exceptions:*  
 
-  * City tiles (including Capital Cities) are assumed to be well-explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain crossed in either tile.  
-  * Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
+  * City tiles (including Capital Cities) are assumed to be well-explored, with infrastructure like roads, bridges, paths and passes already in place. As such, an army will not be placed on its side for moving into or out of city tiles, regardless of terrain crossed in either tile.  
+  * Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty. River tiles with bridges on them also do not cause armies to lay down.
 
 ii. *Safe from harm.* Turn any upside down settlements from a failed Raze back the right way up. 
 
