@@ -1,5 +1,5 @@
 File created on
-Sun 15 Apr 17:43:14 AEST 2018
+Mon 16 Apr 14:02:36 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -13,9 +13,9 @@ https://github.com/UltraSalem/mightykingdoms
 
 ##Overview
 
-In Mighty Kingdoms each army token represents up to 500 points of a Kings of War army, which are used to explore a hex map to build a player's kingdom. 
+In Mighty Kingdoms each army token represents 500 points of a Kings of War (KoW) army, which are used to explore a hex map to build a player's kingdom. 
 
-When other kingdoms are encountered, the Kings of War armies represented by the army tokens will be used to fight Kings of War tabletop battles. Bigger battles are fought by bringing multiple army tokens to the same hex. 
+When other kingdoms are encountered, the armies represented by the tokens will be used to fight KoW tabletop battles. Bigger battles are fought by bringing multiple army tokens to the same hex. 
 
 Players will want their kingdoms to be a mix of villages, cities and fortresses to allow them to build more settlements, recruit more armies, and feed those armies. Each full game turn represents one year, and cycles through summer and winter seasons.
 
@@ -44,7 +44,7 @@ Players will also need 3000 points worth of miniatures for Kings of War battles.
 
 Across the play group you will also need Battefields cards decks, preferably at least one per pair of players.
 
-###Initial kingdom
+###Initial Kingdom
 A) Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.
 
 B) Players are assigned a random player order. This will change at the end of each summer month in the Reform phase.
@@ -55,15 +55,13 @@ D) In player order each player places all of 1 additional city, 1 fortress, and 
 
 E) Each player gets 1 army token to start. In player order, each player places it in any tile they control that contains a settlement.
 
-The army token represents a 500 pt army list for their main race as chosen in A) above. The list must be legal as per the standard Kings of War rules, and may not include any allies. Each army token always represents 500 points. To have bigger battles, players bring more army tokens to the same hex to commit them all to a battle. To speed up the transition from map movement to tabletop battle, players are encouraged to pre-write up a list for each of 500, 1000, 1500, 2000, 2500, and 3000. You may write up a few options for each value if you want, and change them whenever you want, as the lists will not be fixed until the actual battle. You can just wait until the battle is about to occur to write your list as the composition of the army list can vary from battle to battle and will not need to be tracked explicitly, but this may slow down the overall game.
+The army token represents a 500 pt army list for their main race as chosen in A) above. The list must be legal as per the standard KoW rules, and may not include any allies. Each army token always represents 500 points. To have bigger battles, players bring more army tokens to the same hex to commit them all to a battle. To speed up the transition from map movement to tabletop battle, players are encouraged to pre-write up a list for each of 500, 1000, 1500, 2000, 2500, and 3000. You may write up a few options for each value if you want, and change them whenever you want, as the lists will not be fixed until the actual battle. You can just wait until the battle is about to occur to write your list as the composition of the army list can vary from battle to battle and will not need to be tracked explicitly, but this may slow down the overall game.
 
 -------
 
 ##2. The Year
 
 Play proceeds through the *Summer* season and *Winter* season. The *Summer* season is further broken down into months, during each of which players move armies, explore tiles and engage in battles. During the *Winter* season players build settlements and new armies.
-
-
 
 <P style="page-break-before: always">
 
@@ -92,9 +90,9 @@ _Exception:_ An army on its side may only choose Regroup.
 **Move**  
 Put the army or ship you are ordering half into an adjacent tile to show which tile it plans to move into. The adjacent tile can be unexplored or controlled, and it does not matter who controls the tile. The army or ship is still considered to be in the start tile until its order is resolved. 
 
-Armies may not normally be moved off water tile edges (entirely blue edges) or in to marsh tiles, but may move along the coast. 
+Armies may not normally be moved off water tile edges (entirely blue edges) or into marsh tiles, but may move along the coast. 
 
-Ships may only be moved along coastal, open ocean, and river tiles. They still may not enter marsh tiles.   
+Ships may only be moved along coastal, open ocean, and river tiles. They may not enter marsh tiles.   
 
 **Defend**  
 The army wishes to set up a defensive position and does not intend to move. The players will gain some advantages if a battle is fought here. See *C) Battles* below.
@@ -139,14 +137,14 @@ After order resolution, in player order each player chooses a tile in which they
 
 Note that this phase is about choosing battle, and resolving battles with the appropriate forces in the tile; not choosing individual army or ship tokens.
 
-Either player may choose to concede the field instead of having a *pitched battle*. The conceder is considered to have taken a *loss* result, with the other player taking a *win* (see *Results*, below). A player who's opponent has more army tokens than them in the hex **must** concede the field. A win on concession (forced or chosen) does **not** count for gaining *might* in the end of campaign scoring.
+Either player may choose to concede the field instead of having a *pitched battle*. The conceder is considered to have taken a *loss* result, with the other player taking a *win* (see *Results*, below). A player whose opponent has more army tokens than them in the hex **must** concede the field. A win on concession (forced or chosen) does **not** count for gaining *might* in the end of campaign scoring.
 
 _**Last Stand:**_ An exception to forced conceding is the Last Stand. If a player has no friendly adjacent tiles, they may choose to fight a *pitched battle* instead of automatically conceding. As this will be a very one sided battle, it will be rare that people would choose this, but it might be the stuff legends are made of! The winner will get 1 *might* as normal for a *pitched battle*.
 
 The type of battle depends on the type of tokens on the tile, as explained below.
 
 ####Slaughter
-If all enemies only have armies or ships tokens laying on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. 
+If all enemies only have armies or ships' tokens laying on their side, remove one of those armies or ships instead of playing a game of Kings of War; the battle is a slaughter of disordered troops instead. 
 
 ####Naval battles
 If there are ships from opposing kingdoms on the tile, you may choose to have a naval battle. Each player rolls 1 die for each ship they control. Each ship with a paired army adds +1 to the roll. All dice get -1 if the battle is on a river tile. For every 4+ you roll, remove one ship or ship/army pair from your opponent. Yes, the brutality of naval combat could have you losing whole armies at a time if they are onboard ships that sink! The player losing the ship decides which ones are lost if they have several to choose from. Repeat this roll-off until one player declares themselves the loser after resolving all rolled dice (the other player wins), or there are no ships left from the battling players. There are no draws at sea.
@@ -232,11 +230,11 @@ Note that no matter how badly you defeat an army, they will be at full strength 
 
 ###D) Reform
 
-i. *Terrain features.* Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side, army token number down. This does not effect armies moving *out of* a river tile (unless the new tile also contains a river). This occurs in addition to any battle result effect.  
+i. *Terrain features.* Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river (including coastal tiles with river mouths, and lake tiles), is placed on its side, army token number down. This does not effect armies moving *out of* a river tile (unless the new tile also contains a river). This occurs in addition to any battle result effect.  
 
 *Exceptions:*  
 
-  * City tiles (including Capital Cities) are assumed to be well explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain crossed in either tile.  
+  * City tiles (including Capital Cities) are assumed to be well-explored, with infrastructure like roads, bridges and passes already in place. As such, an army will not be placed on its side for moving into or out of a city tile, regardless of terrain crossed in either tile.  
   * Ships and ship/army pairs ignore the effects of this for river tiles and may move up and down rivers without penalty.
 
 ii. *Safe from harm.* Turn any upside down settlements from a failed Raze back the right way up. 
