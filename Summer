@@ -164,7 +164,7 @@ Note that no matter how badly you defeat an army, they will be at full strength 
 
 ###D) Reform
 
-i. *Terrain features.* Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river, is placed on its side, army token number down. This does not effect armies moving *out of* a river tile (unless the new tile also contains a river). This occurs in addition to any battle result effect.  
+i. *Terrain features.* Armies that have moved may be slowed down by terrain, or forced to find safe passes, trails or fords. To represent this any army that crossed a tile edge containing a mountain or forest (either on their start or finish tile), or into a tile containing a river (including coastal tiles with river mouths, and lake tiles), is placed on its side, army token number down. This does not effect armies moving *out of* a river tile (unless the new tile also contains a river). This occurs in addition to any battle result effect.  
 
 *Exceptions:*  
 
