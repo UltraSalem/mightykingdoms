@@ -1,5 +1,5 @@
 File created on
-Sun  6 May 16:37:46 AEST 2018
+Thu 24 May 13:34:42 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -139,7 +139,7 @@ Note that this phase is about choosing battle, and resolving battles with the ap
 
 Either player may choose to concede the field instead of having a *pitched battle*. The conceder is considered to have taken a *loss* result, with the other player taking a *win* (see *Results*, below). A player whose opponent has more army tokens than them in the hex **must** concede the field. A win on concession (forced or chosen) does **not** count for gaining *might* in the end of campaign scoring.
 
-_**Last Stand:**_ An exception to forced conceding is the Last Stand. If a player has no friendly adjacent tiles, they may choose to fight a *pitched battle* instead of automatically conceding. As this will be a very one sided battle, it will be rare that people would choose this, but it might be the stuff legends are made of! The winner will get 1 *might* as normal for a *pitched battle*.
+_**Last Stand:**_ An exception to forced conceding is the Last Stand. If a player has no friendly adjacent tiles, or is in a tile containing a Fortress they control and have chosen a *Defend* order, they may choose to fight a *pitched battle* instead of automatically conceding. As this will be a very one sided battle, it will be rare that people would choose this, but it might be the stuff legends are made of! The winner will get 1 *might* as normal for a *pitched battle*.
 
 The type of battle depends on the type of tokens on the tile, as explained below.
 
