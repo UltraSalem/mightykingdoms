@@ -4,14 +4,14 @@
 
 After setting up scenery, the defending player chooses one long table edge. The defender sets up all their forces within a box touching the centre of that edge. The size of the box depends on the size of the defending force.
 
-|Points|Box size (sq)|
+|Defender's Points|Box size|
 |:-------|:-------|
-|500|12"|
-|1000|18"|
-|1500|21"|
-|2000|24"|
-|2500|30"|
-|3000|36"|
+|500|12" wide x 12" deep|
+|1000|18" wide x 18" deep|
+|1500|20" wide x 20" deep|
+|2000|24" wide x 24" deep|
+|2500|30" wide x 24" deep|
+|3000|36" wide x 24" deep|
 
 ##Turn sequence
 
@@ -33,6 +33,6 @@ At the end of the game, the defending player adds up the total points cost of al
 - If the Defender has been reduced to less than 20%, but the attacker has more than 60% of their force Routed, then the game ends in a Draw.
 - Otherwise the Attacker wins.
 
-Note: the Defender can be completely wiped out and still have a Draw result. It is assumed the Attackers do not have enough coherent force left to take control of the fortress from the civilians manning it.
+*Note*: the Defender can be completely wiped out and still have a Draw result. It is assumed the Attackers do not have enough coherent force left to take control of the fortress from the civilians manning it.
 
 
