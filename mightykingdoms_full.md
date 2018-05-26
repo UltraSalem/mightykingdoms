@@ -1,5 +1,5 @@
 File created on
-Sat 26 May 12:30:07 AEST 2018
+Sat 26 May 12:39:44 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -214,8 +214,7 @@ The terrain of the tile may effect the conditions in which the battle is fought.
 
 If any armies in a tile containing a friendly Fortress chose the *Defend* order, then as per the table above, the battle will use this scenario instead of a regular scenario.
 
-#####Set-up
-
+**Set-up**  
 After setting up scenery, the defending player chooses one long table edge. The defender sets up all their forces within a box touching the centre of that edge. The size of the box depends on the size of the defending force. 
 
 |Defender's Points|Box size|
@@ -228,20 +227,17 @@ After setting up scenery, the defending player chooses one long table edge. The 
 |3000|36" wide x 24" deep|
 
 
-#####Turn sequence
-
+**Turn sequence**  
 The attacking player starts with all their forces off the board.
 
 The attacker takes the first turn. However, before then, each player may make vanguard moves with their vanguard units, starting with the attacker. The attacker places each of their vanguard units on any of each of the three edges the defender did not choose. They then take their move from there.
 
 When the attacker takes the first turn, at the start of the movement phase they place each of their units on each of any of the three sides the the defender did not choose.
 
-#####Duration
-
+**Duration**  
 The game automatically goes for the full seven turns.
 
-#####Objective
-
+**Objective**  
 At the end of the game, the defending player adds up the total points cost of all of their units remaining on the board; and separately adds up the cost of all attacking units that were Routed.
 
 -- If the total points remaining for the Defender is 20% or more of their total (eg 100 points or more if the Defender had 500 points), and the Defender has at least one non-flying Scoring Unit inside the deployment box, then the Defender wins.
@@ -255,7 +251,7 @@ Each time a player loses a *pitched battle*, their overall kingdom learns a new 
 
 ####Battle Results
 |Kingdom's battle result|Effect|
-|:------------|:-----------------------------------------------------------|
+|:--------------|:--------------------------------------------------|
 |Loss          |Each army or ship on the losing side must be moved into an adjacent tile they control. Lay all such army tokens on their side, army token number face down. If there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships. Player learns a new *strategy*.|
 |Draw          |All armies and ships remain in the tile if their kingdom controls it. Otherwise they must move into an adjacent tile they control. If they need to move to an adjacent controlled tile and there are no adjacent controlled tiles, they are destroyed. Ships may move into open water tiles that do not contain enemy ships.|
 |Win           |Control of the tile is given to the winning kingdom. If it was a *pitched battle* played on a Kings of War table, the winner also gets 1 *might* for scoring at the end of the game.|
@@ -323,7 +319,7 @@ i.  **Tithe.** In player order, each player may give 1 other player up to 1 gold
 ii. **Build and recruit.** In player order, each player makes 1 purchase or passes. Continue cycling through all players until everyone has passed in a row. Players may jump back in on their turn if they passed, as long as this sub-phase has not ended by everyone passing. 
 
 **Settlements**  
-You may build settlements in tiles you control. Each tile may only contain one settlement. Consult the following list for the cost of building or upgrading settlements in various target tiles you control. If you build a settlement in a tile that already contains a settlement, the old settlement is replaced with the new one. 
+You may build and upgrade settlements in tiles you control. Each tile may only contain one settlement. Consult the following list for the cost of building or upgrading settlements in various target tiles you control. If you build a settlement in a tile that already contains a settlement, the old settlement is replaced with the new one. A tile may only be built on or upgraded once each Winter. For example you may not build a Village and upgrade it to a City in the same Winter.
 
 |Tile       |Upgrade to      |Cost   |
 |:----------|:---------------|:------|
