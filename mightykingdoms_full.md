@@ -1,5 +1,5 @@
 File created on
-Sat 26 May 12:39:44 AEST 2018
+Sat 26 May 13:01:36 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -61,8 +61,19 @@ The army token represents 500 points for their main race as chosen in A) above. 
 
 ##2. The Year
 
-Play proceeds through the *Summer* season and *Winter* season. The *Summer* season is further broken down into months, during each of which players move armies, explore tiles and engage in battles. During the *Winter* season players build settlements and new armies.
+Play proceeds through the *Summer* season and *Winter* season. The *Summer* season is further broken down into months, during each of which players move armies, explore tiles and engage in battles. During the *Winter* season players build settlements and new armies. 
 
+To keep track of time in your campaign, put half a cross in the relevant box of the calendar below when you start that phase, and finish the cross when you finish the phase. 
+
+|Year||1|2|3|4|5|6|7|8|9|10|
+|:-------|:------|---|---|---|---|---|---|---|---|---|---|
+|Summer Months|1| | | | | | | | | | |
+| |2| | | | | | | | | | | 
+| |3| | | | | | | | | | | 
+| |4| | | | | | | | | | | 
+| |5| | | | | | | | | | | 
+| |6| | | | | | | | | | | 
+|Winter |-| | | | | | | | | | | 
 <P style="page-break-before: always">
 
 ##3. Summer season
