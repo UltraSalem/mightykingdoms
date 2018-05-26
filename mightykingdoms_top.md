@@ -1,11 +1,21 @@
+File created on
+Sat 26 May 13:30:55 AEST 2018
+
+Licenced under Creative commons non commercial share alike v4.0  
+https://creativecommons.org/licenses/by-nc-sa/4.0/  
+Project owned by Chris Kellahan  
+  
+Project hosted at:  
+https://github.com/UltraSalem/mightykingdoms
+
   
 #Mighty Kingdoms
 
 ##Overview
 
-In Mighty Kingdoms each army token represents 500 points of a Kings of War (KoW) army, which are used to explore a hex tile map to build a player's kingdom. 
+In Mighty Kingdoms each army token represents 500 points of a Kings of War (KoW) army, which are used to explore a hex map to build a player's kingdom. 
 
-When other kingdoms are encountered, the armies represented by the tokens will be used to fight KoW tabletop battles. Bigger battles are fought by bringing multiple army tokens to the same tile. 
+When other kingdoms are encountered, the armies represented by the tokens will be used to fight KoW tabletop battles. Bigger battles are fought by bringing multiple army tokens to the same hex. 
 
 Players will want their kingdoms to be a mix of villages, cities and fortresses to allow them to build more settlements, recruit more armies, and feed those armies. Each full game turn represents one year, and cycles through summer and winter seasons.
 
@@ -28,11 +38,11 @@ A campaign lasts for 6 game years (36 turns).
 ##1. Setup
 
 ###Prerequisites
-You will need to provide around 20 small tokens of your kingdom's livery (colour/logo), approx 1cm square (any shape), to place in the tiles you control to show your ownership. These are known as 'control markers'. 
+You will need to provide around 20 small tokens of your kingdom's livery (colour/logo), approx 1cm square (any shape), to place in the hex tiles you control to show your ownership. These are known as 'control markers'. 
 
 Players will also need 3000 points worth of miniatures for Kings of War battles. The bulk must be from your chosen race, however exactly 500 points of that may be allies, the specifics of how to include them is explained in the *Winter* section below. 3000 points is the theoretical maximum, and will only be required when a player brings their entire kindgom's forces against another's.
 
-Across the play group you will also need a few *Battefields Cards* decks by Mantic Games.
+Across the play group you will also need Battefields cards decks, preferably at least one per pair of players.
 
 ###Initial Kingdom
 A) Players each secretly choose a main race (army type) for their Kingdom. Once all players have chosen, they reveal it to all other players simultaneously. This is public knowledge for the rest of the game.
@@ -45,7 +55,7 @@ D) In reverse player order each player places all of 1 additional city, 1 fortre
 
 E) Each player gets 1 army token to start. In reverse player order, each player places it in any tile they control that contains a settlement.
 
-The army token represents 500 points for their main race as chosen in A) above. To have bigger battles, players bring more army tokens to the same tilr to commit them all to a battle. To speed up the transition from map movement to tabletop battle, players are encouraged to pre-write up a list for each of 500, 1000, 1500, 2000, 2500, and 3000. You may write up a few options for each value if you want, and change them whenever you want, as the lists will not be fixed until the actual battle. You can just wait until the battle is about to occur to write your list as the composition of the army list can vary from battle to battle and will not need to be tracked explicitly, but this may slow down the overall game.
+The army token represents 500 points for their main race as chosen in A) above. To have bigger battles, players bring more army tokens to the same hex to commit them all to a battle. To speed up the transition from map movement to tabletop battle, players are encouraged to pre-write up a list for each of 500, 1000, 1500, 2000, 2500, and 3000. You may write up a few options for each value if you want, and change them whenever you want, as the lists will not be fixed until the actual battle. You can just wait until the battle is about to occur to write your list as the composition of the army list can vary from battle to battle and will not need to be tracked explicitly, but this may slow down the overall game.
 
 -------
 

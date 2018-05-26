@@ -11,19 +11,13 @@ table {
 table th {
     padding: 3px 10px;
     background-color: gray;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     page-break-inside: avoid;
 
 }
 table td {
     padding: 3px 10px;
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
-    border-right: none;
+    border: 1px solid black;
     page-break-inside: avoid;
 }
 

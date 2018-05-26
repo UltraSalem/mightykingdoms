@@ -7,18 +7,19 @@ If instead you want to edit the component parts and combine into one document yo
 
 The component files themselves are written in markdown syntax, and can be edited with any plain text editor.  
 
-publish.sh script requires linux with pandoc and wkhtmltopdf installed.  
-This script will take the chapter files, combine them into a single md file, then a html file, and convert into PDF.
+publish.sh script requires linux with pdfnup, pandoc and wkhtmltopdf installed.  
+This script will take the chapter files, combine them into a single md file, then a html file, and convert into PDF. It will also make a 4-up PDF cheat sheet.  
 
 #### Versions  
-Files in the *dev* branch are the ones being actively worked on, and will be the most up to date. They may, however, contain untested rules or features that may or may not be unbalanced.
+Files in the *dev* branch are the ones being actively worked on, and will be the most up to date. They may, however, contain untested rules or features that may or may not be unbalanced.  
 
-Files in the *master* branch should be more stable, and are likely to have been playtested enough to think they are generally balanced.
+Files in the *master* branch should be more stable, and are likely to have been playtested enough to think they are generally balanced.  
 
+Files in the *capitals* branch are those tailored to local logistical and player preferences, and are actively being used in a 10-player campaign.  
 
 ~~~~
 # Install prerequisites on Ubuntu
-$ sudo apt install pandoc wkhtmltopdf
+$ sudo apt install pandoc wkhtmltopdf pdfnup
 
 # run script
 $ ./publish.sh
