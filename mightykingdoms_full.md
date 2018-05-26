@@ -1,5 +1,5 @@
 File created on
-Sat 26 May 12:12:27 AEST 2018
+Sat 26 May 12:30:07 AEST 2018
 
 Licenced under Creative commons non commercial share alike v4.0  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
@@ -330,9 +330,9 @@ You may build settlements in tiles you control. Each tile may only contain one s
 |Empty      |Village         |1g     |
 |Village    |City            |1g 1f  |
 |Village    |Fortress        |2g     |
-|City       |Capital City    |Free  |
+|City       |Capital City    |Free*  |
 
-*You may only have one Capital City per kingdom, so you may only upgrade a city to a Capital City if your previous Capital City has been razed or taken over. Note that as the upgrade occurs after gaining resources, the newly designated Capital City does not provide an additional gold this turn.* 
+\* *You may only have one Capital City per kingdom, so you may only upgrade a city to a Capital City if your previous Capital City has been razed or taken over. Note that as the upgrade occurs after gaining resources, the newly designated Capital City does not provide an additional gold this turn.* 
 
 If you want to make radical changes to your kingdom's demographics, you may want to Raze the settlements during the summer. You cannot voluntarily destroy settlements during the winter. 
 
