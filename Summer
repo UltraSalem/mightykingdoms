@@ -121,19 +121,19 @@ Choose a board size based on the size of the combined army on the largest side (
 |6 armies, 3000 points              |8x4       |
 
 * **Defended tiles**  
-A player that took _Defend_ as their action gains a terrain advantage in a *pitched battle*. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of choose scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.
+A player that took _Defend_ as their action gains a terrain advantage in a *pitched battle*. Their troops have dug some earthworks, or otherwise chosen an advantageous position from which to defend the tile. Follow the usual setup order of determine scenario, allocate scenery, and roll to choose table sides. However, before the player that chose sides deploys their first unit, the defending player may adjust the table depending on what kind of tile they are defending.
 
 |Settlement|Benefit|
 |:------------|:-----------------------------------------------------------|
 |None|Add, remove, or move 1 piece of terrain on the table to represent the defenders choosing the battle ground.|
 |Village|May add up to 1 blocking or difficult ground terrain pieces (village buildings, fields, etc) and up to 2 obstacles anywhere on the board.|
 |City|May add up to 2 blocking or difficult ground terrain pieces (city buildings, vineyards, ponds, etc) and up to 2 obstacles anywhere on the board. In addition, the defender places 1 objective marker on their half of the board which is worth 1 Victory Point for the side that controls it at the end of the game, in addition to the normal scenario scoring.|
-|Fortress|May add up to 2 blocking or difficult ground terrain pieces (fortifications or other defences) and up to 4 obstacles anywhere on the board. In addition, the defender places 2 objective markers on their half of the board which are worth 1 Victory Point each for the side that controls either or both of them at the end of the game, in addition to the normal scenario scoring.|  
+|Fortress|May add up to 2 blocking or difficult ground terrain pieces (fortifications or other defences) and up to 4 obstacles anywhere on the board. Use the *Defended fortress* scenario as per below instead of rolling a scenario.|  
 
 _Obstacles_: Should be around 6" long each. Or if multiples chosen, can combine for longer pieces.
 _Blocking or difficult_: Should be around 6"x6" in area. Or if multiples chosen, can combine areas into larger pieces. _Blocking_ may not be placed within 3" of the centre circle or objective markers. _Difficult ground_ may be either completely flat or height 0, as appropriate to the scenery available and the player's choice.
 
-* **Tile terrain**  
+* **Tile terrain conditions**  
 The terrain of the tile may effect the conditions in which the battle is fought. At the start of each battle, consult the following table and roll to randomly determine if a Battlefields deck condition card of the appropriate type will be in effect.
 
 |Tile|D6|
@@ -143,6 +143,44 @@ The terrain of the tile may effect the conditions in which the battle is fought.
 |Coastal|1-3: Reduced Visibility. 4-6 Clear Conditions|
 |Lowland forests|1-3: Reduced Visibility. 4-6 Clear Conditions|
 |Lowland plains|1: Passing Engagement. 2-5: Clear Conditions. 6: Scouting Failure|
+
+####Defended fortress
+
+If any armies in a tile containing a friendly Fortress chose the *Defend* order, then as per the table above, the battle will use this scenario instead of a regular scenario.
+
+#####Set-up
+
+After setting up scenery, the defending player chooses one long table edge. The defender sets up all their forces within a box touching the centre of that edge. The size of the box depends on the size of the defending force. 
+
+|Defender's Points|Box size|
+|:-------|:-------|
+|500|12" wide x 12" deep|
+|1000|18" wide x 18" deep|
+|1500|20" wide x 20" deep|
+|2000|24" wide x 24" deep|
+|2500|30" wide x 24" deep|
+|3000|36" wide x 24" deep|
+
+
+#####Turn sequence
+
+The attacking player starts with all their forces off the board.
+
+The attacker takes the first turn. However, before then, each player may make vanguard moves with their vanguard units, starting with the attacker. The attacker places each of their vanguard units on any of each of the three edges the defender did not choose. They then take their move from there.
+
+When the attacker takes the first turn, at the start of the movement phase they place each of their units on each of any of the three sides the the defender did not choose.
+
+#####Duration
+
+The game automatically goes for the full seven turns.
+
+#####Objective
+
+At the end of the game, the defending player adds up the total points cost of all of their units remaining on the board; and separately adds up the cost of all attacking units that were Routed.
+
+-- If the total points remaining for the Defender is 20% or more of their total (eg 100 points or more if the Defender had 500 points), and the Defender has at least one non-flying Scoring Unit inside the deployment box, then the Defender wins.
+-- If the Defender has been reduced to less than 20%, but the attacker has more than 60% of their force Routed, then the game ends in a Draw.
+-- Otherwise the Attacker wins.
 
 * **Strategies**  
 Each time a player loses a *pitched battle*, their overall kingdom learns a new strategy. For each new strategy learned, the player may draw one random card from the Battlefields cards *Strategy* deck at the start of every battle for use in that battle. 
