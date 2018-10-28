@@ -1,3 +1,7 @@
+PROJECT MOVED TO GITLAB. THIS REPO IS NOT KEPT UP TO DATE
+
+https://gitlab.com/blkjck/mightykingdoms
+
 # Mighty Kingdoms
 Campaign rules for Kings of War for use with the the Mighty Empires tiles by GW, or any other hex based map.  
 
